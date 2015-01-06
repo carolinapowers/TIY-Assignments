@@ -81,7 +81,7 @@
   Some copyright info or perhaps some author info for an &lt;article&gt;?
 </footer>
 ```
-### 8. `<div>` --  HTML Document Division
+### 8. `<div>` -- Document Division
 
 * *type:* block-level
 * *content:* flow content/palpable content 
@@ -91,4 +91,23 @@
 <div>
   <p>Any kind of content here. Such as &lt;p&gt;, &lt;table&gt;. You name it!</p>
 </div>
+```
+
+### 9. `<table>` -- Table
+
+* *type:* block-level
+* *content:* flow content
+* *support:* all browsers
+* *example:*
+```
+<table>
+  <tr>
+    <td>John</td>
+    <td>Doe</td>
+  </tr>
+  <tr>
+    <td>Jane</td>
+    <td>Doe</td>
+  </tr>
+</table>
 ```
