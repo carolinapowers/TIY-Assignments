@@ -15,7 +15,7 @@
 ### 2. `<ol>` -- Ordered List
 
 * *type:* block-level
-* *content:* flow content/palpable content.
+* *content:* flow content/palpable content
 * *support:* Chrome, Firefox, Safari
 * *example:*
 ```
@@ -24,4 +24,15 @@
   <li>second item</li>
   <li>third item</li>
 </ol>
+```
+### 3. `<header>` -- Header
+
+* *type:* block-level
+* *content:* flow content/palpable content
+* *support:* Chrome, Firefox, Safari, Internet Explorer, Opera
+* *example:*
+```
+<header>
+  a logo
+</header>
 ```
