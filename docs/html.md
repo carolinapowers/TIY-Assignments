@@ -182,7 +182,7 @@ You may also want to visit us:
 ### 11. `<audio>` -- Audio
 
 * *type:* block-level
-* *content:* Flow content, phrasing content, embedded content.
+* *content:* Flow content, phrasing content, embedded content
 * *support:* all browsers
 * *example:*
 
@@ -195,7 +195,7 @@ You may also want to visit us:
 ### 12. `<video>` -- Audio
 
 * *type:* block-level
-* *content:* Flow content, phrasing content, embedded content.
+* *content:* Flow content, phrasing content, embedded content
 * *support:* all browsers
 * *example:*
 
@@ -211,7 +211,7 @@ You may also want to visit us:
 ### 13. `<a>` -- Anchor Element
 
 * *type:* inline-level
-* *content:* flow content, phrasing content, interactive content, palpable content.
+* *content:* flow content, phrasing content, interactive content, palpable content
 * *support:* all browsers
 * *example:*
 
@@ -223,17 +223,17 @@ You may also want to visit us:
 ### 14. `<img>` -- Image Element
 
 * *type:* inline-level
-* *content:* flow content, phrasing content, interactive content, palpable content, embedded content.
+* *content:* flow content, phrasing content, interactive content, palpable content, embedded content
 * *support:* all browsers
 * *example:*
 
 ```
 <img src="mdn-logo-sm.png" alt="MD Logo" />
 ```
-### 15. `<sript>` -- Script Element
+### 15. `<script>` -- Script Element
 
 * *type:* inline-level
-* *content:* metadata content, flow content, phrasing content.
+* *content:* metadata content, flow content, phrasing content
 * *support:* all browsers
 * *example:*
 
@@ -241,3 +241,68 @@ You may also want to visit us:
 <!-- HTML5 -->
 <script src="javascript.js"></script>
 ```
+### 16. `<button>` -- Button Element
+
+* *type:* inline-level
+* *content:* flow content, phrasing content, Interactive content, listed, labelable, and submittable form-associated element, palpable content
+* *support:* all browsers
+* *example:*
+
+```
+<button name="button">Click me</button>
+```
+
+### 17. `<button>` -- Button Element
+
+* *type:* inline-level
+* *content:* flow content, phrasing content, Interactive content, listed, labelable, and submittable form-associated element, palpable content
+* *support:* all browsers
+* *example:*
+
+```
+<button name="button">Click me</button>
+
+```
+
+### 18. `<code>` -- Code Element
+
+* *type:* inline-level
+* *content:* flow content, phrasing content, palpable content
+* *support:* all browsers
+* *example:*
+
+```
+<p>Regular text. <code>This is code.</code> Regular text.</p>
+```
+Result:
+Regular text. This is code. Regular text.
+
+### 19. `<em>` -- Emphasis Element 
+
+* *type:* inline-level
+* *content:* flow content, phrasing content, palpable content
+* *support:* all browsers
+* *example:*
+
+```
+<p>
+  In HTML 5, what was previously called <em>block-level</em> content is now called <em>flow</em> content.
+</p>
+```
+Result:
+
+In HTML 5, what was previously called block-level content is now called flow content.
+
+### 20. `<strong>` -- Strong Element 
+
+* *type:* inline-level
+* *content:* flow content, phrasing content
+* *support:* all browsers
+* *example:*
+
+```
+<p>When doing x it is <strong>imperative</strong> to do y before proceeding.</p>
+```
+Result:
+When doing x it is imperative to do y before proceeding.
+
