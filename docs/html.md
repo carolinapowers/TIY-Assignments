@@ -29,7 +29,7 @@
 
 * *type:* block-level
 * *content:* flow content/palpable content
-* *support:* Chrome, Firefox, Safari, Internet Explorer, Opera
+* *support:* all browsers
 * *example:*
 ```
 <header>
@@ -40,7 +40,7 @@
 
 * *type:* block-level
 * *content:* flow content, sectioning content, palpable content.
-* *support:* Chrome, Firefox, Safari, Internet Explorer, Opera
+* *support:* all browsers
 * *example:*
 ```
 <section>
@@ -57,4 +57,16 @@
 ```
 <h1>Heading level 1</h1>
 ```
+### 6. `<p>` -- Paragraph
 
+* *type:* block-level
+* *content:* flow content/palpable content/phrasing content
+* *support:* all browsers
+* *example:*
+```
+<p>This is the first paragraph of text. This is the first paragraph of text.
+  This is the first paragraph of text. This is the first paragraph of text.</p>
+
+<p>This is second paragraph of text. This is second paragraph of text.
+   This is second paragraph of text. This is second paragraph of text.</p>
+```
