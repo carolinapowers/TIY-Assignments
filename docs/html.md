@@ -70,3 +70,14 @@
 <p>This is second paragraph of text. This is second paragraph of text.
    This is second paragraph of text. This is second paragraph of text.</p>
 ```
+### 7. `<footer>` -- Footer
++
++* *type:* block-level
++* *content:* flow content/palpable content 
++* *support:* all
++* *example:*
+```
++<footer>
+  Some copyright info or perhaps some author info for an &lt;article&gt;?
+</footer>
+```
