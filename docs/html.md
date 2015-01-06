@@ -74,10 +74,21 @@
 
 * *type:* block-level
 * *content:* flow content/palpable content 
-* *support:* all
+* *support:* all browsers
 * *example:*
 ```
 +<footer>
   Some copyright info or perhaps some author info for an &lt;article&gt;?
 </footer>
+```
+### 8. `<div>` --  HTML Document Division
+
+* *type:* block-level
+* *content:* flow content/palpable content 
+* *support:* all browsers
+* *example:*
+```
+<div>
+  <p>Any kind of content here. Such as &lt;p&gt;, &lt;table&gt;. You name it!</p>
+</div>
 ```
