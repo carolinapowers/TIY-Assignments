@@ -2,7 +2,7 @@
 
 * *type:* block-level
 * *content:* flow content
-* *support:* all
+* *support:* 
 * *example:*
 ```
 <ul>
@@ -12,3 +12,16 @@
 </ul>
 ```
 
+### 2. `<ol>` -- Ordered List
+
+* *type:* block-level
+* *content:* flow content/ and if the <ol> element's children include at least one <li> element, palpable content.
+* *support:* Chrome, Firefox, Safari
+* *example:*
+```
+<ol>
+  <li>first item</li>
+  <li>second item</li>
+  <li>third item</li>
+</ol>
+```
