@@ -48,3 +48,13 @@
   <p>Bunch of awesome content</p>
 </section>
 ```
+### 5. `<h1>` -- Heading, Level 1
+
+* *type:* block-level
+* *content:* phrasing content[1]
+* *support:* all browsers
+* *example:*
+```
+<h1>Heading level 1</h1>
+```
+
