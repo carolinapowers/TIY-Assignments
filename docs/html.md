@@ -150,7 +150,7 @@ Above HTML will output:
 John	Doe
 Jane	Doe
 
-### 10. `<address> >` -- Address
+### 10. `<address>` -- Address
 
 * *type:* block-level
 * *content:* flow content/palpable content 
@@ -178,3 +178,66 @@ You may also want to visit us:
     Building K
     Mountain View, CA 94043-0801
     USA
+
+### 11. `<audio>` -- Audio
+
+* *type:* block-level
+* *content:* Flow content, phrasing content, embedded content.
+* *support:* all browsers
+* *example:*
+
+```
+<!-- Simple audio playback -->
+<audio src="http://developer.mozilla.org/@api/deki/files/2926/=AudioTest_(1).ogg" autoplay>
+  Your browser does not support the <code>audio</code> element.
+</audio>
+```
+### 12. `<video>` -- Audio
+
+* *type:* block-level
+* *content:* Flow content, phrasing content, embedded content.
+* *support:* all browsers
+* *example:*
+
+```
+<!-- Simple video example -->
+<video src="videofile.ogg" autoplay poster="posterimage.jpg">
+  Sorry, your browser doesn't support embedded videos, 
+  but don't worry, you can <a href="videofile.ogg">download it</a>
+  and watch it with your favorite video player!
+</video>
+```
+
+### 13. `<a>` -- Anchor Element
+
+* *type:* inline-level
+* *content:* flow content, phrasing content, interactive content, palpable content.
+* *support:* all browsers
+* *example:*
+
+```
+<a href="https://developer.mozilla.org/en-US/" target="_blank">
+  <img src="https://mdn.mozillademos.org/files/6851/mdn_logo.png" alt="MDN logo" />
+</a>
+```
+### 14. `<img>` -- Image Element
+
+* *type:* inline-level
+* *content:* flow content, phrasing content, interactive content, palpable content, embedded content.
+* *support:* all browsers
+* *example:*
+
+```
+<img src="mdn-logo-sm.png" alt="MD Logo" />
+```
+### 15. `<sript>` -- Script Element
+
+* *type:* inline-level
+* *content:* metadata content, flow content, phrasing content.
+* *support:* all browsers
+* *example:*
+
+```
+<!-- HTML5 -->
+<script src="javascript.js"></script>
+```
