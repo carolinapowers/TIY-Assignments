@@ -15,7 +15,7 @@
 ### 2. `<ol>` -- Ordered List
 
 * *type:* block-level
-* *content:* flow content/ and if the <ol> element's children include at least one <li> element, palpable content.
+* *content:* flow content/palpable content.
 * *support:* Chrome, Firefox, Safari
 * *example:*
 ```
