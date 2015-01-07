@@ -60,6 +60,7 @@ third item
 * *type:* block-level
 * *content:* flow content/palpable content
 * *support:* Chrome, Firefox, Safari
+* *attribute:*global
 * *example:*
 ```
 <ol>
@@ -79,6 +80,7 @@ third item
 * *type:* block-level
 * *content:* flow content/palpable content
 * *support:* all browsers
+* *attribute:*global
 * *example:*
 ```
 <header>
@@ -93,6 +95,7 @@ The Iron Yard
 * *type:* block-level
 * *content:* flow content, sectioning content, palpable content.
 * *support:* all browsers
+* *attribute:*global
 * *example:*
 ```
 <section>
@@ -111,6 +114,7 @@ Bunch of awesome content
 * *type:* block-level
 * *content:* phrasing content[1]
 * *support:* all browsers
+* *attribute:*global
 * *example:*
 ```
 <h1>Heading level 1</h1>
