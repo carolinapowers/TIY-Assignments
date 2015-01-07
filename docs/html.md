@@ -1,8 +1,35 @@
+### Common Attributes
+
+#### `class` -- element class names
+
+* *values:* space-separated list of class names
+* *support:* all browsers
+* *examples:*
+```html
+<aside class="page--column">
+  <!-- . . . -->
+</aside> <!-- .page--column -->
+```
+
+### `id` -- unique element identifier
+
+* *values:* single letter character followed by any number of letters, digits, hyphens, underscores, colons or periods
+* *support:* all browsers
+* *examples:*
+```html
+<form class="search" id="site-search">
+  <!-- . . . -->
+</form> <!-- .search#site-search -->
+```
+
+
+
 ### 1. `<ul>` -- Unordered List
 
 * *type:* block-level
 * *content:* flow content
-* *support:* 
+* *support:*
+* 
 * *example:*
 ```
 <ul>
