@@ -22,6 +22,17 @@
 </form> <!-- .search#site-search -->
 ```
 
+#### `action` -- form submission URL
+
+* *values:* URL of a program that processes a form submission
+* *support:* all browsers
+* *examples:*
+```html
+<form action="http://lmgtfy.com/">
+  <input name="q">
+</form>
+```
+
 
 
 ### 1. `<ul>` -- Unordered List
@@ -29,7 +40,7 @@
 * *type:* block-level
 * *content:* flow content
 * *support:*
-* 
+* *attribute:* global
 * *example:*
 ```
 <ul>
