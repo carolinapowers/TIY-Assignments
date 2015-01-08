@@ -1,8 +1,46 @@
+### Common Attributes
+
+#### `class` -- element class names
+
+* *values:* space-separated list of class names
+* *support:* all browsers
+* *examples:*
+```html
+<aside class="page--column">
+  <!-- . . . -->
+</aside> <!-- .page--column -->
+```
+
+### `id` -- unique element identifier
+
+* *values:* single letter character followed by any number of letters, digits, hyphens, underscores, colons or periods
+* *support:* all browsers
+* *examples:*
+```html
+<form class="search" id="site-search">
+  <!-- . . . -->
+</form> <!-- .search#site-search -->
+```
+
+#### `action` -- form submission URL
+
+* *values:* URL of a program that processes a form submission
+* *support:* all browsers
+* *examples:*
+```html
+<form action="http://lmgtfy.com/">
+  <input name="q">
+</form>
+```
+
+
+
 ### 1. `<ul>` -- Unordered List
 
 * *type:* block-level
 * *content:* flow content
-* *support:* 
+* *support:*
+* *attribute:* global,compact,type
 * *example:*
 ```
 <ul>
@@ -22,6 +60,7 @@ third item
 * *type:* block-level
 * *content:* flow content/palpable content
 * *support:* Chrome, Firefox, Safari
+* *attribute:*global, compact, reversed, start, type,  
 * *example:*
 ```
 <ol>
@@ -41,6 +80,7 @@ third item
 * *type:* block-level
 * *content:* flow content/palpable content
 * *support:* all browsers
+* *attribute:*global
 * *example:*
 ```
 <header>
@@ -55,6 +95,7 @@ The Iron Yard
 * *type:* block-level
 * *content:* flow content, sectioning content, palpable content.
 * *support:* all browsers
+* *attribute:*global
 * *example:*
 ```
 <section>
@@ -73,6 +114,7 @@ Bunch of awesome content
 * *type:* block-level
 * *content:* phrasing content[1]
 * *support:* all browsers
+* *attribute:*global
 * *example:*
 ```
 <h1>Heading level 1</h1>
@@ -85,6 +127,7 @@ Heading level 1
 * *type:* block-level
 * *content:* flow content/palpable content/phrasing content
 * *support:* all browsers
+* *attribute:*global
 * *example:*
 ```
 <p>This is the first paragraph of text. This is the first paragraph of text.
@@ -105,6 +148,7 @@ This is second paragraph of text. This is second paragraph of text. This is seco
 * *type:* block-level
 * *content:* flow content/palpable content 
 * *support:* all browsers
+* *attribute:*global
 * *example:*
 ```
 <footer> ©2014 The Iron Yard. All Rights Reserved </footer>
@@ -118,6 +162,7 @@ Above HTML will output:
 * *type:* block-level
 * *content:* flow content/palpable content 
 * *support:* all browsers
+* *attribute:*global
 * *example:*
 ```
 <div>
@@ -133,6 +178,7 @@ Any kind of content here. Such as <p>, <table>. You name it!
 * *type:* block-level
 * *content:* flow content
 * *support:* all browsers
+* *attribute:*align,global,bgcolor,border,cellpadding,cellspacing,frame, rules, summary, width
 * *example:*
 ```
 <table>
@@ -155,6 +201,7 @@ Jane	Doe
 * *type:* block-level
 * *content:* flow content/palpable content 
 * *support:* all browsers
+* *attribute:* global
 * *example:*
 ```
 <address>
