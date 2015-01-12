@@ -143,16 +143,35 @@ h3 {
     font-family: "Open-Sans", sans-serif;
     letter-spacing: -5px;
     font-weight: 500;
-    color: navy;
+    color: rgb(8 52 90);
     line-height: 120%;
-    margin: 0;
+    margin-bottom: 10px;
 }
 
 #author-img img{
     border-radius: 100px;
+    height:23px;
 }
-address {
-    word-spacing: 5px;
+
+#author-name {
+    color:blue;
+    font-style: none;
+}
+#author-name {
+  
+    font-family: "Oswald", sans-serif;
+    font-size:16px;
+}
+
+p {
+    margin: 32px 0;
+}
+
+
+blockquote {
+  
+    font-size: 25px;
+    color: darkblue;
 }
 /* ==========================================================================
                             SECTION        
