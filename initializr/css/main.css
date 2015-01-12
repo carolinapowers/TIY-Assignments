@@ -137,6 +137,22 @@ nav a {
     text-decoration: none;
     color: black;
 }
+/* ==========================================================================
+                            SECTION        
+   ========================================================================== */
+
+/******************MAIN ARTICLE******************/
+
+.columns{
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.main-article {
+    width: 62.5%
+    
+}
 
 h3 {
     font-size: 60px;
@@ -173,13 +189,31 @@ blockquote {
     font-size: 25px;
     color: darkblue;
 }
-/* ==========================================================================
-                            SECTION        
-   ========================================================================== */
+
 time {
     text-decoration: underline;
     
 }
+
+.botao i span {
+    height: 100px;
+}
+
+button a {
+    text-decoration: none;
+    color: white;
+    font-family: 'Open-Sans' sans-serif;
+ 	font-weight: 100;
+ 	background-color: #888;
+ 	height:100%;
+} 	
+
+button .fa {
+    background: black;
+}
+
+
+
 
 a.one:link {
     color: blue;
@@ -201,6 +235,7 @@ a.one:active {
 }
 
 
+
 /**************SIDE BAR******************/
 .side-bar {
      float: right;
@@ -212,6 +247,11 @@ a.one:active {
     border-radius: 100px;
 }
 
+.fig-author .aside-pic {
+    height: 85px;
+    margin-top: -25px; 
+}
+
 .social {
     padding: 5px 0 15px 0;
     /*display: -webkit-flex;
@@ -220,22 +260,10 @@ a.one:active {
     word-spacing: 15px;
 }  
 
-/******************MAIN ARTICLE******************/
-
-.columns{
-    width: 80%;
-    margin-left: auto;
-    margin-right: auto;
-}
-
-.main-article {
-    width: 62.5%
-    
-}
 
 
 /******************BOTTOM SECTION****************/
-.bottom-section h3{
+.bottom-section h3 {
     text-align: center;
     font-size: 50px;
     font-family: "Oswald", sans-serif;
@@ -260,6 +288,10 @@ a.one:active {
     filter: alpha(opacity=100); /* For IE8 and earlier */
 }    
 
+.most-pop img:hover + .caption {
+    color: white;
+}
+
 .fig-bottom figure {
     width: 25%;
     float: left;
@@ -268,12 +300,14 @@ a.one:active {
 
 .caption {
     position: absolute;
-    top: 360px;
+    top: 300px;
     font-weight: 800;
     color: black;
     font-size: 150%;
     padding-left: 10px;
 }
+
+
 
 
 
