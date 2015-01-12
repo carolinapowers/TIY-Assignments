@@ -40,7 +40,7 @@
 * *type:* block-level
 * *content:* flow content
 * *support:*
-* *attribute:* global,compact,type
+*  * global,compact,type
 * *example:*
 ```
 <ul>
