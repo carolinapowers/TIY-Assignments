@@ -64,24 +64,24 @@ textarea {
    /* ==========================================================================
                                     HEADER
    ========================================================================== */
-
-
-.logo {
-    float: left;
-    list-style-type: none;
-    vertical-align: middle;
-    border-left: 5px;
+#logo img {
+    height: 100px;
+    
 }
 
-.logo li {
-    display: inline;
+#logo {
+     float: left;
+     margin-left: 77px;
+     margin-top: -15px;
+     letter-spacing: -1px;
+     font-weight: 500;
+     
 }
-
 
 
 header {
     background-image: url(http://www.cepolina.com/photo/nature/water/sea/depth/5/sea-blue-ocean.jpg);
-    height: 450px;
+    height: 520px;
     /* list-style-type: none; */
     background-size: 100% 100%;
     background-origin: content-box;
@@ -89,18 +89,23 @@ header {
 }
 
 h1 {
-    font-size: 70px;
-    margin-bottom: -20px;
-    color: black;
+    font-size: 100px;
+    margin: 0 auto;
+    color: white;
     font-family: "Open Sans", sans-serif; 
+    font-weight: 400;
+    padding: 80px 50px 0 0;
+    letter-spacing: -5px;
     
 } 
 
 h2 {
-    font-size: 25px;
-    color: black;
+    font-size: 15px;
+    color: white;
     font-family: "Oswald", sans-serif;
     padding-right: 4px;
+    margin-top: -20px;
+    font-weight: lighter;
 }
 
 hgroup {
@@ -116,6 +121,7 @@ hgroup {
     color: black;
     padding: 20px 10px;
     float: right;
+    
 }
 
 
@@ -127,11 +133,24 @@ nav {
   
 }
 
-h3 {
-    font-size: 28px;
-    font-family: "Open-Sans", sans-serif;
+nav a {
+    text-decoration: none;
+    color: black;
 }
 
+h3 {
+    font-size: 60px;
+    font-family: "Open-Sans", sans-serif;
+    letter-spacing: -5px;
+    font-weight: 500;
+    color: navy;
+    line-height: 120%;
+    margin: 0;
+}
+
+#author-img img{
+    border-radius: 100px;
+}
 address {
     word-spacing: 5px;
 }
@@ -195,11 +214,21 @@ a.one:active {
     
 }
 
-.side-bar {
-    
-}
 
 /******************BOTTOM SECTION****************/
+.bottom-section h3{
+    text-align: center;
+    font-size: 50px;
+    font-family: "Oswald", sans-serif;
+}
+
+
+.bottom-section {
+    text-align: right;
+    color: black;
+    position: relative;
+}
+
 .most-pop img {
     opacity: 0.5;
     width: 100%;
@@ -218,17 +247,24 @@ a.one:active {
     background-color: blue;
 }
 
-figcaption {
-    text-decoration: none;
+.caption {
+    position: absolute;
+    top: 360px;
+    font-weight: 800;
     color: black;
-    
+    font-size: 150%;
+    padding-left: 10px;
+}
+
+
+
     /*position: absolute;
     bottom: 20px;
     left: 15px;
     width: 250px;
 	z-index: -20;
     */
-}
+
     /*display: -webkit-flex;
     -webkit-justify-content: center;
     */
