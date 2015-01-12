@@ -60,13 +60,13 @@ textarea {
 /* ==========================================================================
    Author's custom styles
    ========================================================================== */
-   
+
    /* ==========================================================================
                                     HEADER
    ========================================================================== */
 #logo img {
     height: 100px;
-    
+
 }
 
 #logo {
@@ -75,15 +75,14 @@ textarea {
      margin-top: -15px;
      letter-spacing: -1px;
      font-weight: 500;
-     
+
 }
 
 
 header {
     background-image: url(http://www.cepolina.com/photo/nature/water/sea/depth/5/sea-blue-ocean.jpg);
     height: 520px;
-    /* list-style-type: none; */
-    background-size: 100% 100%;
+    background-size: cover;
     background-origin: content-box;
     margin-top: -15px;
 }
@@ -92,12 +91,12 @@ h1 {
     font-size: 100px;
     margin: 0 auto;
     color: white;
-    font-family: "Open Sans", sans-serif; 
+    font-family: "Open Sans", sans-serif;
     font-weight: 400;
     padding: 80px 50px 0 0;
     letter-spacing: -5px;
-    
-} 
+
+}
 
 h2 {
     font-size: 15px;
@@ -121,7 +120,7 @@ hgroup {
     color: black;
     padding: 20px 10px;
     float: right;
-    
+
 }
 
 
@@ -130,7 +129,7 @@ nav {
   padding: 0 150px 10px 0;
   margin: 10px 0 0;
   font-weight: 800;
-  
+
 }
 
 nav a {
@@ -138,20 +137,24 @@ nav a {
     color: black;
 }
 /* ==========================================================================
-                            SECTION        
+                            SECTION
    ========================================================================== */
 
 /******************MAIN ARTICLE******************/
 
+.page {
+    min-width: 1080px;
+}
 .columns{
     width: 80%;
     margin-left: auto;
     margin-right: auto;
+    max-width: 1440px;
 }
 
 .main-article {
     width: 62.5%
-    
+
 }
 
 h3 {
@@ -174,7 +177,7 @@ h3 {
     font-style: none;
 }
 #author-name {
-  
+
     font-family: "Oswald", sans-serif;
     font-size:16px;
 }
@@ -185,7 +188,7 @@ p {
 
 
 blockquote {
-  
+
     font-size: 25px;
     color: darkblue;
 
@@ -194,7 +197,7 @@ blockquote {
 time {
     text-decoration: underline;
     color: lightgrey;
-    
+
 }
 
 .botao i span {
@@ -208,7 +211,7 @@ button a {
  	font-weight: 100;
  	background-color: #888;
  	height:100%;
-} 	
+}
 
 button .fa {
     background: black;
@@ -249,21 +252,21 @@ a.one:active {
 
 .fig-author .aside-pic {
     height: 85px;
-    margin-top: -25px; 
+    margin-top: -25px;
 }
 
 .fig-author figcaption {
     color: blue;
     padding-top: 10px;
-    
+
 }
 
 .social {
     padding: 0 0 50px 10px;
     word-spacing: 10;
     font-size: 14px;
-    
-}  
+
+}
 
 .social a {
     text-decoration: none;
@@ -283,7 +286,7 @@ h4 {
     margin-top: 50px;
     padding-right: 50px;
     color: blue;
-    
+
 }
 
 .side-bar p {
@@ -311,13 +314,13 @@ h4 {
     opacity: 0.5;
     width: 100%;
     /*position: relative;*/
-   
+
 }
 
 .most-pop img:hover {
     opacity: 1.0;
     filter: alpha(opacity=100); /* For IE8 and earlier */
-}    
+}
 
 .most-pop img:hover + .caption {
     color: white;
@@ -352,14 +355,14 @@ h4 {
     /*display: -webkit-flex;
     -webkit-justify-content: center;
     */
-    
+
 /************************FOOTER******************************/
 
 footer {
     color: white;
     font-size: 12px;
     background-color: rgb(11,38,66);
-    
+
 }
 
 footer ul {
