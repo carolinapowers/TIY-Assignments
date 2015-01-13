@@ -62,7 +62,11 @@ textarea {
    ========================================================================== */
 .container {
     width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    
 }
+
 
 header > span {
     color: #277fc2;
@@ -83,17 +87,52 @@ header {
 }
 header span h1 {
     float: left;
+    position: relative;
 }
 
 header ul {
-    text-align: right;
+    
     margin-top: -15px;
+    position: absolute;
+    top: 80px;
+    right: 95px;
 }
+
 
 
 ul li {
     display: inline;
 }
+
+
+.main  {
+    width: 83%;
+}
+
+.list-container time{
+    float: left;
+    height: 100%;
+}
+
+.span-date {
+    display: block;
+}
+
+.span-time {
+    color: rgb(136, 188, 233);
+}
+
+.list-container article{
+    background-color: rgb(136, 188, 233);
+    float: right;
+    width: 80%;
+    border-radius: 5px;
+    padding: 30px;
+position: relative;
+}
+
+
+
 
 
 
