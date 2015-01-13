@@ -61,9 +61,8 @@ textarea {
    Author's custom styles
    ========================================================================== */
 .container {
-    width: 90%;
-    margin-left: auto;
-    margin-right: auto;
+    max-width: 90%;
+    margin-left: 0 auto;
     
 }
 
@@ -81,10 +80,13 @@ h1 {
     font-size: 40px;
 }
 
-header {
-    margin-left: 0 auto;
+header > span {
+    display: block;
+    padding-left: 0 auto;
    
 }
+
+
 header span h1 {
     float: left;
     position: relative;
@@ -101,7 +103,7 @@ header ul {
 
 
 ul li {
-    display: inline;
+    display: inline-block;
 }
 
 
@@ -109,9 +111,13 @@ ul li {
     width: 83%;
 }
 
+.list-container {
+    display:relative;    
+}
+
 .list-container time{
-    float: left;
-    height: 100%;
+    display: absolute;
+      
 }
 
 .span-date {
@@ -128,7 +134,7 @@ ul li {
     width: 80%;
     border-radius: 5px;
     padding: 30px;
-position: relative;
+    position: relative;
 }
 
 
