@@ -123,7 +123,7 @@ ul li {
 
 .list-container time{
     position: absolute;
-    left: -10px;
+    left: -100px;
     text-align: left;  
 }
 
@@ -133,6 +133,7 @@ ul li {
 
 .span-time {
     color: rgb(136, 188, 233);
+    display: block;
 }
 
 .list-container article{
