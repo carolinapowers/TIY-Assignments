@@ -129,11 +129,16 @@ ul li {
 
 .span-date {
     display: block;
+    text-align: center;
 }
 
 .span-time {
     color: rgb(136, 188, 233);
     display: block;
+}
+
+.span-time big {
+    font-size: 30px;
 }
 
 .list-container article{
