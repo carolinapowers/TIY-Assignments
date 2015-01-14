@@ -192,7 +192,25 @@ ul li {
     }
 }
 
+@media screen and (max-width: 700px){
+    
+    .list-container {
+    
+    border-left: none;
+    }
+    
+     .icon {
+        position: relative;
+        float: right;
+        margin-right: 80px;
+    }
+    
+   
+       
+   
 
+
+}
 
 
 
