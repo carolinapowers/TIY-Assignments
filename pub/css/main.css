@@ -163,7 +163,9 @@ ul li {
     margin: 0 120px 30px 0;
 }
 
-@media screen and (max-width: 1100px) {
+/******** media**********/
+
+@media screen and (max-width: 1030px) {
     .span-time big {
     font-size: 17px;
     }
