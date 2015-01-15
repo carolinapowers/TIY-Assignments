@@ -209,7 +209,9 @@ ul li {
    .list-container time {
        position: relative;
        float: left;
-       margin-left: -10px;
+       display: block;
+       margin-left: 80px;
+       
    }
    
    .main {
