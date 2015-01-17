@@ -328,8 +328,31 @@ footer img {
     color:white;
 }
 
-
-
+@media screen and (max-width: 667px) {
+    
+    .buttons {
+        text-align: center;
+    }
+    
+    .author-social {
+        float: left;
+    }
+    
+    .fig-author img {
+        height: 5em;
+        width:  5em; 
+    }
+    
+    .fig-ad img {
+        height: 12em;
+        width: 10em;
+        margin-left: 7em; 
+    }
+     
+    
+    
+    
+    
 /* ==========================================================================
    Helper classes
    ========================================================================== */
