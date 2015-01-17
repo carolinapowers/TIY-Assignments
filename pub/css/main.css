@@ -102,7 +102,6 @@ header {
     background-origin: content-box;
     text-align: center;
     margin-top: -1em;
-    
 }
 
 
@@ -145,6 +144,7 @@ h1 {
     font-size: 2em;
     text-align: center;
     font-weight: 500;
+    
 }
 
 h2 {
@@ -154,6 +154,11 @@ h2 {
     margin-top: -1.7em;
 }
  
+/**************MAIN ARTICLE***************/
+article h3{
+    font-size: 2.5em;
+}
+
 .first-section {
     max-width: 100%;
     padding: 0 10% 0 10%;
@@ -207,6 +212,11 @@ a.one:active {
     text-align: center;    
 }
 
+a.botao:active {
+    background-color:blue;
+}
+/**********SIDE BAR SECTION***************/
+
 .fig-author {
     text-align:center;
     margin: 6em 2em 2em;
@@ -248,7 +258,8 @@ a.one:active {
     margin-bottom: 3em;
 }
  
-h3 {
+/**********MOST POPULAR SECTION********/
+.most-popular h3 {
     font-size: 1.5em;
     margin-top: 2em;
 }
@@ -256,20 +267,12 @@ h3 {
 .most-popular img {
     opacity: 0.5;
     width: 100%;
-    
-    
-     
-    /*position: relative;*/
-     
-
 }
 
 .most-popular figure {
     background-color: blue;
     z-index: -1; 
     border-bottom: 4em solid white;
-   
-     
 }
 
 .most-popular figcaption {
@@ -282,6 +285,7 @@ h3 {
     font-weight:800;
 }
 
+/***********FOOTER****************/
 footer {
     background-color: black;
     height: 20em;
@@ -298,7 +302,6 @@ footer #nav {
     color: white;
     text-align: center;
     margin-top: -1em;
-    
 }
 
 footer img {
