@@ -260,11 +260,11 @@ a.botao:active {
 }
 
 .fig-ad figcaption {
-    text-align: right;
     text-decoration: underline;
     color: grey;
     margin-bottom: 3em;
     margin-left: 1em;
+    text-align:right;
 }
  
 /**********MOST POPULAR SECTION********/
@@ -306,6 +306,7 @@ footer li {
     padding-top: 2em;
     color:white;
     display:inline-block;
+    
 }
 
 #nav {
