@@ -115,8 +115,6 @@ nav li {
     width:100%
     margin: 0 auto;
     padding-top: 1em;
-
-    
 }
 
 nav a {
@@ -131,7 +129,12 @@ i {
     width: 1.5em;
     height: 1.5em;
 }
-    
+ 
+header img {
+    width: 3em;
+    height:3em;
+}
+
 section {
     max-width: 80%;
     margin: 0 auto;
@@ -242,10 +245,39 @@ a.one:active {
     text-align: right;
     text-decoration: underline;
     color: grey;
+    margin-bottom: 3em;
 }
  
 h3 {
     font-size: 1.5em;
+    margin-top: 2em;
+}
+
+.most-popular img {
+    opacity: 0.5;
+     width: 100%;
+     
+    /*position: relative;*/
+     
+
+}
+
+.most-popular figure {
+    background-color: blue;
+    z-index: -1; 
+   border-bottom: 4em solid white;
+     
+}
+
+.most-popular figcaption {
+    color:white;
+    font-size: 1em;
+    text-decoration: none;
+    position:absolute;
+    padding-top: 15em;
+    padding-left: 1.5em;
+    font-weight:800;
+    
 }
 
 
