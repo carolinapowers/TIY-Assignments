@@ -255,7 +255,9 @@ h3 {
 
 .most-popular img {
     opacity: 0.5;
-     width: 100%;
+    width: 100%;
+    
+    
      
     /*position: relative;*/
      
@@ -265,7 +267,8 @@ h3 {
 .most-popular figure {
     background-color: blue;
     z-index: -1; 
-   border-bottom: 4em solid white;
+    border-bottom: 4em solid white;
+   
      
 }
 
@@ -280,9 +283,25 @@ h3 {
     
 }
 
+footer {
+    background-color: black;
+    height: 20em;
+}
 
+footer li {
+    padding-top: 2em;
+    color:white;
+    display:inline-block;
+}
 
+footer p {
+    color: white;
+    text-align: center;
+    margin-top: -1em;
+    padding-right:1.8em;
+}
 
+footer
 
 
 
