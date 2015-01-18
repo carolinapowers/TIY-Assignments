@@ -498,6 +498,11 @@ footer img {
         width:25%;
     }
     
+     .most-popular figcaption {
+         padding-top: 17%;
+         font-size: 1.2em;
+     }
+    
 }
 ==========================================================================
    Helper classes
