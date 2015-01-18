@@ -418,13 +418,22 @@ footer img {
         text-align: left;
 }
 
+    .buttons a:first-child {
+        border-left: none;
+    }
+    
+    
+    .buttons a{
+        font-size: 0.7%;
+    }
+    
     article {
         width: 62.5%;
         float:left;
     }
     
     aside {
-        width: 35%;
+        width: 28%;
         float: right;
 }
  
@@ -432,6 +441,10 @@ footer img {
         display: initial;
     }
     
+    hr {
+        clear: both;
+    }
+        
     .most-popular h3 {
         clear:both;
     }
