@@ -323,7 +323,7 @@ a.botao:active {
 footer {
     
     background-color: black;
-    height: 20em;
+    height: 100%;
     
 }
 
@@ -342,11 +342,13 @@ footer img {
     display: block;
     margin: 0 auto;
     text-align: center;
+    margin-bottom: 2em;
 }
 
-#copyright {
+.copyright {
     text-align:center;
     color:white;
+    margin: 0 ;
 }
 
 @media screen and (min-width:481px) {
@@ -371,19 +373,33 @@ footer img {
     
     .most-popular h3 {
         font-size: 2.5em;
+        margin-top: -0.3em;
     }
  
     
     .most-popular figure {
+        height:10%;
         width: 50%;
         float: left;
+        border: none;
     }
     
-    .most-popular figcaption {
-        position: absolute;
-        padding-bottom: 100%;
-    }
-} ==========================================================================
+     .most-popular figcaption{
+         padding-top: 35%;
+     }
+    
+    footer ul {
+        float: right;
+        padding-right: 2em;
+}
+    
+    footer {
+    
+    padding-top:  -top: 2em;
+}
+    
+}
+        ==========================================================================
    Helper classes
    ========================================================================== */
 
