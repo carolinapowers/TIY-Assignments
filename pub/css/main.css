@@ -390,16 +390,56 @@ footer img {
     
     footer ul {
         float: right;
-        padding-right: 2em;
+        padding-right: 5%;
+    }
 }
+
+@media screen and (min-width: 769px) {
     
-    footer {
-    
-    padding-top:  -top: 2em;
+    .botao {
+    padding: 1em 0 1em 1em;
+    background-color:grey;
+    margin: 3em 0;
+    margin: 3em -1em 3em 0;
+    border-left: 1em solid white;
+    color: white;
+    text-align: center;   
 }
-    
+
+.botao span {
+    padding: 1em;
+    background-color:lightgrey;
+    padding-left: 1em;
+    padding-right: 2em;
+    margin-left: 1em;
+    display: initial;
 }
-        ==========================================================================
+    .buttons {
+        text-align: left;
+}
+
+    article {
+        width: 66%;
+        float:left;
+    }
+    
+    aside {
+        width: 32%;
+        float: right;
+}
+     
+    .most-popular h3 {
+        clear:both;
+    }
+    
+    .fig-author img {
+        float: none;
+    }
+
+    
+   
+}
+==========================================================================
    Helper classes
    ========================================================================== */
 
