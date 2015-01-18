@@ -138,15 +138,12 @@ header i {
 header img {
     width: 3em;
     height:3em;
+    
 }
 
-section {
-    max-width: 80%;
-    margin: 0 auto;
-}
 
 h1 { 
-    color:white;
+    color:black;
     font-size: 1.9em;
     text-align: center;
     font-weight: 500;
@@ -161,6 +158,11 @@ h2 {
 }
  
 /**************MAIN ARTICLE***************/
+section {
+    max-width: 80%;
+    margin: 0 auto;
+}
+
 article h3{
     font-size: 2.5em;
 }
@@ -224,6 +226,9 @@ a.botao:active {
 }
 /**********SIDE BAR SECTION***************/
 
+
+    
+
 .fig-author {
     text-align:center;
     margin: 6em 2em 2em;
@@ -254,8 +259,12 @@ a.botao:active {
 }
 
 
+.fig-ad {
+   
+}
+
 .fig-ad img {
-    margin-top: 4em;
+  margin-top: 4em;
     
 }
 
@@ -328,7 +337,7 @@ footer img {
     color:white;
 }
 
-@media screen and (max-width: 667px) {
+@media screen and (min-width:340px) and  (max-width 667px) {
     
     .buttons {
         text-align: center;
@@ -348,9 +357,10 @@ footer img {
         width: 10em;
         margin-left: 7em; 
     }
-     
+}
     
     
+
     
     
 /* ==========================================================================
