@@ -419,15 +419,19 @@ footer img {
 }
 
     article {
-        width: 66%;
+        width: 62.5%;
         float:left;
     }
     
     aside {
-        width: 32%;
+        width: 35%;
         float: right;
 }
-     
+ 
+    .full-size {
+        display: initial;
+    }
+    
     .most-popular h3 {
         clear:both;
     }
