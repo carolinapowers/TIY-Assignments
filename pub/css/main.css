@@ -265,7 +265,7 @@ a.botao:active {
 .social {
     text-align: center;
     margin-bottom: 2em;
-    font-size: 
+
 }
 
 .social a {
@@ -461,6 +461,7 @@ footer img {
         font-size: 0.7%;
     }
     
+    
     article {
         width: 62.5%;
         float:left;
@@ -472,8 +473,9 @@ footer img {
     
     
     aside {
-        width: 28%;
+        width: 33%;
         float: right;
+        
 }
  
     .full-size {
@@ -491,7 +493,11 @@ footer img {
     .fig-author img {
         float: none;
     }
-   
+ 
+    .most-popular figure {
+        width:25%;
+    }
+    
 }
 ==========================================================================
    Helper classes
