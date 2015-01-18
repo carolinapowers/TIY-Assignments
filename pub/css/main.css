@@ -143,7 +143,7 @@ header img {
 
 
 h1 { 
-    color:black;
+    color:white;
     font-size: 1.9em;
     text-align: center;
     font-weight: 500;
@@ -295,7 +295,7 @@ a.botao:active {
 /**********MOST POPULAR SECTION********/
 .most-popular h3 {
     text-align:center;
-    font-size: 1.3em;
+    font-size: 1.9em;
     margin-top: 2em;
 }
 
@@ -349,28 +349,41 @@ footer img {
     color:white;
 }
 
-@media  only screen and (min-width:481px) {
+@media screen and (min-width:481px) {
     
     .buttons {
         text-align: center;
     }
     
-    .author-social {
+   
+    
+    .fig-author img {
+        float: left;
+        height: 5em;
+        width:  5em; 
+        
+    }
+    
+    .fig-ad {
+        width: 50%;
+        margin: 0 auto;
+    }
+    
+    .most-popular h3 {
+        font-size: 2.5em;
+    }
+ 
+    
+    .most-popular figure {
+        width: 50%;
         float: left;
     }
     
-    .fig-author img {
-        height: 5em;
-        width:  5em; 
+    .most-popular figcaption {
+        position: absolute;
+        padding-bottom: 100%;
     }
-    
-    .fig-ad img {
-        height: 12em;
-        width: 10em;
-        margin-left: 7em; 
-    }
-}
-  ==========================================================================
+} ==========================================================================
    Helper classes
    ========================================================================== */
 
