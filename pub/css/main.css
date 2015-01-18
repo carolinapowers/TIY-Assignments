@@ -214,11 +214,22 @@ a.one:active {
 }
 
 .botao {
-    padding: 1em;
+    padding: 1em /*0 1em 1em*/;
     background-color:grey;
-    margin: 3em 0;
+    /*margin: 3em 0; */
+    margin: 3em /*-1em 3em*/ 0;
+    border-left: 1em solid white;
     color: white;
     text-align: center;    
+}
+
+.botao span {
+    padding: 1em;
+    background-color:lightgrey;
+    padding-left: 1em;
+    padding-right: 2em;
+    margin-left: 1em;
+    display: none;
 }
 
 a.botao:active {
@@ -259,13 +270,9 @@ a.botao:active {
 }
 
 
-.fig-ad {
-   
-}
-
 .fig-ad img {
   margin-top: 4em;
-    
+  width: 100%;
 }
 
 .fig-ad figcaption {
@@ -276,6 +283,10 @@ a.botao:active {
     text-align:right;
 }
  
+.full-size {
+        display: none;
+    }
+
 /**********MOST POPULAR SECTION********/
 .most-popular h3 {
     text-align:center;
@@ -337,7 +348,7 @@ footer img {
     color:white;
 }
 
-@media screen and (min-width:340px) and  (max-width 667px) {
+/*@media screen and (min-width:340px) and  (max-width 667px) {
     
     .buttons {
         text-align: center;
@@ -358,7 +369,7 @@ footer img {
         margin-left: 7em; 
     }
 }
-    
+  */  
     
 
     
