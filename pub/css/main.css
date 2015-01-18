@@ -265,6 +265,7 @@ a.botao:active {
 .social {
     text-align: center;
     margin-bottom: 2em;
+    font-size: 
 }
 
 .social a {
@@ -360,8 +361,6 @@ footer img {
         text-align: center;
     }
     
-   
-    
     .fig-author img {
         float: left;
         height: 5em;
@@ -405,6 +404,30 @@ footer img {
     
     header h1 {
         font-size: 3.5em;
+        clear: both;
+    }
+    
+    #reveal-logo {
+        display: initial;
+    }
+    
+    
+    header ul {
+       float: right;
+        margin-right: 10em;
+        padding-top: 3em;
+    }
+    
+    header i {
+        padding-top:2em;
+        padding-left: 2.2em;
+    }
+        
+    #logo {
+        float: left;
+        padding-top: 3em;
+        padding-left: 2em;
+        
     }
     
     .botao {
@@ -415,7 +438,7 @@ footer img {
     border-left: 1em solid white;
     color: white;
     text-align: center;   
-}
+    }
 
     .botao span {
     padding: 1em;
@@ -425,10 +448,10 @@ footer img {
     margin-left: 1em;
     display: initial;
     width: 95px;
-}
+    }
     .buttons {
         text-align: left;
-}
+    }
 
     .buttons a:first-child {
         border-left: none;
@@ -442,6 +465,11 @@ footer img {
         width: 62.5%;
         float:left;
     }
+    
+    .author-image {
+    display: initial;
+    }
+    
     
     aside {
         width: 28%;
