@@ -138,9 +138,11 @@ header i {
 header img {
     width: 3em;
     height:3em;
-    
 }
 
+#reveal-logo {
+    display:none;
+}
 
 h1 { 
     color:white;
@@ -157,6 +159,7 @@ h2 {
     margin-top: -1.7em;
 }
  
+
 /**************MAIN ARTICLE***************/
 section {
     max-width: 80%;
@@ -396,6 +399,14 @@ footer img {
 
 @media screen and (min-width: 769px) {
     
+    header {
+        height: 300px;
+    }
+    
+    header h1 {
+        font-size: 3.5em;
+    }
+    
     .botao {
     padding: 1em 0 1em 1em;
     background-color:grey;
@@ -406,13 +417,14 @@ footer img {
     text-align: center;   
 }
 
-.botao span {
+    .botao span {
     padding: 1em;
     background-color:lightgrey;
     padding-left: 1em;
     padding-right: 2em;
     margin-left: 1em;
     display: initial;
+    width: 95px;
 }
     .buttons {
         text-align: left;
@@ -421,7 +433,6 @@ footer img {
     .buttons a:first-child {
         border-left: none;
     }
-    
     
     .buttons a{
         font-size: 0.7%;
@@ -452,8 +463,6 @@ footer img {
     .fig-author img {
         float: none;
     }
-
-    
    
 }
 ==========================================================================
