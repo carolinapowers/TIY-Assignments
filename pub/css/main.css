@@ -326,8 +326,8 @@ footer {
     
     background-color: black;
     height: 100%;
-    border: 2em solid black;
     padding-top: 2em;
+    clear: both;
     
 }
 
@@ -384,6 +384,7 @@ footer img {
         width: 50%;
         float: left;
         border: none;
+        margin: 0;
     }
     
      .most-popular figcaption{
@@ -516,6 +517,10 @@ footer img {
 }
     .most-popular figcaption:hover {
         color: white;
+    }
+    
+    footer {
+        height: 100px;
     }
     
     footer img { 
