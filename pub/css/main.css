@@ -97,7 +97,7 @@ textarea {
    Author's custom styles
    ========================================================================== */
 header {
-     background-image: url(http://www.cepolina.com/photo/nature/water/sea/depth/5/sea-blue-ocean.jpg);
+     background-image: url(http://i61.tinypic.com/156sio7.jpg);
     background-size: cover;
     background-origin: content-box;
     text-align: center;
@@ -307,7 +307,7 @@ a.botao:active {
 }
 
 .most-popular figure {
-    background-color: blue;
+    background-color: #2A5EFF;
     border-bottom: 4em solid white;
 }
 
@@ -527,6 +527,9 @@ footer img {
         float: left;
     }
     
+    footer ul {
+        margin-top: -2em;
+    }
 }
 ==========================================================================
    Helper classes
