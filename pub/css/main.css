@@ -120,20 +120,20 @@ textarea {
 
 #container {
   max-width: 1230px;
-  height: 700px;  
-  margin: 0 auto;
+  width:100%;    
 }
     
 .gridBox1, .gridBox2 {
-  height: 8em;
-  width:11%;
+  
+  width:12.5%;
   background-color: #555;
+  padding-bottom: 12.5%;
   float: left;
   border: 0.1em solid white;
-   color: white;
-    position: ;
-
+  color: white;
+    position:relative;
 }
+
 .gridBox2 {
   background-color: #999;
 }
