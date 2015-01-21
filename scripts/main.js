@@ -26,6 +26,8 @@ function prod(a,b) {
     assert(prod(4,4) == 16);
     assert.equal(prod(5,5),25); 
 
+
+
 function div(a, b) {
     return(a / b);
 }

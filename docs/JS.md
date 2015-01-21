@@ -238,3 +238,97 @@ while (i < 10) {
 }
 ```
 
+### [Loop Statements: Do...While]
+* _symbol_: `do... while`
+* _pronunciation_: "do...while loop"
+* _examples_:
+```
+do
+   statement
+while (condition);
+
+do {
+    text += "The number is " + i;
+    i++;
+}
+while (i < 10);
+```
+
+### [Functions: Function]
+* _symbol_: `function()`
+* _pronunciation_: "Function"
+* _examples_:
+```
+function functionName(Parameter1, Parameter2) {
+*do some stuff*
+return(something/nothing)
+}
+
+function sumOfCubes (a,b) {
+var aCubed = a * a * a;
+var bCubed = b * b * b;
+var Sum = aCubed + bCubed;
+return Sum;
+}
+```
+### [Functions: Return]
+* _symbol_: `return`
+* _pronunciation_: "return the value of" , "return"
+* _examples_:
+
+```
+function myFunction(p1, p2) {
+    return p1 * p2;              // the function returns the product of p1 and p2
+}
+
+function square(x) {
+   return x * x;
+}
+```
+
+`
+### [Control Flow: Break]
+
+ * _symbol_: `break`
+* _pronunciation_: "break" , 
+* _examples_:
+
+```
+The break statement breaks the loop and continues executing the code after the loop (if any):
+for (i = 0; i < 10; i++) {
+    if (i == 3) { break }
+    text += "The number is " + i + "<br>";
+}
+```
+
+### [Control Flow: Continue]
+
+ * _symbol_: `continue`
+* _pronunciation_: "continue"
+* _examples_:
+
+```
+The continue statement breaks one iteration (in the loop), if a specified condition occurs, and continues with the next iteration in the loop.
+
+for (i = 0; i <= 10; i++) {
+    if (i == 3) continue;
+    text += "The number is " + i + "<br>";
+}
+```
+### [Control Flow: Empty]
+
+ * _symbol_: `;`
+* _pronunciation_: "empty"
+* _examples_:
+
+```
+An empty statement is used to provide no statement, although the JavaScript syntax would expect one.
+
+var arr = [1, 2, 3];
+
+// Assign all array values to 0
+for (i = 0; i < arr.length; arr[i++] = 0) /* empty statement */ ;
+
+console.log(arr)
+// [0, 0, 0]
+```
