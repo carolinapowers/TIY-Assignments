@@ -97,24 +97,8 @@ textarea {
    Author's custom styles
    ========================================================================== */
 
-/*.container {
-    width: 80%;
-    margin: 0 auto;
-}
 
-.first-row {
-    border: 0.1em solid grey;
-    padding: 1em;
-    width: 10%;
-    float: left;
-}
 
-.second-row {
- border: 0.1em solid grey;
-    padding: 1em;
-    clear:left;
-    display:inline-block;
-}*/
 
 
 
@@ -131,7 +115,7 @@ textarea {
   float: left;
   border: 0.1em solid white;
   color: white;
-    position:relative;
+  position:relative;
 }
 
 .gridBox2 {
