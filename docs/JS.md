@@ -178,3 +178,63 @@ x === "5"	false
 x === 5	true
 ```
 
+### [Conditional Statements: If...Else]
+* _symbol_: `If`
+* _pronunciation_: "If, Else"
+* _examples_:
+```
+if (condition) {
+  statement_1;
+} else {
+  statement_2;
+}
+```
+### [Conditional Statements: Switch]
+* _symbol_: `Swicth`
+* _pronunciation_: "Switch"
+* _examples_:
+```
+switch (expression) {
+   case label_1:
+      statements_1
+      [break;]
+   case label_2:
+      statements_2
+      [break;]
+   ...
+   default:
+      statements_def
+      [break;]
+}
+```
+
+### [Loop Statements: For]
+* _symbol_: `for`
+* _pronunciation_: "For Loop"
+* _examples_:
+```
+for ([initialExpression]; [condition]; [incrementExpression])
+   statement
+
+
+for (i = 0; i < cars.length; i++) { 
+    text += cars[i] + "<br>";
+}
+```
+
+### [Loop Statements: While loop]
+
+* _symbol_: `while`
+* _pronunciation_: "while loop"
+* _examples_:
+```
+while (condition) {
+    code block to be executed
+}
+
+while (i < 10) {
+    text += "The number is " + i;
+    i++;
+}
+```
+
