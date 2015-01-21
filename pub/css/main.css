@@ -97,14 +97,50 @@ textarea {
    Author's custom styles
    ========================================================================== */
 
+/*.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.first-row {
+    border: 0.1em solid grey;
+    padding: 1em;
+    width: 10%;
+    float: left;
+}
+
+.second-row {
+ border: 0.1em solid grey;
+    padding: 1em;
+    clear:left;
+    display:inline-block;
+}*/
 
 
 
+#container {
+  max-width: 1230px;
+  height: 700px;  
+  margin: 0 auto;
+}
+    
+.gridBox1, .gridBox2 {
+  height: 8em;
+  width:11%;
+  background-color: #555;
+  float: left;
+  border: 0.1em solid white;
+   color: white;
+    position: ;
 
+}
+.gridBox2 {
+  background-color: #999;
+}
 
-
-
-
+p {
+    position:absolute;
+}
 
 
 
