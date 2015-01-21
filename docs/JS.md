@@ -37,7 +37,7 @@ if (x) {
   // this code is not executed
 }
 ```
-### [Built-in Values: Infinity]
+### [Built-in Value: Infinity]
 *_symbol_: `infinity`
 *_pronunciation: "infinity", "infinity value"
 *_examples_:
@@ -51,14 +51,14 @@ Infinity
 -Infinity
 ```
 
-### [Built-in Values: NaN]
+### [Built-in Value: NaN]
 *_symbol_: `NaN`
 *_pronunciation: "not a number value", "not a number"
 *_examples_:
 ```javascript
 0/0 == NaN
 ```
-### [Built-in Values: undefined]
+### [Built-in Value: undefined]
 *_symbol_: `undefined`
 *_pronunciation: "variable has not been assigned a value"
 *_examples_:
@@ -76,3 +76,105 @@ The result of txt will be:
 
 x is undefined
 ```
+
+### [Operator: Addition](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Arithmetic_Operators#Addition_(.2B))
+
+* _symbol_: `+`
+* _pronunciation_: "plus", "added to"
+* _examples_:
+```javascript
+1 + 2 + 3 // 6, of course
+'1' + 2 + 3 // '123', obviously... WTF?
+```
+
+### [Operator: Subtraction]
+
+* _symbol_: `-`
+* _pronunciation_: "minus", "subtracted from"
+* _examples_:
+```javascript
+4 - 2 - 1 // 1
+
+var y = 5;
+var x = y - 2;
+```
+### [Operator: Multiplication]
+
+* _symbol_: `*`
+* _pronunciation_: "times", "multiply by"
+* _examples_:
+```javascript
+x = y * 2	y = 5	x = 10
+10 * 5 == 50
+```
+
+### [Operator: Division]
+* _symbol_: `/`
+* _pronunciation_: "divided by"
+* _examples_:
+```javascript
+6 / 3 == 2
+x = y / 2	y = 5	x = 2.5
+```
+
+### [Operator: Modulus]
+* _symbol_: `%`
+* _pronunciation_: "division remainder"
+* _examples_:
+```javascript
+x = y % 2	y = 5	x = 1
+```
+
+### [Operator: Increment]
+* _symbol_: `++`
+* _pronunciation_: "increment by"
+* _examples_:
+```javascript
+x = ++y	y = 6	x = 6
+x = y++	y = 6	x = 5
+```
+
+### [Operator: Decrement]
+* _symbol_: `--`
+* _pronunciation_: "decrement by"
+* _examples_:
+```javascript
+x = --y	y = 4	x = 4
+x = y--	y = 4	x = 5
+```
+
+### [Operator: Equal]
+* _symbol_: `==`
+* _pronunciation_: "equal to"
+* _examples_:
+```javascript
+x == 8	false	
+x == 5	true
+```
+
+### [Operator: Not Equal]
+* _symbol_: `!=`
+* _pronunciation_: "not equal to"
+* _examples_:
+```javascript
+x != 8	true	
+
+```
+
+### [Operator: Greater than or Equal to]
+* _symbol_: `>=`
+* _pronunciation_: "greater than or equal to"
+* _examples_:
+```javascript
+x >= 8	false
+```
+
+### [Operator: Equal value and Equal type]
+* _symbol_: `>=`
+* _pronunciation_: "greater than or equal to"
+* _examples_:
+```javascript
+x === "5"	false	
+x === 5	true
+```
+
