@@ -102,6 +102,7 @@ textarea {
 
 
 
+
 table {
     width: 100%;
 }
@@ -119,18 +120,128 @@ background-color: #aaa;
 /********* adding chess pieces********/
 
 :before {
-    font-size: 2em;
+    font-size: 3em;
 }
 
-/*Black Pieces*/
+/*td:hover::before {
+    background-color: lightgreen;
+    
+}*/
+
+
+/****Black Pieces****/
 
 /*rooks*/
 #a8:before, #h8:before {
     position: absolute;
     content: "\265C";
 }
+#a8:hover, #h8:hover {
+    background-color: blue;
+}
 
+/*knights*/
+#b8:before, #g8:before {
+    position: absolute;
+    content: "\265E"
+        
+}
+#b8:hover, #g8:hover {
+    background-color: blue;
+}
 
+/*bishops*/
+#c8:before, #f8:before {
+    position: absolute;
+    content: "\265D";
+}
+#c8:hover, #f8:hover {
+    background-color: blue;
+}
+
+/*queen*/
+#d8:before {
+    position: absolute;
+    content: "\265B";
+}
+#d8:hover {
+    background-color: blue;
+}
+
+/*king*/
+#e8:before {
+    position: absolute;
+    content: "\265A";
+}
+#e8:hover {
+    background-color: blue;
+}
+
+/*pawns*/
+#a7:before, #b7:before, #c7:before, #d7:before, #e7:before, #f7:before, #g7:before, #h7:before {
+    position: absolute;
+    content: "\265F";
+}
+#a7:hover, #b7:hover, #c7:hover, #d7:hover, #e7:hover, #f7:hover, #g7:hover, #h7:hover {
+background-color: blue;
+}
+
+/******White Pieces******/
+
+/*rooks*/
+#a1:before, #h1:before {
+    position: absolute;
+    content: "\2656";
+}
+#a1:hover, #h1:hover {
+    background-color: blue;
+}
+
+/*knights*/
+#b1:before, #g1:before {
+    position: absolute;
+    content: "\2658";
+}
+#b1:hover, #g1:hover {
+    background-color: blue;
+}
+
+/*bishops*/
+#c1:before, #f1:before {
+    position: absolute;
+    content: "\2657";
+}
+#c1:hover, #f1:hover {
+    background-color: blue;
+}
+
+/*queen*/
+#d1:before {
+    position: absolute;
+    content: "\2655";
+}
+#d1:hover {
+     background-color: blue;
+}
+
+/*king*/
+#e1:before {
+    position: absolute;
+    content: "\2654";
+}
+#e1:hover {
+    background-color: blue;
+}
+
+/*pawns*/
+#a2:before, #b2:before, #c2:before, #d2:before, #e2:before, #f2:before, #g2:before, #h2:before {
+    position: absolute;
+    content: "\2659";
+}
+
+#a2:hover, #b2:hover, #c2:hover, #d2:hover, #e2:hover, #f2:hover, #g2:hover, #h2:hover {
+
+ background-color: blue;
 /* ==========================================================================
    Helper classes
    ========================================================================== */
