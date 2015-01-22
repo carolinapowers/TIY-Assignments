@@ -102,36 +102,22 @@ textarea {
 
 
 
-#container {
-  max-width: 1230px;
-  width:100%;    
-}
-    
-.gridBox1, .gridBox2 {
-  
-  width:12.5%;
-  background-color: #555;
-  padding-bottom: 12.5%;
-  float: left;
-  border: 0.1em solid white;
-  color: white;
-  position:relative;
+table {
+    width: 100%;
 }
 
-.gridBox2 {
-  background-color: #999;
+tbody td {
+            border: 1px solid black;
+          }
+
+tbody td {
+            width: 12%; padding-bottom: 12%; height: 0;
 }
 
-p {
-    position:absolute;
+tbody :nth-child(even) td:nth-child(even), 
+tbody :nth-child(odd) td:nth-child(odd) {
+background-color: #aaa;
 }
-
-
-
-
-
-
-
 
 /* ==========================================================================
    Helper classes
