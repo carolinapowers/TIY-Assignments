@@ -341,20 +341,67 @@ console.log(arr)
 * *examples:*
 ```javascript
 Var colors = []; // New empty Array
-Var colors = [Blue, White, Black]; // New Array with some elements
+Var colors = ['Blue', 'White', 'Black']; // New Array with some elements
+
 // Any other way to do it?
+Var colors = new Array ('White', 'Blue', 'Black');
+
+Var colors;
+colors = ['White','Blue'];
+
 ```
 
 #### `Array.length`
 
-* *value:* `Number` of?
+* *value:* `Number` of items in the array.
 * *examples:*
-```javascript
 ```
+var numColors;
+numColors = colors.length // 3
+```
+
+#### [`Array.prototype.push()`]
+
+* *result:* `Adds one or more items to the end of array.` 
+* *parameters:* `The elements to add to the end of the array.`
+* *returns:* `Returns the new length of the array.`
+---
+
 
 #### [`Array.prototype.pop()`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/pop)
 
-* *result:* what does it do?
-* *parameters:* does it have any?
-* *returns:* what types? from where?
+* *result:* `removes the last element from an array`
+* *parameters:* 
+* *returns:* `returns that element`
+---
+
+#### [`Array.prototype.shift()`]
+
+* *result:* `removes the first element from an array`
+* *parameters:* 
+* *returns:* `the element removed`
+---
+
+
+#### [`Array.prototype.reverse()`]
+
+* *result:* `reverses order of items in array. The first array element becomes the last and the last becomes the first.`
+* *parameters:* `none`
+* *returns:* `a reference to the array`
+* *example:*
+```
+var myArray = ['one', 'two', 'three'];
+myArray.reverse(); 
+
+console.log(myArray) // ['three', 'two', 'one']
+```
+---
+
+
+
+#### [`Array.prototype.sort()`]
+
+* *result:* `sorts the elements of an array in place`
+* *parameters:* `compareFunction -- If compareFunction is not supplied, elements are sorted by converting them to strings and comparing strings in Unicode code point order.`
+* *returns:* ` returns the array`
 ---
