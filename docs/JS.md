@@ -398,10 +398,45 @@ console.log(myArray) // ['three', 'two', 'one']
 ---
 
 
-
 #### [`Array.prototype.sort()`]
 
 * *result:* `sorts the elements of an array in place`
 * *parameters:* `compareFunction -- If compareFunction is not supplied, elements are sorted by converting them to strings and comparing strings in Unicode code point order.`
 * *returns:* ` returns the array`
+---
+
+
+#### [`Array.prototype.splice()`]
+
+* *result:* `changes the content of an array by removing existing elements and/or adding new elements.`
+* *parameters:* `start, deleteCount, itemN`
+* *returns:* `An array containing the deleted elements.`
+* *example:*
+```
+var myFish = ['angel', 'clown', 'mandarin', 'surgeon'];
+
+// removes 0 elements from index 2, and inserts 'drum'
+var removed = myFish.splice(2, 0, 'drum');
+// myFish is ['angel', 'clown', 'drum', 'mandarin', 'surgeon']
+// removed is [], no elements removed
+
+// removes 1 element from index 3
+removed = myFish.splice(3, 1);
+// myFish is ['angel', 'clown', 'drum', 'surgeon']
+// removed is ['mandarin']
+```
+
+#### [`Array.prototype.shift()`]
+
+* *result:* `Adds one or more elements to the front of an array`
+* *parameters:* `elementN- The elements to add to the front of the array.`
+* *returns:* `returns the new length of the array.`
+* *example:*
+```
+var arr = [1, 2];
+
+arr.unshift(0); // result of call is 3, the new array length
+// arr is [0, 1, 2]
+```
+---
 ---
