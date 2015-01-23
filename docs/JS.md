@@ -332,3 +332,29 @@ for (i = 0; i < arr.length; arr[i++] = 0) /* empty statement */ ;
 console.log(arr)
 // [0, 0, 0]
 ```
+
+---
+### Literal: `Array` 
+
+* *symbol:* `[ ]`
+* *pronunciation:* "array", "new array"
+* *examples:*
+```javascript
+Var colors = []; // New empty Array
+Var colors = [Blue, White, Black]; // New Array with some elements
+// Any other way to do it?
+```
+
+#### `Array.length`
+
+* *value:* `Number` of?
+* *examples:*
+```javascript
+```
+
+#### [`Array.prototype.pop()`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/pop)
+
+* *result:* what does it do?
+* *parameters:* does it have any?
+* *returns:* what types? from where?
+---
