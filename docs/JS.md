@@ -426,7 +426,7 @@ removed = myFish.splice(3, 1);
 // removed is ['mandarin']
 ```
 
-#### [`Array.prototype.shift()`]
+#### [`Array.prototype.unshift()`]
 
 * *result:* `Adds one or more elements to the front of an array`
 * *parameters:* `elementN- The elements to add to the front of the array.`

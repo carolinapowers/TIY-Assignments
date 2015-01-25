@@ -100,27 +100,47 @@ textarea {
 
 
 
-
+body {
+    background-color: #aaa;
+}
 
 
 table {
-    width: 100%;
+    width: 90%;
+    margin: 0 auto;
 }
 
+thead th {
+    padding-left: 4%; 
+    font-size: 4vw;
+    color: #34495e;
+}
+
+
+tbody th {
+    font-size: 4vw;
+    color: #34495e;
+}
+
+
 tbody td {
-            border: 1px solid black;
-            width: 12%; padding-bottom: 12%; height: 0;
+            border: 2px solid black;
+            width: 12%; padding-bottom: 12%; height:
+0;
+            
 }
 
 tbody :nth-child(even) td:nth-child(even), 
 tbody :nth-child(odd) td:nth-child(odd) {
-background-color: #aaa;
+background-color: #3775ae;
 }
+
+
 
 /********* adding chess pieces********/
 
-:before {
-    font-size: 3em;
+td:before {
+    font-size: 9vw;
 }
 
 /*td:hover::before {
@@ -132,58 +152,59 @@ background-color: #aaa;
 /****Black Pieces****/
 
 /*rooks*/
-#a8:before, #h8:before {
+.piece.black.rook:before {
     position: absolute;
     content: "\265C";
+    
 }
-#a8:hover, #h8:hover {
-    background-color: blue;
+.piece.black.rook:hover {
+    background-color: #758db0;
 }
 
 /*knights*/
-#b8:before, #g8:before {
+.piece.black.knight:before {
     position: absolute;
-    content: "\265E"
+    content: "\265E";
         
 }
-#b8:hover, #g8:hover {
-    background-color: blue;
+.piece.black.knight:hover {
+    background-color: #758db0;
 }
 
 /*bishops*/
-#c8:before, #f8:before {
+.piece.black.bishop:before {
     position: absolute;
     content: "\265D";
 }
-#c8:hover, #f8:hover {
-    background-color: blue;
+.piece.black.bishop:hover {
+    background-color: #758db0;
 }
 
 /*queen*/
-#d8:before {
+.piece.black.queen:before {
     position: absolute;
     content: "\265B";
 }
-#d8:hover {
-    background-color: blue;
+.piece.black.queen:hover {
+    background-color: #758db0;
 }
 
 /*king*/
-#e8:before {
+.piece.black.king:before {
     position: absolute;
     content: "\265A";
 }
 #e8:hover {
-    background-color: blue;
+    background-color: #758db0;
 }
 
 /*pawns*/
-#a7:before, #b7:before, #c7:before, #d7:before, #e7:before, #f7:before, #g7:before, #h7:before {
+.piece.black.pawn:before {
     position: absolute;
     content: "\265F";
 }
-#a7:hover, #b7:hover, #c7:hover, #d7:hover, #e7:hover, #f7:hover, #g7:hover, #h7:hover {
-background-color: blue;
+.piece.black.pawn:hover {
+background-color: #758db0;
 }
 
 /******White Pieces******/
@@ -194,7 +215,7 @@ background-color: blue;
     content: "\2656";
 }
 #a1:hover, #h1:hover {
-    background-color: blue;
+    background-color: #758db0;
 }
 
 /*knights*/
@@ -203,7 +224,7 @@ background-color: blue;
     content: "\2658";
 }
 #b1:hover, #g1:hover {
-    background-color: blue;
+    background-color: #758db0;
 }
 
 /*bishops*/
@@ -212,7 +233,7 @@ background-color: blue;
     content: "\2657";
 }
 #c1:hover, #f1:hover {
-    background-color: blue;
+    background-color: #758db0;
 }
 
 /*queen*/
@@ -221,7 +242,7 @@ background-color: blue;
     content: "\2655";
 }
 #d1:hover {
-     background-color: blue;
+     background-color: #758db0;
 }
 
 /*king*/
@@ -230,7 +251,7 @@ background-color: blue;
     content: "\2654";
 }
 #e1:hover {
-    background-color: blue;
+    background-color: #758db0;
 }
 
 /*pawns*/
@@ -241,7 +262,7 @@ background-color: blue;
 
 #a2:hover, #b2:hover, #c2:hover, #d2:hover, #e2:hover, #f2:hover, #g2:hover, #h2:hover {
 
- background-color: blue;
+ background-color: #758db0;
     
 }
 /* ==========================================================================
