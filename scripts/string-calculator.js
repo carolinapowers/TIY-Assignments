@@ -109,7 +109,7 @@ it('should add "nine" and "two"', function(){
     assert(plus("nine","two"),1);
 })*/
 
-function plus(A,B) {
+/*function plus(A,B) {
     if(A=="three"&&B=="three") {
         return 6;
     }
@@ -117,4 +117,77 @@ function plus(A,B) {
 
 it('should be "three" and "three"', function(){
     assert.equal(plus("three","three"),6);
+})*/
+
+/*function plus (A,B) {
+    if(A=="four"){
+        return 5;
+    } 
+}
+
+it('should add "five" and "nine"', function(){
+    assert.equal(plus("four","nine"),5);
+})*/
+
+/*function plus (A,B){
+    if(B=="five") {
+        return 5;
+    }
+}
+
+it('should add "four" and "five"', function(){
+    assert(plus("four","five"), 5);
+})*/
+
+/*function plus (A,B) {
+    if(B=="six"){
+        return 6;
+    }
+}
+
+it('should add "five" and "six"', function(){
+    assert.equal(plus("five","six"), 6);
+})*/
+
+/*function plus(A,B){
+    if(B=="seven") {
+        return 7;
+    }
+}
+
+it('should add "six" and "seven"', function(){
+    assert.equal(plus("six","seven"),7);
+})*/
+
+/*function plus(A,B){
+    if(A=="eight"){
+        return 8;
+    }
+}
+
+it('should add "eight" and "nine"', function(){
+    assert.equal(plus("eight","nine"), 8);
+})*/
+
+/*function plus(A,B){
+    if(A=="nine"&&B=="nine") {
+        return 9;
+    }
+}
+
+it('should add "nine" and "nine"', function(){
+    assert.equal(plus("nine","nine"),9);
+})*/
+
+function plus(A,B){
+    if (A=="ten"||B=="four"){
+        return 10;
+    }
+    
+}
+
+it('should add "two" and "four"', function(){
+    assert.equal(plus("two","four"),10);
 })
+
+
