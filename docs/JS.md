@@ -170,7 +170,7 @@ x >= 8	false
 ```
 
 ### [Operator: Equal value and Equal type]
-* _symbol_: `>=`
+* _symbol_: `===`
 * _pronunciation_: "greater than or equal to"
 * _examples_:
 ```javascript
@@ -439,4 +439,77 @@ arr.unshift(0); // result of call is 3, the new array length
 // arr is [0, 1, 2]
 ```
 ---
----
+
+Iteration methods
+
+#### [`Array.prototype.forEach()`]
+
+* *result:* `executes a provided function once per array element.`
+* *parameters:* `callback(currentValue,index,array),thisArg.`
+* *returns:* 
+* *example:*
+```
+function logArrayElements(element, index, array) {
+  console.log('a[' + index + '] = ' + element);
+}
+
+// Note ellision, there is no member at 2 so it isn't visited
+[2, 5, , 9].forEach(logArrayElements);
+// logs:
+// a[0] = 2
+// a[1] = 5
+// a[3] = 9
+```
+#### [`Array.prototype.every()`]
+
+ *result:* `Returns true if every element in this array satisfies the provided testing function.`
+* *parameters:* `callback(currentValue,index,array),thisArg.`
+* *returns:* `True if...`
+* *example:*
+```
+function isBigEnough(element, index, array) {
+  return element >= 10;
+}
+[12, 5, 8, 130, 44].every(isBigEnough);   // false
+[12, 54, 18, 130, 44].every(isBigEnough); // true
+```
+#### [`Array.prototype.some()`]
+
+ *result:* `tests whether some element in the array passes the test implemented by the provided function.`
+* *parameters:* `callback(currentValue,index,array),thisArg.`
+* *returns:* `True or False`
+* *example:*
+```
+function isBiggerThan10(element, index, array) {
+  return element > 10;
+}
+[2, 5, 8, 1, 4].some(isBiggerThan10);  // false
+[12, 5, 8, 1, 4].some(isBiggerThan10); // true
+```
+#### [`Array.prototype.filter()`]
+
+ *result:* `Creates a new array with all of the elements of this array for which the provided filtering function returns true.`
+* *parameters:* `callback(currentValue,index,array),thisArg.`
+* *returns:* `True or False`
+* *example:*
+```
+function isBigEnough(element) {
+  return element >= 10;
+}
+var filtered = [12, 5, 8, 130, 44].filter(isBigEnough);
+// filtered is [12, 130, 44]
+```
+
+#### [`Array.prototype.map()`]
+
+ *result:* `Creates a new array with the results of calling a provided function on every element in this array.`
+* *parameters:* `callback(currentValue,index,array),thisArg.`
+* *returns:* 
+* *example:*
+```
+var numbers = [1, 4, 9];
+var doubles = numbers.map(function(num) {
+  return num * 2;
+});
+// doubles is now [2, 8, 18]. numbers is still [1, 4, 9]
+```

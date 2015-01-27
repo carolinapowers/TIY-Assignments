@@ -1,5 +1,21 @@
 var assert = require('assert');
 
+/*
+function plus() {
+return;
+}
+
+it('should have a function called 'plus'),function {
+assert(plus);
+assert(typeof plus == 'function');
+};
+
+it('should take "zero", function(){
+assert(plus)("zero"),0);
+});
+*/
+
+
 /*function plus (A,B) {
     if ( A == "zero") { 
         return 2;
