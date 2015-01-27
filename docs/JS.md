@@ -513,3 +513,40 @@ var doubles = numbers.map(function(num) {
 });
 // doubles is now [2, 8, 18]. numbers is still [1, 4, 9]
 ```
+
+#### [`Array.prototype.reduce()`]
+
+ *result:* `Apply a function against an accumulator and each value of the array (from left-to-right) as to reduce it to a single value.`
+* *parameters:* `previousValue, currentValue, index, array, initialValue.`
+* *returns:* `number(value)`
+* *example:*
+```
+[0, 1, 2, 3, 4].reduce(function(previousValue, currentValue, index, array) {
+  return previousValue + currentValue;
+}, 10);
+
+Example: Sum up all values within an array
+
+var total = [0, 1, 2, 3].reduce(function(a, b) {
+  return a + b;
+});
+// total == 6
+Example: Flatten an array of arrays
+
+var flattened = [[0, 1], [2, 3], [4, 5]].reduce(function(a, b) {
+  return a.concat(b);
+});
+// flattened is [0, 1, 2, 3, 4, 5]
+```
+
+#### [`Array.prototype.reduceRight()`]
+
+ *result:* `Apply a function against an accumulator and each value of the array (from right-to-left) as to reduce it to a single value.`
+* *parameters:* `previousValue, currentValue, index, array, initialValue.`
+* *returns:* `number(value)`
+* *example:*
+```
+"[0, 1, 2, 3, 4].reduce(function(previousValue, currentValue, index, array) {
+  return previousValue + currentValue;
+}, 10);
+```
