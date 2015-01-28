@@ -15,11 +15,16 @@ function answer () {
         'total': events.length,
         'PushEvent': {
             'total': pushEvents.length
-
-        }
+               
+        },
+        other:{
+            'total': answer.total - answer.PushEvent.total
+        
+    }
     }
 }
 
+console.log(answer.total - answer.PushEvent.total);
 console.log(answer());
 
 
