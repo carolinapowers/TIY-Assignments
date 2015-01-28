@@ -1,6 +1,6 @@
 var assert = require('assert');
 
-var numbers = ["zero","one","two","three","four","five","six","seven","eight","nine","ten"];
+//var numbers = ["zero","one","two","three","four","five","six","seven","eight","nine","ten"];
 
 function plus (A,B){
     var numbers = {
