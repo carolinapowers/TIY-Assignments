@@ -25,15 +25,59 @@ var assert = require('assert');
 //    
 //}
 
-var toEnglish=["zero","one","two","three","four","five","six","seven","eight","nine","ten"]  
+//var toEnglish=["zero","one","two","three","four","five","six","seven","eight","nine","ten"]  
 
 function print(n){
+    var toEnglish = {
+        0: "zero",
+        1:"one",
+        2:"two",
+        3:"three",
+        4:"four",
+        5:"five",
+        6:"six",
+        7:"seven",
+        8:"eight",
+        9:"nine",
+        10:"ten",
+        11:"eleven",
+        12:"twelve",
+        13:"thirteen",
+        14:"fourteen",
+        15:"fifteen",
+        16:"sixteen",
+        17:"seventeen",
+        18:"eighteen",
+        19:"nineteen",
+        20:"twenty",
+    }
+    
     return toEnglish[n];        
 } 
 
-it('should print numbers from string"', function (){
+it('should print numbers from strings"', function (){
+    assert.equal(print(0),"zero");
+    assert.equal(print(1),"one");
+    assert.equal(print(2),"two");
+    assert.equal(print(3),"three");
     assert.equal(print(4),"four");
-})
+    assert.equal(print(5), "five");
+    assert.equal(print(6), "six");
+    assert.equal(print(7),"seven");
+    assert.equal(print(8),"eight");
+    assert.equal(print(9),"nine");
+    assert.equal(print(10),"ten");
+    assert.equal(print(11), "eleven");
+    assert.equal(print(12), "twelve");
+    assert.equal(print(13), "thirteen");
+    assert.equal(print(14),"fourteen");
+    assert.equal(print(15),"fifteen");
+    assert.equal(print(16), "sixteen");
+    assert.equal(print(17), "seventeen");
+    assert.equal(print(18), "eighteen");
+    assert.equal(print(19),"nineteen");
+    assert.equal(print(20), "twenty");
+});
 
 
 //it('should return 1 as string "one"', function() {
