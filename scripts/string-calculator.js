@@ -1,5 +1,24 @@
 var assert = require('assert');
 
+var numbers = ["zero","one","two","three","four","five","six","seven","eight","nine","ten"];
+
+function plus (A,B){
+    var numbers = {
+        "zero": 0,
+        "one": 1,
+        "two": 2,
+        "three": 3,
+        "four": 4,
+        "five": 5,
+        "six": 6,
+        "seven": 7,
+        "eight": 8,
+        "nine": 9,
+        "ten": 10,
+    }
+}
+
+return numbers[B];
 /*
 function plus() {
 return;
@@ -195,7 +214,7 @@ it('should add "nine" and "nine"', function(){
     assert.equal(plus("nine","nine"),9);
 })*/
 
-function plus(A,B){
+/*function plus(A,B){
     if (A=="ten"||B=="four"){
         return 10;
     }
@@ -204,6 +223,6 @@ function plus(A,B){
 
 it('should add "two" and "four"', function(){
     assert.equal(plus("two","four"),10);
-})
+})*/
 
 
