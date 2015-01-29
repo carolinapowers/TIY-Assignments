@@ -66,6 +66,21 @@
   * `(Array): Returns the slice of array.`
 * _differences:_
 
+### [`_filter`](https://lodash.com/docs#filter)
+* _params:_
+  * `Array`|`Object`|`String` `collection` to iterate over
+* _arguments_` Collection (Array|Object|string): The collection to iterate over.
+               [predicate=_.identity] (Function|Object|string): The function invoked per iteration. If a property name or object is provided it is used to create a ".property" or ".matches" style callback respectively.
+               [thisArg] (*): The this binding of predicate.`
+    * an `Object` is compared like [`_.matches`](http://lodash.com/docs#matches)
+    * a `String` is compared like [`_.property`](http://lodash.com/docs#property)
+  * `thisArg` binding for `predicate`
+* _returns:_
+  * `(Array): Returns the new filtered array. 
+* _differences:_
+  * not just for `Array`; can be run with `Object` and `String` as `collection`
+  * `predicate` can be `Object` or `String` or `Function`
+
 
 
   
