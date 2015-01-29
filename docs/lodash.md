@@ -42,3 +42,16 @@
 * _differences:_
   * not just for `Array`; can be run with `Object` and `String` as `collection`
   * `predicate` can be `Object` or `String` or `Function`
+  
+  
+  ### [`_.pop`](https://lodash.com/docs#pop)
+  * _params:_
+   `Array`|
+* _arguments:_
+    `array (Array): The array to process.`
+    `[size=1] (numer): The length of each chunk.`
+* _returns:_
+  * `(Array): Returns the new array containing chunks.`
+* _differences:_
+
+  
