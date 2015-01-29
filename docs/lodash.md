@@ -44,7 +44,7 @@
   * `predicate` can be `Object` or `String` or `Function`
   
   
-  ### [`_.pop`](https://lodash.com/docs#pop)
+  ### [`_.chunk`](https://lodash.com/docs#pop)
   * _params:_
    `Array`|
 * _arguments:_
