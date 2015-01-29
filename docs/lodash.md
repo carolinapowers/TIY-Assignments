@@ -101,6 +101,20 @@
   * not just for `Array`; can be run with `Object` and `String` as `collection`
  
 
-
+### [`_forEach`](https://lodash.com/docs#forEach)
+* _params:_
+  * `Array`|`Object`|`String` `collection` to iterate over
+* _arguments_
+            `collection (Array|Object|string): The collection to iterate over.`
+            `[iteratee=_.identity] (Function): The function invoked per iteration.`
+            `[thisArg] (*): The this binding of iteratee.`
+    * an `Object` is compared like [`_.matches`](http://lodash.com/docs#matches)
+    * a `String` is compared like [`_.property`](http://lodash.com/docs#property)
+  * `thisArg` binding for `predicate`
+* _returns:_
+  * `(Array): Returns the new mapped array.`
+* _differences:_
+  * not just for `Array`; can be run with `Object` and `String` as `collection`
+ 
 
   
