@@ -45,13 +45,27 @@
   
   
   ### [`_.chunk`](https://lodash.com/docs#pop)
-  * _params:_
+* _params:_
    `Array`|
 * _arguments:_
-    `array (Array): The array to process.`
-    `[size=1] (numer): The length of each chunk.`
+    `array (Array): The array to slice.`
+    `[start=0] (number): The start position.`
+    `[end=array.length] (number): The end position.`
 * _returns:_
   * `(Array): Returns the new array containing chunks.`
 * _differences:_
+
+### [`_.slice`](https://lodash.com/docs#slice)
+ * _params:_
+   `Array`|
+* _arguments:_
+    `array (Array): The array to slice.`
+    `[start=0] (number): The start position.`
+    `[end=array.length] (number): The end position.`
+* _returns:_
+  * `(Array): Returns the slice of array.`
+* _differences:_
+
+
 
   
