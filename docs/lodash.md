@@ -101,7 +101,7 @@
   * not just for `Array`; can be run with `Object` and `String` as `collection`
  
 
-### [`_forEach`](https://lodash.com/docs#forEach)
+### [`_map`](https://lodash.com/docs#forEach)
 * _params:_
   * `Array`|`Object`|`String` `collection` to iterate over
 * _arguments_
