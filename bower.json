@@ -1,0 +1,22 @@
+{
+  "name": "TIY-Assignments",
+  "version": "0.0.0",
+  "homepage": "https://github.com/carolinapowers/TIY-Assignments",
+  "authors": [
+    "Carolina Powers <carolinapoloni@gmail.com>"
+  ],
+  "description": "index.html",
+  "main": "index.html",
+  "license": "CC0",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "jquery": "~2.1.3"
+  }
+}
