@@ -97,86 +97,67 @@ textarea {
    Author's custom styles
    ========================================================================== */
 
-            h2 {
-                border-bottom: solid 1px gray;
-                padding-bottom: 1ex;
-            }
-            h2 > a {
-                text-decoration: none;
-                color:blue;
-            }
-            h2 > a:before{
-                content: '\2799';
-                padding-right: 0.5em;
-                color: gray;
-                display: inline-block;
-                width: 1em;
-            }
-            a:hover {
-                color:blue;
-                text-decoration: none;
-            }
-            a:visited {
-                color: blue;
-                text-decoration: none;
-            }
-            
-            h2 > a:hover:before{
-                content: '\2798';
-                color: blue;
-            }
-            
-            .open {
-                display: block;
-            }
+            #container {
+    width: 80%;
+    margin: 0 auto;
+}
 
-            h2 + article {
-                display: none;
-            }
-            
-            h2.open + article {
-                display: block;
-            }
-            h2.open > a:before{
-                content: '\2797';
-                color: blue;
-/*
 h2 {
-            border-bottom: 1px solid gray;
-            padding-bottom: 1ex;
-          }
-          h2 > a {
-            text-decoration: none;
-            color: blue;
-          }
-          h2 > a:before {
-            content: '\2799';
-            padding-right: 0.5em;
-            color: gray;
-            display: inline-block;
-            width: 1em;
-          }
-          h2 > a:hover:before{
-            content: '\2798';
-            color: blue;
-          }
-          h2 + article {
-            display:none;
-          }
-          h2.open + article {
-            display:block;
-          }
-          h2.open > a:before {
-            content: '\2796';
-            color: blue;
-          }
-*/
+    border-bottom: 1px solid grey;
+    padding-bottom: 1ex;
+}
+h2 {
+    border-bottom: 1px solid grey;
+    padding-bottom: 1ex;
+}
+h2 > a, h3 > a {
+    text-decoration: none;
+    color: lightblue;
+}
+
+h2 > a:before {
+    content: "\2799";
+    color:grey;
+    display: inline-block;
+    padding-right: .5em;
+    width: 1em;
+}
+h2 > a:hover:before {
+    content: "\2798";
+    color: lightblue;
+    display: inline-block;
+    padding-right: .5em;
+    width: 1em;
+}
+article {
+    display: none;
+}
+article h3, article article {
+    width: 95%;
+    margin: 0 auto;
+}
+article h3:before{
+    content: "\2799";
+    color: grey;
+    display: inline-block;
+    padding-right: .5em;
+    width: 1em;
+}
+article h3:hover:before {
+    content: "\2798";
+    padding-right: .5em;
+    display: inline-block;
+    width: 1em;
+
+}
+.open {
+    display: block;
+}   
 
 
-
-
-
-
+.closed {
+    display: none;
+}
 
 
 
