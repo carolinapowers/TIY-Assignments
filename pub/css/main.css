@@ -97,176 +97,19 @@ textarea {
    Author's custom styles
    ========================================================================== */
 
-body {
-    background-color: #aaa;
-}
-
-
-table {
-    width: 90%;
-    margin: 0 auto;
-}
-
-thead th {
-    padding-left: 4%; 
-    font-size: 4vw;
-    color: #34495e;
-}
-
-
-tbody th {
-    font-size: 4vw;
-    color: #34495e;
-}
-
-
-tbody td {
-            border: 2px solid black;
-            width: 12%; padding-bottom: 12%; height:
-0;
-            
-}
-
-tbody :nth-child(even) td:nth-child(even), 
-tbody :nth-child(odd) td:nth-child(odd) {
-background-color: #3775ae;
-}
 
 
 
-/********* adding chess pieces********/
-
-td:before {
-    font-size: 9vw;
-}
-
-/*td:hover::before {
-    background-color: lightgreen;
-    
-}*/
 
 
-/****Black Pieces****/
 
-/*rooks*/
-.piece.black.rook:before {
-    position: absolute;
-    content: "\265C";
-    
-}
-.piece.black.rook:hover {
-    background-color: #758db0;
-}
 
-/*knights*/
-.piece.black.knight:before {
-    position: absolute;
-    content: "\265E";
-        
-}
-.piece.black.knight:hover {
-    background-color: #758db0;
-}
 
-/*bishops*/
-.piece.black.bishop:before {
-    position: absolute;
-    content: "\265D";
-}
-.piece.black.bishop:hover {
-    background-color: #758db0;
-}
 
-/*queen*/
-.piece.black.queen:before {
-    position: absolute;
-    content: "\265B";
-}
-.piece.black.queen:hover {
-    background-color: #758db0;
-}
 
-/*king*/
-.piece.black.king:before {
-    position: absolute;
-    content: "\265A";
-}
-#e8:hover {
-    background-color: #758db0;
-}
 
-/*pawns*/
-.piece.black.pawn:before {
-    position: absolute;
-    content: "\265F";
-}
-.piece.black.pawn:hover {
-background-color: #758db0;
-}
 
-/******White Pieces******/
 
-/*rooks*/
-#a1:before, #h1:before {
-    position: absolute;
-    content: "\2656";
-}
-#a1:hover, #h1:hover {
-    background-color: #758db0;
-}
-
-/*knights*/
-#b1:before, #g1:before {
-    position: absolute;
-    content: "\2658";
-}
-#b1:hover, #g1:hover {
-    background-color: #758db0;
-}
-
-/*bishops*/
-#c1:before, #f1:before {
-    position: absolute;
-    content: "\2657";
-}
-#c1:hover, #f1:hover {
-    background-color: #758db0;
-}
-
-/*queen*/
-#d1:before {
-    position: absolute;
-    content: "\2655";
-}
-#d1:hover {
-     background-color: #758db0;
-}
-
-/*king*/
-#e1:before {
-    position: absolute;
-    content: "\2654";
-}
-#e1:hover {
-    background-color: #758db0;
-}
-
-/*pawns*/
-#a2:before, #b2:before, #c2:before, #d2:before, #e2:before, #f2:before, #g2:before, #h2:before {
-    position: absolute;
-    content: "\2659";
-}
-
-#a2:hover, #b2:hover, #c2:hover, #d2:hover, #e2:hover, #f2:hover, #g2:hover, #h2:hover {
-
- background-color: #758db0;
-    
-}
-
-button {
-    background-color: blue;
-    
-}
 
 
 
