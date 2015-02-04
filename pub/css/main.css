@@ -98,9 +98,31 @@ textarea {
    ========================================================================== */
 
 
+body {
+    background-color: #47a3da;
+    color: white;
+    cursor: pointer;
+    font-family: 'Lato', sans-serif;
+}
 
+.container {
+    padding-top: 5%;
+    width: 90%;
+}
 
+div {
+    padding-bottom: 2%;
+}
 
+select {
+    margin-bottom: 2%;
+}
+
+.form-control {
+    border: 3px solid white;
+    background-color: transparent;
+    border-radius: 0;
+}
 
 
 
