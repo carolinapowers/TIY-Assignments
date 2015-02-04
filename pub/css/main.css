@@ -111,11 +111,11 @@ body {
 }
 
 div {
-    padding-bottom: 2%;
+    padding-bottom: 5%;
 }
 
 select {
-    margin-bottom: 2%;
+    margin-bottom: 7%;
 }
 
 .form-control {
@@ -124,6 +124,9 @@ select {
     border-radius: 0;
 }
 
+button {
+    margin: 0 auto;
+}
 
 
 
