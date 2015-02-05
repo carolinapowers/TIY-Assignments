@@ -123,6 +123,14 @@ section {
     width: 60%;
 }
 
+ul {
+    list-style-type: none;
+    padding: 0px;
+    margin:  0px;
+}
+
+
+
 .tabs {
             font-size: 1.5em;
             text-align: center;
@@ -149,6 +157,18 @@ section {
             padding: 0 1em;
 }
 
+
+table {
+    margin-top: 5%;
+    border-radius: 6px;
+
+}
+
+table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+    padding: 1.5em;
+}
 
 
 
