@@ -98,35 +98,10 @@ textarea {
    ========================================================================== */
 
 
-body {
-    background-color: #47a3da;
-    color: white;
-    cursor: pointer;
-    font-family: 'Lato', sans-serif;
-}
 
-.container {
-    padding-top: 5%;
-    width: 90%;
-}
 
-div {
-    padding-bottom: 5%;
-}
 
-select {
-    margin-bottom: 7%;
-}
 
-.form-control {
-    border: 3px solid white;
-    background-color: transparent;
-    border-radius: 0;
-}
-
-button {
-    margin: 0 auto;
-}
 
 
 
