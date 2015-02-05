@@ -97,8 +97,15 @@ textarea {
    Author's custom styles
    ========================================================================== */
 
+figure img {
+    height: 10em;
+    width: 10em;
+    border-radius: 6px;
+}
 
-
+.figcaption {
+    font-size: 1em;
+}
 
 
 
