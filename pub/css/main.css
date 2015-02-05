@@ -97,18 +97,57 @@ textarea {
    Author's custom styles
    ========================================================================== */
 
+.container {
+    width: 80%;
+    padding-top: 10%;
+}
+
 figure img {
     height: 10em;
     width: 10em;
     border-radius: 6px;
+    padding-top: 5px;
 }
 
-.figcaption {
+figcaption {
     font-size: 1em;
 }
 
+aside { 
+float: left;
+width: 30%;
+}
+
+section {
+    float: right;
+    width: 60%;
+}
+
+.tabs {
+            font-size: 1.5em;
+            text-align: center;
+            border-bottom: 1px solid lightgrey;
+            
+}
+
+.tabs > a.active {
+            border-top: 1px solid lightgrey;
+            border-right: 1px solid lightrey;
+            border-left:1px solid lightgrey;
+            margin: 1px;
+            
+}
 
 
+
+.tabs > a {
+            font-size: 1em;
+            color: gray;
+            text-decoration: none;
+            display:inline-block;
+            margin-bottom: -1px;
+            padding: 0 1em;
+}
 
 
 
