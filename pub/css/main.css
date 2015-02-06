@@ -97,9 +97,10 @@ textarea {
    Author's custom styles
    ========================================================================== */
 
-.container {
+.container-fluid {
     width: 80%;
     padding-top: 10%;
+   
 }
 
 figure img {
@@ -113,15 +114,6 @@ figcaption {
     font-size: 1em;
 }
 
-aside { 
-float: left;
-width: 30%;
-}
-
-section {
-    float: right;
-    width: 60%;
-}
 
 ul {
     list-style-type: none;
@@ -129,8 +121,45 @@ ul {
     margin:  0px;
 }
 
+.followers > a {
+    display: inline-block;
+    text-align: center;
+    text-decoration: none;
+    margin-right: 0.9em;
+   
+}
+
+.followers p {
+    display: inline;
+    font-size: 2em;
+    color: #4183c4;
+}
 
 
+
+.popular-repo ul {
+    border: 0.1em solid lightgray;
+    border-radius: 6px;
+    margin-top: 5%;
+   
+}
+
+#pop-repo {
+    background-color: #f2f2f2;
+    padding: 0.5em 2em;
+    border-bottom: 0.1em solid lightgray;
+} 
+
+
+.popular-repo li {
+    padding-left: 2em;
+    border-bottom: 0.1em;
+   
+}
+
+
+
+/*
 .tabs {
             font-size: 1.5em;
             text-align: center;
@@ -160,7 +189,6 @@ ul {
 
 table {
     margin-top: 5%;
-    border-radius: 6px;
 
 }
 
@@ -171,6 +199,7 @@ table, th, td {
 }
 
 
+*/
 
 
 

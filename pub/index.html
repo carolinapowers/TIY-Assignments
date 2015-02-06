@@ -11,12 +11,11 @@
         <meta name="viewport" content="width=device-width, initial-scale=1">
 
         <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
-
+        <link rel="stylesheet" href="../octicons/octicons.css">
         <link rel="stylesheet" href="css/normalize.css">
         <!--bower:css-->
         <link rel="stylesheet" href="bower_components/bootstrap/dist/css/bootstrap.css" />
         <!--endbower-->
-         <link rel="stylesheet" href="/octicons/octicons.css">
         <link rel="stylesheet" href="css/main.css">
         <script src="js/vendor/modernizr-2.6.2.min.js"></script>
     </head>
@@ -26,39 +25,65 @@
         <![endif]-->
 
         <!-- Add your site or application content here -->
-        <div class="container">
-            <aside>
-                <figure>
-                    <img src="https://avatars1.githubusercontent.com/u/583231?v=3&s=460" class="octocatpic"> 
-                </figure>        
-                <figcaption><strong>The Octocat</strong><br>octocat</br></figcaption>    
-                <ul>
-                    <li>GitHub</li>
-                    <li>San Francisco</li>
-                    <li><a href="mailto:octocat.github.com">octocat.github.com</a></li>
-                    <li><a href="http://www.github.com/blog">www.github.com/blog</a></li>
-                    <li>Joined on Jan 25, 2011</li>
-                </ul>
-            </aside><!--row-->  
-            <section>
-                <nav class="tabs active"> 
-                    <a class="active" href="#">About</a>
-                    <a href="#">Repositories</a> 
-                    <a href="#">Public Activity</a>       
-                </nav><!--tabs-->
+        <div class="container-fluid">
+             <div class='col-sm-3'>
+                <aside>
+                    <figure>
+                        <img class="img-responsive" src="https://avatars1.githubusercontent.com/u/583231?v=3&s=460" class="octocatpic"> 
+                    </figure>        
+                    <figcaption><strong>The Octocat</strong><br>octocat</br></figcaption>  
+                    <hr>
+                    <ul>
+                        <li><span class="octicon octicon-organization"></span>GitHub</li>
+                        <li><span class="octicon octicon-location"></span>San Francisco</li>
+                        <li><span class="octicon octicon-mail"></span>
+                            <a href="mailto:octocat.github.com">octocat.github.com</a>
+                        </li>
+                        <li><span class="octicon octicon-link"></span>
+                            <a href="http://www.github.com/blog">www.github.com/blog</a></li>
+                        <li><span class="octicon octicon-clock"></span>Joined on Jan 25, 2011</li>
+                    </ul>
+                    <hr>
+                        <nav class = "followers">
+                            <a href="#"><p>826</p><br class ="br">Followers</br></a>
+                            <a href="#"><p>2</p><br class="bro">Starred</br></a>
+                            <a href="#"><p>6</p><br class="br">Following</br></a>
+                        </ul>
+
                 
-           
-                    
-                    <table style="width:100%">
-                      <tr>
-                        <td>Popular Repositories</td>
-                      </tr>
-                      <tr>
-                        <td>Spoon-Knife<br>This repo is for demonstration only.<br></td>
-                      </tr>
-                    </table>
-                
-            </section>    
+                    <hr>
+                </aside><!--row-->  
+            </div><!--col-sm-3-->
+            <div class='col-sm-9'>
+                <section>
+                    <nav role="navigation">
+                        <ul class="nav nav-tabs"> 
+                            <li role="presentation" class="active hidden-xs col-sm-3">
+                                <a href="#" data-toggle="tab">Contributions</a></li>
+                            <li role="presentation" class="col-xs-4 col-sm-3">
+                                <a href="#" data-toggle="tab">Repositories</a></li>
+                            <li role="presentation" class="hidden-xs col-sm-3">
+                                <a href="#" data-toggle="tab">Public Activity</a></li>
+                        </ul>    
+                    </nav><!--tabs-->
+                    <div>
+                    <div class='tab-pane fade in active' id="A">
+                            <div class='popular-repo'>
+                                <ul>
+                                    <li id="pop-repo">Popular Repositories</li>
+                                    <li><a href=""><h5>Spoon-Knife</h5></a>
+                                        <p>This repo is for demonstration only.</p>
+                                    </li><hr>
+                                    <li><a href=""><h5>Hello-World</h5></a><p>My first repository.</p></li><hr>
+                                    <li><a href=""><h5>hello-world</h5></a><p>Your first repo.</p></li><hr>
+                                    <li><a href=""><h5>octocat.github.io</h5></a><p>Words.</p></li><hr>
+                                    <li><a href=""><h5>git-consortium</h5></a><p>Just another repository.</p></li><hr>
+                                </ul>
+                            </div>
+                    </div> 
+                    </div>
+                </section>    
+            </div><!--col-sm-9-->     
         </div><!--container-->    
         
         <!--bower:js-->
