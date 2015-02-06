@@ -130,7 +130,7 @@ figcaption {
     display: inline-block;
     text-align: center;
     text-decoration: none;
-    margin-right: 0.9em;
+    margin-right: 0.5em;
    
 }
 
@@ -158,58 +158,19 @@ figcaption {
 
 .popular-repo li {
     padding-left: 2em;
-    border-bottom: 0.1em;
-   
+    
 }
 
 
-
-/*
-.tabs {
-            font-size: 1.5em;
-            text-align: center;
-            border-bottom: 1px solid lightgrey;
-            
-}
-
-.tabs > a.active {
-            border-top: 1px solid lightgrey;
-            border-right: 1px solid lightrey;
-            border-left:1px solid lightgrey;
-            margin: 1px;
-            
-}
-
-
-
-.tabs > a {
-            font-size: 1em;
-            color: gray;
-            text-decoration: none;
-            display:inline-block;
-            margin-bottom: -1px;
-            padding: 0 1em;
-}
-
-
-table {
+.public-repo {
+    border: 0.1em solid grey;
+    background-color: #f2f2f2;
+    border-radius: 6px;
     margin-top: 5%;
-
+    text-align: center;
+    padding: 3em 0;
+    
 }
-
-table, th, td {
-    border: 1px solid black;
-    border-collapse: collapse;
-    padding: 1.5em;
-}
-
-
-*/
-
-
-
-
-
 
 
 
