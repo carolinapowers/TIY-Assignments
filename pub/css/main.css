@@ -173,11 +173,17 @@ figcaption {
 }
 
 .second-row {
-    padding: 5% 0;
+    padding-top: 5%;
     
 }
 
+.third-row {
+    padding-bottom: 10%;
+}
 
+.row button {
+    margin-left: -1em;
+}
 
 /* ==========================================================================
    Helper classes
