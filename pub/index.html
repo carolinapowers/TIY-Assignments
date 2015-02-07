@@ -55,7 +55,7 @@
                             <ul class="nav nav-tabs"> 
                                 <li role="presentation" class="active hidden-xs col-sm-3">
                                     <a href="#A" data-toggle="tab">Contributions</a></li>
-                                <li role="presentation" class="col-xs-4 col-sm-3">
+                                <li role="presentation" class="hidden-xs col-sm-3">
                                     <a href="#B" data-toggle="tab">Repositories</a></li>
                                 <li role="presentation" class="hidden-xs col-sm-3">
                                     <a href="#C" data-toggle="tab">Public Activity</a></li>
@@ -104,19 +104,30 @@
                     </div><!--C-->    
                     </div><!--tab-content-->    
                 </div><!--col-sm-9-->
-            </div><!--classrow-->
-            <div class="row second-row">
-                <div class="col-sm-6 col-sm-offset-3">
-                    <div class="form">
-                        <div class="form-group">
-                            <textarea class="form-control" rows="5" id="comment">   </textarea>
-                        </div><!--formgroup-->
-                    </div><!--form-->
-                </div><!--col offset-->           
-            </div><!--classrow-->
-            <div class="row third-row col-sm-offset-8">
-                    <button type="button" class="btn btn-success">Comment</button>
-            </div> 
+            </div><!--classrow-->           
+            <div class="row">
+                <div class="col-sm-1 col-sm-offset-3">
+                        <div class="thumbnail hidden-xs">
+                            <img class="img-responsive user-pic" src="https://ssl.gstatic.com/accounts/ui/avatar_2x.png">
+                        </div><!-- /thumbnail -->
+                </div><!--col-sm-1 -->
+                <div class="comment-section col-sm-8">
+                    <div class="panel panel-default">
+                        <div class="panel-heading">
+                            <div class="navigation-tabs">
+                                <ul class="nav nav-tabs">
+                                    <li class="active"><a href="#" data-toggle="tab">Write</a></li>
+                                    <li class=""><a href="#" data-toggle="tab">Preview</a></li>
+                                </ul><!--nav-tabs-->
+                            </div><!--navigation-tabs-->
+                        </div><!--panelheading-->
+                        <div class="panel-body">
+                            <textarea class="form-control" rows="6" placeholder="Leave a comment"></textarea>
+                            <button class="btn btn-success" type="button">Comment</button>
+                        </div><!--panel-body -->
+                    </div><!--panel panel-default -->
+                </div><!--col-sm-8-->
+            </div><!--row-->                            
         </div><!--container-fluid-->    
         
         <!--bower:js-->
@@ -127,6 +138,7 @@
         <script src="js/plugins.js"></script>
         <script src="js/main.js"></script>
         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/js/bootstrap.min.js"></script>
+        
         
         
         <!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->

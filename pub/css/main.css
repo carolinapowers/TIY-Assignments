@@ -104,8 +104,8 @@ textarea {
 }
 
 figure img {
-    height: 10em;
-    width: 10em;
+    height: 14em;
+    width: 14em;
     border-radius: 6px;
     padding-top: 5px;
 }
@@ -177,9 +177,6 @@ figcaption {
     
 }
 
-.third-row {
-    padding-bottom: 10%;
-}
 
 .row button {
     margin-left: -1em;
