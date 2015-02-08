@@ -84,16 +84,16 @@
                                         <p></p>
                                     </li><hr>
                                     <li class="ul-repoTa-1"><a href=""><h4></h4></a><p></p>
-                                        <span class="sub-info-2">Updated on <date>Dec 3, 2014</date></span>
+                                        <span class="sub-info-2"><date></date></span>
                                     </li><hr>
                                     <li class="ul-repoTa-3"><a href=""><h4></h4></a><p></p>
-                                        <span class="sub-info">Updated on <date>Jan 14, 2015</date></span>
+                                        <span class="sub-info"><date></date></span>
                                     </li><hr>
                                     <li class="ul-repoTa-4"><a href=""><h4></h4></a><p></p>
-                                        <span class="sub-info">Updated on <date>Jan 20, 2015</date></span>
+                                        <span class="sub-info"><date></date></span>
                                     </li><hr>
                                     <li class="ul-repoTa-5"><a href=""><h4></h4></a><p></p>
-                                        <span class="sub-info">Updated on <date>Feb 2, 2015</date></span>
+                                        <span class="sub-info"><date></date></span>
                                     </li><hr>
                                 </ul>    
                             </div> <!--repository-tab-->
@@ -154,10 +154,27 @@ $.post("https://api.github.com/repos/TheIronYard--Orlando/FEE--2015--SPRING/issu
                   $('figure').find('img').attr("src", data.avatar_url);
                   $('figcaption').find('strong').append(data.name);
                   $('figcaption').append(data.login);
-                  $(".company").append(data.company);
-                  $(".locations").append(data.location);
-                  $(".email").find('a').append(data.email);
-                  $(".blog").find('a').append(data.blog);
+                    
+                   if  (data.company == "") {
+                        $("li").remove('.company');
+                      } else{
+                        $(".company").append(data.company);
+                      }
+                   if  (data.location == "") {
+                        $("li").remove('.locations');
+                      } else{
+                        $(".locations").append(data.location);
+                      }
+                   if  (data.email == "") {
+                        $("li").remove('.email');
+                      } else{
+                        $(".email").find('a').append(data.email);
+                      }
+                    if (data.blog == "") {
+                        $("li").remove(".blog");
+                      } else {
+                        $(".blog").find('a').append(data.blog);
+                      }
                    var Join = "Joined on";
                    var date = $.format.date(data.created_at, "MMM d, yyyy");
                   $(".created-at").append(Join + " " + date);
@@ -170,7 +187,9 @@ $.post("https://api.github.com/repos/TheIronYard--Orlando/FEE--2015--SPRING/issu
                 var ulist = $(".ul-repoTa-" + index);
                 ulist.find('a').append(item.name);
                 ulist.find('p').append(item.description);
-                ulist.find('date').append(item.updated_at);   
+                var Updated = "Updated on";
+                var updatedDate = $.format.date(item.updated_at, "MMM d, yyyy");   
+                ulist.find('date').append(Updated + " " + updatedDate);   
                 
                }); 
             }, "json" );  
