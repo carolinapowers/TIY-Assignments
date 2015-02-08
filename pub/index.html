@@ -80,19 +80,19 @@
                     <div class="tab-pane fade" id="B">
                             <div class='repository-tab'>
                                 <ul class = "ul-repoTab">
-                                    <li id="spoon-knife"><a href=""><h4></h4></a>
+                                    <li class ="ul-repoTa-0" id="spoon-knife"><a href=""><h4>{{}}</h4></a>
                                         <p>This repo is for demonstration only.</p>
                                     </li><hr>
-                                    <li><a href=""><h4>Hello-World</h4></a><p>My first repository.</p>
-                                        <p class="sub-info">Updated on <date>Dec 3, 2014</date></p>
+                                    <li class="ul-repoTa-1"><a href=""><h4>Hello-World</h4></a><p>My first repository.</p>
+                                        <p class="sub-info-2">Updated on <date>Dec 3, 2014</date></p>
                                     </li><hr>
-                                    <li><a href=""><h4>hello-world</h4></a><p>Your first repo.</p>
+                                    <li class="ul-repoTa-3"><a href=""><h4>hello-world</h4></a><p>Your first repo.</p>
                                         <p class="sub-info">Updated on <date>Jan 14, 2015</date></p>
                                     </li><hr>
-                                    <li><a href=""><h4>octocat.github.io</h4></a><p>Words.</p>
+                                    <li class="ul-repoTa-4"><a href=""><h4>octocat.github.io</h4></a><p>Words.</p>
                                         <p class="sub-info">Updated on <date>Jan 20, 2015</date></p>
                                     </li><hr>
-                                    <li><a href=""><h4>git-consortium</h4></a><p>Just another repository.</p>
+                                    <li class="ul-repoTa-5"><a href=""><h4>git-consortium</h4></a><p>Just another repository.</p>
                                         <p class="sub-info">Updated on <date>Feb 2, 2015</date></p>
                                     </li><hr>
                                 </ul>    
@@ -155,12 +155,18 @@
                   $('#following').append(data.following); 
                 }, "json" );
                
-            $.get("https://api.github.com/users/octocat/repos"), function (user) {
-               $('#spoon-knife').find('a').append(user.name);
-               }, "json");
+            $.get("https://api.github.com/users/octocat/repos", function (repoArray) {
+               $.each(repoArray, function (index, item) {
+                var ulist = $(".ul-repoTa-" + index);
+                ulist.find('a').append(item.name);
+                ulist.find('p').append(item.description); 
+                
+               });
                
             
-            });  
+            }, "json" );  
+            
+             });
             
            
           
