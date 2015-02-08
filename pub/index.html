@@ -80,7 +80,7 @@
                     <div class="tab-pane fade" id="B">
                             <div class='repository-tab'>
                                 <ul class = "ul-repoTab">
-                                    <li><a href=""><h4>Spoon-Knife</h4></a>
+                                    <li id="spoon-knife"><a href=""><h4></h4></a>
                                         <p>This repo is for demonstration only.</p>
                                     </li><hr>
                                     <li><a href=""><h4>Hello-World</h4></a><p>My first repository.</p>
@@ -152,17 +152,14 @@
                   $(".blog").find('a').append(data.blog);
                   $(".created-at").append("Joined on " + data.created_at);
                   $('#followers').append(data.followers);  
-                  $('#following').append(data.following);  
-                  $   
-                   
-                                                   
-
-            
+                  $('#following').append(data.following); 
                 }, "json" );
                
-           
+            $.get("https://api.github.com/users/octocat/repos"), function (user) {
+               $('#spoon-knife').find('a').append(user.name);
+               }, "json");
                
-                
+            
             });  
             
            
