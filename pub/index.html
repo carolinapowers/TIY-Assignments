@@ -67,13 +67,13 @@
                             <div class='popular-repo'>
                                 <ul class ="ul-popRepo">
                                     <li id="pop-repo">Popular Repositories</li>
-                                    <li><a href=""><h5>Spoon-Knife</h5></a>
-                                        <p>This repo is for demonstration only.</p>
+                                    <li class="pop-repo-0"><a href=""><h5></h5></a>
+                                        <p></p>
                                     </li><hr>
-                                    <li><a href=""><h5>Hello-World</h5></a><p>My first repository.</p></li><hr>
-                                    <li><a href=""><h5>hello-world</h5></a><p>Your first repo.</p></li><hr>
-                                    <li><a href=""><h5>octocat.github.io</h5></a><p>Words.</p></li><hr>
-                                    <li><a href=""><h5>git-consortium</h5></a><p>Just another repository.</p></li><hr>
+                                    <li class="pop-repo-1"><a href=""><h5></h5></a><p></p></li><hr>
+                                    <li class="pop-repo-2"><a href=""><h5></h5></a><p></p></li><hr>
+                                    <li class="pop-repo-3"><a href=""><h5></h5></a><p></p></li><hr>
+                                    <li class="pop-repo-4"><a href=""><h5></h5></a><p></p></li><hr>
                                 </ul>
                             </div><!--popular-repo-->
                     </div><!--A-->    
@@ -194,6 +194,25 @@ $.post("https://api.github.com/repos/TheIronYard--Orlando/FEE--2015--SPRING/issu
                }); 
             }, "json" );  
             
+             
+             $.get("https://api.github.com/users/carolinapowers/starred", function (starredArray){
+                 
+                 $.each(starredArray, function (index, starred) {
+                     var starredList = $(".pop-repo-" + index);
+                     starredList.find('a').append(starred.name);
+                     starredList.find('p').append(starred.description);
+                     
+                     
+                     
+                 
+                 
+                 
+                 });    
+                 
+             }, "json");
+             
+             
+             
              });
             
            
