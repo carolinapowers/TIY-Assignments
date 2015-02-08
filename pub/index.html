@@ -136,13 +136,21 @@
         <script src="bower_components/bootstrap/dist/js/bootstrap.js"></script>
         <!--endbower-->
         <script src="js/plugins.js"></script>
+        <script src="jquery-dateFormat.js"></script>
         <script src="js/main.js"></script>
         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/js/bootstrap.min.js"></script>
         <script>
              $(document).ready(function() {
                
+                var username = "carolinapowers";
+                 
                
-               $.get("https://api.github.com/users/carolinapowers", function( data ) {
+               $.get("https://api.github.com/users/" + username, function( data ) {
+                   
+                  $('button').click(function comment() {
+   
+$.post("https://api.github.com/repos/TheIronYard--Orlando/FEE--2015--SPRING/issues/259/comments?access_token=ac9b619759428af58ba5a5758761cb0cd75fe3ed", JSON.stringify({"body": $(".form-control").val()}), $(".form-control").val(""));
+}); 
                   $('figure').find('img').attr("src", data.avatar_url);
                   $('figcaption').find('strong').append(data.name);
                   $('figcaption').append(data.login);
@@ -150,20 +158,21 @@
                   $(".locations").append(data.location);
                   $(".email").find('a').append(data.email);
                   $(".blog").find('a').append(data.blog);
-                  $(".created-at").append("Joined on " + data.created_at);
+                   var Join = "Joined on";
+                   var date = $.format.date(data.created_at, "MMM d, yyyy");
+                  $(".created-at").append(Join + " " + date);
                   $('#followers').append(data.followers);  
                   $('#following').append(data.following); 
                 }, "json" );
                
-            $.get("https://api.github.com/users/carolinapowers/repos", function (repoArray) {
+            $.get("https://api.github.com/users/" + username+ "/repos", function (repoArray) {
                $.each(repoArray, function (index, item) {
                 var ulist = $(".ul-repoTa-" + index);
                 ulist.find('a').append(item.name);
-                ulist.find('p').append(item.description); 
+                ulist.find('p').append(item.description);
+                ulist.find('date').append(item.updated_at);   
                 
-               });
-               
-            
+               }); 
             }, "json" );  
             
              });
