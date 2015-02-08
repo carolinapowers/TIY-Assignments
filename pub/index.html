@@ -18,6 +18,7 @@
         <!--endbower-->
         <link rel="stylesheet" href="css/main.css">
         <script src="js/vendor/modernizr-2.6.2.min.js"></script>
+        <script src= "https://cdnjs.cloudflare.com/ajax/libs/lodash.js/3.1.0/lodash.js"></script>
     </head>
     <body>
         <!--[if lt IE 7]>
@@ -30,22 +31,22 @@
                  <div class='col-sm-3'>
                         <aside>
                             <figure>
-                                <img class="img-responsive" src="https://avatars1.githubusercontent.com/u/583231?v=3&s=460" class="octocatpic"> 
-                                <figcaption><strong></strong><br>{{login}}</br></figcaption>  
+                                <img class="img-responsive octocapic" src={{img}}> 
+                                <figcaption><strong></strong><br></figcaption>  
                             </figure> 
                             <hr>
-                            <ul class = "info-column">
-                                <li><span class="octicon octicon-organization"></span>{{company}}</li>
-                                <li><span class="octicon octicon-location"></span>{{location}}</li>
-                                <li><span class="octicon octicon-mail"></span><a href="mailto:octocat.github.com">{{email}}</a></li>
-                                <li><span class="octicon octicon-link"></span><a href="http://www.github.com/blog">{{blog}}</a></li>
-                                <li><span class="octicon octicon-clock"></span>{{created_at}}</li>
+                            <ul class="info-column">
+                                <li class ="company"><span class="octicon octicon-organization"></span></li>
+                                <li class="locations"><span class="octicon octicon-location"></span></li>
+                                <li class="email"><span class="octicon octicon-mail"></span><a href="mailto:octocat.github.com"></a></li>
+                                <li class="blog"><span class="octicon octicon-link"></span><a href="http://www.github.com/blog"></a></li>
+                                <li class="created-at"><span class="octicon octicon-clock"></span></li>
                             </ul>
                             <hr>
                             <nav class = "followers">
-                                    <a href="#"><p>{{followers}}</p><br class ="br">Followers</br></a>
-                                    <a href="#"><p>{{starred}}</p><br class="bro">Starred</br></a>
-                                    <a href="#"><p>{{following}}</p><br class="br">Following</br></a>
+                                    <a href="#"><p id="followers"></p><br class ="br">Followers</br></a>
+                                    <a href="#"><p id="starred">2</p><br class="bro">Starred</br></a>
+                                    <a href="#"><p id="following"></p><br class="br">Following</br></a>
                             </nav>
                             <hr>
                         </aside><!--row-->  
@@ -138,25 +139,34 @@
         <script src="js/main.js"></script>
         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/js/bootstrap.min.js"></script>
         <script>
-            
-           
-           $(document).ready(function() {
+             $(document).ready(function() {
                
-               $.get( "https://api.github.com/users/octocat", function( user ) {
-                  $('figcaption').find('strong').append(user.name);
-                   console.log(user.name);
+               
+               $.get("https://api.github.com/users/octocat", function( data ) {
+                  $('figure').find('img').attr("src", data.avatar_url);
+                  $('figcaption').find('strong').append(data.name);
+                  $('figcaption').append(data.login);
+                  $(".company").append(data.company);
+                  $(".locations").append(data.location);
+                  $(".email").find('a').append(data.email);
+                  $(".blog").find('a').append(data.blog);
+                  $(".created-at").append("Joined on " + data.created_at);
+                  $('#followers').append(data.followers);  
+                  $('#following').append(data.following);  
+                  $   
+                   
+                                                   
+
+            
                 }, "json" );
                
-//               $.get( "https://api.github.com/users/octocat", function( data ) {
-//                    
-//                   
-//                    });
-//            var user = jQuery.get("https://api.github.com/users/octocat"); 
-//               
-//            console.log(user.name);    
-//            $('figcaption').find('strong').append(user.name);
+           
+               
                 
             });  
+            
+           
+          
         
         </script>
         
