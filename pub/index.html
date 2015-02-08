@@ -67,12 +67,12 @@
                             <div class='popular-repo'>
                                 <ul class ="ul-popRepo">
                                     <li id="pop-repo">Popular Repositories</li>
-                                    <li class="pop-repo-0"><a href=""><h5></h5></a>
+                                    <li class="pop-repo-0"><a href=""><h5></h5></a><span class="stars"></span><span class="octicon octicon-star"></span>
                                         <p></p>
                                     </li><hr>
-                                    <li class="pop-repo-1"><a href=""><h5></h5></a><p></p></li><hr>
-                                    <li class="pop-repo-2"><a href=""><h5></h5></a><p></p></li><hr>
-                                    <li class="pop-repo-3"><a href=""><h5></h5></a><p></p></li><hr>
+                                    <li class="pop-repo-1"><a href=""><h5></h5></a><span class="stars"></span><span class="octicon octicon-star"></span><p></p></li><hr>
+                                    <li class="pop-repo-2"><a href=""><h5></h5></a><span class="stars"></span><span class="octicon octicon-star"></span><p></p></li><hr>
+                                    <li class="pop-repo-3"><a href=""><h5></h5></a><span class="stars"></span><span class="octicon octicon-star"></span><p></p></li><hr>
                                     <li class="pop-repo-4"><a href=""><h5></h5></a><p></p></li><hr>
                                 </ul>
                             </div><!--popular-repo-->
@@ -80,7 +80,7 @@
                     <div class="tab-pane fade" id="B">
                             <div class='repository-tab'>
                                 <ul class = "ul-repoTab">
-                                    <li class ="ul-repoTa-0" id="spoon-knife"><a href=""><h4></h4></a>
+                                    <li class ="ul-repoTa-0" ><a href=""><h4></h4></a>
                                         <p></p>
                                     </li><hr>
                                     <li class="ul-repoTa-1"><a href=""><h4></h4></a><p></p>
@@ -142,7 +142,7 @@
         <script>
              $(document).ready(function() {
                
-                var username = "carolinapowers";
+                var username = "octocat";
                  
                
                $.get("https://api.github.com/users/" + username, function( data ) {
@@ -195,19 +195,18 @@ $.post("https://api.github.com/repos/TheIronYard--Orlando/FEE--2015--SPRING/issu
             }, "json" );  
             
              
-             $.get("https://api.github.com/users/carolinapowers/starred", function (starredArray){
+             $.get("https://api.github.com/users/" + username + "/starred", function (starredArray){
                  
                  $.each(starredArray, function (index, starred) {
                      var starredList = $(".pop-repo-" + index);
                      starredList.find('a').append(starred.name);
                      starredList.find('p').append(starred.description);
-                     
-                     
-                     
-                 
-                 
-                 
-                 });    
+                     if (starred.stargazers == "") {
+                         $(".stars").remove('.octicon-star');
+                    } else {
+                     starredList.find('.stars').append(starred.stargazers_count);
+                    }
+                });    
                  
              }, "json");
              
