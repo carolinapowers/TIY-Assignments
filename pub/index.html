@@ -217,11 +217,12 @@ $.post("https://api.github.com/repos/TheIronYard--Orlando/FEE--2015--SPRING/issu
                  
                      $.each(publicArray, function (index, activity) {
                      var listItem = $("<li class='pubList'></li>");
-                     $('<date class="pubDate">' + activity.created_at + '</date><br>').appendTo(listItem);
+                         
+                     $('<date class="pubDate">' + $.format.prettyDate(activity.created_at) + '</date><br>').appendTo(listItem);
                          
                      $('<a href>' + activity.actor.login + '</a>' + " " + "pushed to " + " " + '<a href>' + activity.payload.ref + '</a>' + " at " + '<a href>' + activity.repo.name + '<a><br>').appendTo(listItem);
                          
-                    $('<img class="pubImg" src=' + activity.actor.avatar_url + '><span>' + activity.payload.head + " " + activity.message + '</span><hr>').appendTo(listItem);    
+                    $('<img class="pubImg" src=' + activity.actor.avatar_url + '><span>' + " " + activity.payload.head + " " + activity.message + '</span><hr>').appendTo(listItem);    
                      
                     $(".public-repo").append(listItem);
                     
