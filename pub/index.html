@@ -100,7 +100,6 @@
                     </div><!--B--> 
                     <div class="tab-pane fade" id="C">
                         <div class = "public-repo">
-                            <h4>octocat doesn’t have any public events to show.</h4>
                         </div><!--public-repo-->
                     </div><!--C-->    
                     </div><!--tab-content-->    
@@ -210,6 +209,27 @@ $.post("https://api.github.com/repos/TheIronYard--Orlando/FEE--2015--SPRING/issu
                  
              }, "json");
              
+                 $.get("https://api.github.com/users/" + username + "/events/public", function (publicArray){
+//                 if ( publicArray.length == 0 )
+//                 {
+//                     $(".public-repo").find("h4").append(username + " doesn’t have any public events to show.");
+//                 } else
+                 
+                     $.each(publicArray, function (index, activity) {
+                     var listItem = $("<li></li>");
+                     $('<date class="pubDate">' + activity.created_at + '</date><br>').appendTo(listItem);
+                         
+                     $('<a>' + activity.actor.login + '</a>' + " pushed to " + '<a>' + activity.payload.ref + '</a>' + " at " + '<a>' + activity.repo.name + '<a>').appendTo(listItem);     
+                     
+                    $(".public-repo").append(listItem);
+                     
+                });    
+                 
+             }, "json");
+             
+                 
+                 
+            
              
              
              });
