@@ -212,7 +212,7 @@ $.post("https://api.github.com/repos/TheIronYard--Orlando/FEE--2015--SPRING/issu
                  $.get("https://api.github.com/users/" + username + "/events/public", function (publicArray){
                  if ( publicArray.length == 0 )
                  {
-                     $(".public-repo").append(username + " doesn’t have any public events to show.");
+                     $(".public-repo").append(username + " doesn’t have any public events to show.").addClass("test");
                  } else
                  
                      $.each(publicArray, function (index, activity) {
@@ -228,7 +228,7 @@ $.post("https://api.github.com/repos/TheIronYard--Orlando/FEE--2015--SPRING/issu
                     $(".public-repo").append(listItem);
                     
                 });  
-                      $(".public-repo").removeClass("public-repo");
+                  
                  
              }, "json");
              
