@@ -198,10 +198,19 @@ figcaption {
    font-size: 0.9em;  
 }
 
+
+
 .pubImg {
     height:3em;
     width:3em;
 }
+
+.pubList {
+    list-style-type: none;
+    text-align: left;
+}
+
+
 /* ==========================================================================
    Helper classes
    ========================================================================== */
