@@ -11,14 +11,11 @@
         <meta name="viewport" content="width=device-width, initial-scale=1">
 
         <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
-        <link rel="stylesheet" href="../octicons/octicons.css">
+
         <link rel="stylesheet" href="css/normalize.css">
-        <!--bower:css-->
-        <link rel="stylesheet" href="bower_components/bootstrap/dist/css/bootstrap.css" />
-        <!--endbower-->
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css">
         <link rel="stylesheet" href="css/main.css">
         <script src="js/vendor/modernizr-2.6.2.min.js"></script>
-        <script src= "https://cdnjs.cloudflare.com/ajax/libs/lodash.js/3.1.0/lodash.js"></script>
     </head>
     <body>
         <!--[if lt IE 7]>
@@ -26,123 +23,123 @@
         <![endif]-->
 
         <!-- Add your site or application content here -->
-        <div class="container-fluid">
-              <ul class="nav nav-tabs visible-xs">
-                <li class="col-xs-6 active"><a href="#A" data-toggle="tab">About</a></li>
-                <li class="col-xs-6"><a href="#B" data-toggle="tab">Repositories</a></li>
-             </ul>
-            <div class="row">
-                 <div class='col-sm-3'>
-                        <aside>
-                            <figure>
-                                <img class="img-responsive octocapic" src={{img}}> 
-                                <figcaption><strong></strong><br></figcaption>  
-                            </figure> 
-                            <hr>
-                            <ul class="info-column">
-                                <li class ="company"><span class="octicon octicon-organization"></span></li>
-                                <li class="locations"><span class="octicon octicon-location"></span></li>
-                                <li class="email"><span class="octicon octicon-mail"></span><a href="#"></a></li>
-                                <li class="blog"><span class="octicon octicon-link"></span><a href="http://www.github.com/blog"></a></li>
-                                <li class="created-at"><span class="octicon octicon-clock"></span></li>
-                            </ul>
-                            <hr>
-                            <nav class = "followers">
-                                    <a href="#"><p id="followers"></p><br class ="br">Followers</br></a>
-                                    <a href="#"><p id="starred">2</p><br class="bro">Starred</br></a>
-                                    <a href="#"><p id="following"></p><br class="br">Following</br></a>
-                            </nav>
-                            <hr>
-                        </aside><!--row-->  
-                </div><!--col-sm-3-->
-                <div class='col-sm-9'>
-                        <nav role="navigation">
-                            <ul class="nav nav-tabs"> 
-                                <li role="presentation" class="active hidden-xs col-sm-3">
-                                    <a href="#A" data-toggle="tab">Contributions</a></li>
-                                <li role="presentation" class="hidden-xs col-sm-3">
-                                    <a href="#B" data-toggle="tab">Repositories</a></li>
-                                <li role="presentation" class="hidden-xs col-sm-3">
-                                    <a href="#C" data-toggle="tab">Public Activity</a></li>
-                            </ul>    
-                        </nav><!--tabs-->
-                    <div class='tab-content'>
-                    <div class='tab-pane fade in active' id="A">
-                            <div class='popular-repo'>
-                                <ul class ="ul-popRepo">
-                                    <li id="pop-repo">Popular Repositories</li>
-                                    <li class="pop-repo-0"><a href=""><h5></h5></a><span class="stars"></span><span class="octicon octicon-star"></span>
-                                        <p></p>
-                                    </li><hr>
-                                    <li class="pop-repo-1"><a href=""><h5></h5></a><span class="stars"></span><span class="octicon octicon-star"></span><p></p></li><hr>
-                                    <li class="pop-repo-2"><a href=""><h5></h5></a><span class="stars"></span><!--<span class="octicon octicon-star"></span>--><p></p></li>
-                                    <!--<li class="pop-repo-3"><a href=""><h5></h5></a><span class="stars"></span><span class="octicon octicon-star"></span><p></p></li><hr>
-                                    <li class="pop-repo-4"><a href=""><h5></h5></a><p></p></li><hr>-->
-                                </ul>
-                            </div><!--popular-repo-->
-                    </div><!--A-->    
-                    <div class="tab-pane fade" id="B">
-                            <div class='repository-tab'>
-                                <ul class = "ul-repoTab">
-                                    <li class ="ul-repoTa-0" ><a href=""><h4></h4></a>
-                                        <p></p>
-                                    </li><hr>
-                                    <li class="ul-repoTa-1"><a href=""><h4></h4></a><p></p>
-                                        <span class="sub-info-2"><date></date></span>
-                                    </li><hr>
-                                    <li class="ul-repoTa-3"><a href=""><h4></h4></a><p></p>
-                                        <span class="sub-info"><date></date></span>
-                                    </li><hr>
-                                    <li class="ul-repoTa-4"><a href=""><h4></h4></a><p></p>
-                                        <span class="sub-info"><date></date></span>
-                                    </li><hr>
-                                    <li class="ul-repoTa-5"><a href=""><h4></h4></a><p></p>
-                                        <span class="sub-info"><date></date></span>
-                                    </li><hr>
-                                </ul>    
-                            </div> <!--repository-tab-->
-                    </div><!--B--> 
-                    <div class="tab-pane fade" id="C">
-                        <div class = "public-repo">
-                        </div><!--public-repo-->
-                    </div><!--C-->    
-                    </div><!--tab-content-->    
-                </div><!--col-sm-9-->
-            </div><!--classrow-->           
-            <div class="row">
-                <div class="col-sm-1 col-sm-offset-3">
-                        <div class="thumbnail hidden-xs">
-                            <img class="img-responsive user-pic" src="https://ssl.gstatic.com/accounts/ui/avatar_2x.png">
-                        </div><!-- /thumbnail -->
-                </div><!--col-sm-1 -->
-                <div class="comment-section col-sm-8">
-                    <div class="panel panel-default">
-                        <div class="panel-heading">
-                            <div class="navigation-tabs">
-                                <ul class="nav nav-tabs">
-                                    <li class="active"><a href="#" data-toggle="tab">Write</a></li>
-                                    <li class=""><a href="#" data-toggle="tab">Preview</a></li>
-                                </ul><!--nav-tabs-->
-                            </div><!--navigation-tabs-->
-                        </div><!--panelheading-->
-                        <div class="panel-body">
-                            <textarea class="form-control" rows="6" placeholder="Leave a comment"></textarea>
-                            <button class="btn btn-success" type="button">Comment</button>
-                        </div><!--panel-body -->
-                    </div><!--panel panel-default -->
-                </div><!--col-sm-8-->
-            </div><!--row-->                            
-        </div><!--container-fluid-->    
+    <table>    
+        <thead>
+            <tr>
+              <td> </td>
+              <th> A </th>
+              <th> B </th>
+              <th> C </th>
+              <th> D </th>
+              <th> E </th>
+              <th> F </th>
+              <th> G </th>
+              <th> H </th>        
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <th> 8 </th>
+              <td class="piece black rook"> </td>
+              <td class="piece black knight"> </td>
+              <td class="piece black bishop"> </td>
+              <td class="piece black queen"> </td>
+              <td class="piece black king"> </td>
+              <td class="piece black bishop"> </td>
+              <td class="piece black knight"> </td>
+
+            <td class="piece black rook"> </td>
+
+            </tr>
+            <tr>
+              <th> 7 </th>
+              <td class="piece black pawn"> </td>
+              <td class="piece black pawn"> </td>
+              <td class="piece black pawn"> </td>
+              <td class="piece black pawn"> </td>
+              <td class="piece black pawn"> </td>
+              <td class="piece black pawn"> </td>
+              <td class="piece black pawn"> </td>
+              <td class="piece black pawn"> </td>
+            </tr>
+            <tr>
+              <th> 6 </th>
+              <td id="a5"> </td>
+              <td id="b5"> </td>
+              <td id="c5"> </td>
+              <td id="d5"> </td>
+              <td id="e5"> </td>
+              <td id="f5"> </td>
+              <td id="g6"> </td>
+              <td id="h6"> </td>
+            </tr>
+            <tr>
+              <th> 5 </th>
+              <td id="a5"> </td>
+              <td id="b5"> </td>
+              <td id="c5"> </td>
+              <td id="d5"> </td>
+              <td id="e5"> </td>
+              <td id="f5"> </td>
+              <td id="g5"> </td>
+              <td id="h5"> </td>    
+            </tr>
+            <tr>
+              <th> 4 </th>
+              <td id="a4"> </td>
+              <td id="b4"> </td>
+              <td id="c4"> </td>
+              <td id="d4"> </td>
+              <td id="e4"> </td>
+              <td id="f4"> </td>
+              <td id="g4"> </td>
+              <td id="h4"> </td>    
+            </tr>
+            <tr>
+              <th> 3 </th>
+              <td id="a3"> </td>
+              <td id="b3"> </td>
+              <td id="c3"> </td>
+              <td id="d3"> </td>
+              <td id="e3"> </td>
+              <td id="f3"> </td>
+              <td id="g3"> </td>
+              <td id="h3"> </td>    
+            </tr>
+            <tr>
+              <th> 2 </th>
+              <td id="a2"> </td>
+              <td id="b2"> </td>
+              <td id="c2"> </td>
+              <td id="d2"> </td>
+              <td id="e2"> </td>
+              <td id="f2"> </td>
+              <td id="g2"> </td>
+              <td id="h2"> </td>    
+            </tr>
+            <tr>
+              <th> 1 </th>
+              <td id="a1"> </td>
+              <td id="b1"> </td>
+              <td id="c1"> </td>
+              <td id="d1"> </td>
+              <td id="e1"> </td>
+              <td id="f1"> </td>
+              <td id="g1"> </td>
+              <td id="h1"> </td>    
+            </tr>
+          </tbody>
+          
+        </table>
         
-        <!--bower:js-->
-        <script src="bower_components/jquery/dist/jquery.js"></script>
-        <script src="bower_components/bootstrap/dist/js/bootstrap.js"></script>
-        <!--endbower-->
-        <script src="js/plugins.js"></script>
-        <script src="jquery-dateFormat.js"></script>
-        <script src="js/main.js"></script>
-        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/js/bootstrap.min.js"></script>
        
+            
+     
+        <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+        <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.10.2.min.js"><\/script>')</script>
+        <script src="js/plugins.js"></script>
+        <script src="js/main.js"></script>
+
         <!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
         <script>
             (function(b,o,i,l,e,r){b.GoogleAnalyticsObject=l;b[l]||(b[l]=

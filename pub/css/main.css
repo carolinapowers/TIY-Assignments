@@ -97,121 +97,174 @@ textarea {
    Author's custom styles
    ========================================================================== */
 
-.container-fluid {
-    width: 80%;
-    padding-top: 10%;
-   
-}
 
-figure img {
-    height: 14em;
-    width: 14em;
-    border-radius: 6px;
-    padding-top: 5px;
-}
 
-figcaption {
-    font-size: 1.5em;
-}
 
-.info-column span {
-    margin-right: 0.5em;
+body {
+    background-color: #aaa;
 }
 
 
-
-.ul-popRepo, .info-column, .ul-repoTab  {
-    list-style-type: none;
-    padding: 0px;
-    margin:  0px;
+table {
+    width: 90%;
+    margin: 0 auto;
 }
 
-.followers > a {
-    display: inline-block;
-    text-align: center;
-    text-decoration: none;
-    margin-right: 0.5em;
-   
+thead th {
+    padding-left: 4%; 
+    font-size: 4vw;
+    color: #34495e;
 }
 
-.followers p {
-    display: inline;
-    font-size: 2em;
-    color: #4183c4;
+
+tbody th {
+    font-size: 4vw;
+    color: #34495e;
+}
+
+
+tbody td {
+            border: 2px solid black;
+            width: 12%; padding-bottom: 12%; height:
+0;
+            
+}
+
+tbody :nth-child(even) td:nth-child(even), 
+tbody :nth-child(odd) td:nth-child(odd) {
+background-color: #3775ae;
 }
 
 
 
-.popular-repo ul {
-    border: 0.1em solid lightgray;
-    border-radius: 6px;
-    margin-top: 5%;
-   
+/********* adding chess pieces********/
+
+td:before {
+    font-size: 9vw;
 }
 
-#pop-repo {
-    background-color: #f2f2f2;
-    padding: 0.5em 2em;
-    border-bottom: 0.1em solid lightgray;
-} 
-
-
-.popular-repo li {
-    padding-left: 2em;
+/*td:hover::before {
+    background-color: lightgreen;
     
-}
+}*/
 
 
-.test {
-    border: 0.1em solid grey;
-    background-color: #f2f2f2;
-    border-radius: 6px;
-    margin-top: 5%;
-    text-align: center;
-    padding: 3em 0;
-    
-}
+/****Black Pieces****/
 
-
-
-.btn-success {
-    margin-left: 85%;
-     
-}
-
-.ul-repoTa-0 {
-    position:relative;
-}
-
-.octicon-star {
-   position: absolute;
-   right: 2em;
-   color: #888;
-   font-size: 0.9em; 
-   margin-top: 0.2em;
-}
-
-.stars {
+/*rooks*/
+.piece.black.rook:before {
     position: absolute;
-   right: 3em;
-   color: #888;
-   font-size: 0.9em;  
+    content: "\265C";
+    
+}
+.piece.black.rook:hover {
+    background-color: #758db0;
 }
 
-
-
-.pubImg {
-    height:3em;
-    width:3em;
+/*knights*/
+.piece.black.knight:before {
+    position: absolute;
+    content: "\265E";
+        
+}
+.piece.black.knight:hover {
+    background-color: #758db0;
 }
 
-.pubList {
-    padding: 1em 0;
-    list-style-type: none;
-    text-align: left;
+/*bishops*/
+.piece.black.bishop:before {
+    position: absolute;
+    content: "\265D";
+}
+.piece.black.bishop:hover {
+    background-color: #758db0;
 }
 
+/*queen*/
+.piece.black.queen:before {
+    position: absolute;
+    content: "\265B";
+}
+.piece.black.queen:hover {
+    background-color: #758db0;
+}
 
+/*king*/
+.piece.black.king:before {
+    position: absolute;
+    content: "\265A";
+}
+#e8:hover {
+    background-color: #758db0;
+}
+
+/*pawns*/
+.piece.black.pawn:before {
+    position: absolute;
+    content: "\265F";
+}
+.piece.black.pawn:hover {
+background-color: #758db0;
+}
+
+/******White Pieces******/
+
+/*rooks*/
+#a1:before, #h1:before {
+    position: absolute;
+    content: "\2656";
+}
+#a1:hover, #h1:hover {
+    background-color: #758db0;
+}
+
+/*knights*/
+#b1:before, #g1:before {
+    position: absolute;
+    content: "\2658";
+}
+#b1:hover, #g1:hover {
+    background-color: #758db0;
+}
+
+/*bishops*/
+#c1:before, #f1:before {
+    position: absolute;
+    content: "\2657";
+}
+#c1:hover, #f1:hover {
+    background-color: #758db0;
+}
+
+/*queen*/
+#d1:before {
+    position: absolute;
+    content: "\2655";
+}
+#d1:hover {
+     background-color: #758db0;
+}
+
+/*king*/
+#e1:before {
+    position: absolute;
+    content: "\2654";
+}
+#e1:hover {
+    background-color: #758db0;
+}
+
+/*pawns*/
+#a2:before, #b2:before, #c2:before, #d2:before, #e2:before, #f2:before, #g2:before, #h2:before {
+    position: absolute;
+    content: "\2659";
+}
+
+#a2:hover, #b2:hover, #c2:hover, #d2:hover, #e2:hover, #f2:hover, #g2:hover, #h2:hover {
+
+ background-color: #758db0;
+    
+}
 /* ==========================================================================
    Helper classes
    ========================================================================== */
