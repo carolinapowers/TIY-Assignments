@@ -101,7 +101,13 @@ textarea {
 
 
 
-
+#displayDate {
+    display: inline-block;
+    color: white;
+    font-size: 8em;
+    margin-top: 20%;
+    margin-left: 32%;
+}
 
 
 

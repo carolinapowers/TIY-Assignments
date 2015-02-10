@@ -13,6 +13,9 @@
         <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
 
         <link rel="stylesheet" href="css/normalize.css">
+        <!--bower:css-->
+        <link rel="stylesheet" href="bower_components/bootstrap/dist/css/bootstrap.css" />
+        <!--endbower-->
         <link rel="stylesheet" href="css/main.css">
         <script src="js/vendor/modernizr-2.6.2.min.js"></script>
     </head>
@@ -22,12 +25,51 @@
         <![endif]-->
 
         <!-- Add your site or application content here -->
-        <p>Hello world! This is HTML5 Boilerplate.</p>
+        <date id="displayDate"></date>
+        
+        <!--bower.js-->
+        <!--endbower-->
 
         <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
         <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.10.2.min.js"><\/script>')</script>
+        <script src="jquery-dateFormat.js"></script>
         <script src="js/plugins.js"></script>
         <script src="js/main.js"></script>
+        
+        
+        <script>
+            
+          var d, h, m, s, colorTime;
+          
+            function clock () {
+             d = new Date();
+             h = d.getHours();
+             m = d.getMinutes();
+             s = d.getSeconds();
+              
+              if(h <= 9) h = '0' + h;
+              if(m <= 9) m = '0' + m;
+              if(s <= 9) s = '0' + s;
+            
+            
+            colorTime = "#" + h + m + s;
+                
+            document.body.style.background = colorTime;
+
+            document.getElementById("displayDate").innerHTML = h + ":" + m + ":" + s;
+            setInterval(clock, 1000);
+                
+            
+                
+          }
+        
+            clock();
+             
+            
+            
+            
+        
+        </script>
 
         <!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
         <script>
