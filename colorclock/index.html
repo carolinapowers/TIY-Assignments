@@ -46,14 +46,21 @@
              h = d.getHours();
              m = d.getMinutes();
              s = d.getSeconds();
+                
+             hhex = (Math.floor(h * 255/23)).toString(16);
+             mhex = (Math.floor(m * 255/59)).toString(16);
+             shex = (Math.floor(s * 255/59)).toString(16);    
               
               if(h <= 9) h = '0' + h;
               if(m <= 9) m = '0' + m;
               if(s <= 9) s = '0' + s;
-            
-            
-            colorTime = "#" + h + m + s;
                 
+              if(hhex.length < 2) hhex = '0' + hhex;
+              if(mhex.length < 2) mhex = '0' + mhex;
+              if(shex.length < 2) shex = '0' + shex;    
+            
+            
+            colorTime = "#" + hhex + mhex + shex;
             document.body.style.background = colorTime;
 
             document.getElementById("displayDate").innerHTML = h + ":" + m + ":" + s;
