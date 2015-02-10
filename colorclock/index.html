@@ -43,6 +43,8 @@
           
             function clock () {
              d = new Date();
+             d.getSeconds(d.getSeconds()+1);
+             
              h = d.getHours();
              m = d.getMinutes();
              s = d.getSeconds();
@@ -64,11 +66,20 @@
             document.body.style.background = colorTime;
 
             document.getElementById("displayDate").innerHTML = h + ":" + m + ":" + s;
-            setInterval(clock, 1000);
-                
             
+//                
+//                function myFunction() {
+//                   var d = new Date();
+//                   var n = d.toTimeString().substring(0,9);
+//                   setInterval(myFunction,1000);
+//                  document.write(n);
+                    
+//                document.getElementById("displayDate").innerHtml = n;
                 
-          }
+}
+        setInterval(clock, 1000);
+              
+          
         
             clock();
              

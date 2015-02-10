@@ -1,0 +1,20 @@
+{
+  "name": "colorclock",
+  "version": "0.0.0",
+  "homepage": "https://github.com/carolinapowers/TIY-Assignments",
+  "authors": [
+    "Carolina Powers <carolinapoloni@gmail.com>"
+  ],
+  "description": "colorclock",
+  "main": "index.html",
+  "keywords": [
+    "color",
+    "clock"
+  ],
+  "license": "CCO",
+  "private": true,
+  "dependencies": {
+    "jquery": "~2.1.3",
+    "bootstrap": "~3.3.2"
+  }
+}
