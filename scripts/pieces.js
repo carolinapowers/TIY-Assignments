@@ -24,8 +24,7 @@ Piece.prototype = {
         return this.color + " " + this.name + " " + this.position;
     },
     toHTML: function () {
-        pieces = [ ]
-        return 
+        return "html entity"// i really don't get this one... and the next one.
     }
         
     
@@ -36,15 +35,15 @@ var Pawn = new Piece ('white', 'Pawn', 'C2');
 var Queen = new Piece ('white', 'Queen', 'D1' );
 
 function Knight (color, queenside) {
-    Piece.call(this, color, Knight, position, queenside);
+    Piece.call(this, color, position, queenside);
 }
 
-Knight.prototype = new Piece('white', 'Knight','E1', true);
+Knight.prototype = new Piece('white','E1', true);
 console.log (Knight);
 
 console.log(Pawn);
 console.log(Queen);
-
+console.log(String.fromCharCode(9812));
 
 it('should have Piece', function () {
   assert(Piece);      
