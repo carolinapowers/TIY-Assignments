@@ -33,12 +33,8 @@ Piece.prototype = {
 
 var Pawn = new Piece ('white', 'Pawn', 'C2');
 var Queen = new Piece ('white', 'Queen', 'D1' );
-
-function Knight (color, queenside) {
-    Piece.call(this, color, position, queenside);
-}
-
-Knight.prototype = new Piece('white','E1', true);
+var Knight = new Piece('white','Knight', 'E1');
+Knight.queenside = "true";
 console.log (Knight);
 
 console.log(Pawn);
