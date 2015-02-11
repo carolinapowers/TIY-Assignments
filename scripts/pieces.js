@@ -1,4 +1,4 @@
-var assert = require('assert');
+var assert = require ('assert');
 
 
 function Piece (color, name, position) {
@@ -32,8 +32,18 @@ Piece.prototype = {
     }
 
 
-var Pawn = new Piece ('white','C2');
+var Pawn = new Piece ('white', 'Pawn', 'C2');
+var Queen = new Piece ('white', 'Queen', 'D1' );
 
+function Knight (color, queenside) {
+    Piece.call(this, color, Knight, position, queenside);
+}
+
+Knight.prototype = new Piece('white', 'Knight','E1', true);
+console.log (Knight);
+
+console.log(Pawn);
+console.log(Queen);
 
 
 it('should have Piece', function () {
@@ -64,9 +74,19 @@ it('should have abbrev as type of string', function () {
 
 it('should have Pawn', function () {
    assert(Pawn);
-   assert(typeof Pawn == "object");
-   assert(Pawn.position, 'C2'); 
-   assert(Pawn.color, 'white'); 
+    
    assert(Pawn.name, "Pawn");    
-   });
+});
 
+it('should have typeof Pawn = object', function () {
+   assert(typeof Pawn == "object");   
+});
+
+it('should have Pawn', function () {   
+   assert(Pawn.position(), "C2"); 
+});
+
+
+it('should have Pawn', function () {   
+    assert(Pawn.color, 2);
+});
