@@ -33,13 +33,23 @@ Piece.prototype = {
 
 var Pawn = new Piece ('white', 'Pawn', 'C2');
 var Queen = new Piece ('white', 'Queen', 'D1' );
-var Knight = new Piece('white','Knight', 'E1');
-Knight.queenside = "true";
+var Knight = new Piece('white','Knight', 'G1');
+Knight.queenside = "false";
+var Bishop = new Piece ('white', 'Bishop', 'F1');
+Bishop.queenside ="false";
+var Rook = new Piece ('white', 'Rook', 'H1');
+Rook.queenside = "false";
+// enough of creating pieces for now... 
+console.log(Rook);
+console.log(Bishop);
 console.log (Knight);
-
 console.log(Pawn);
 console.log(Queen);
 console.log(String.fromCharCode(9812));
+
+
+
+
 
 it('should have Piece', function () {
   assert(Piece);      
