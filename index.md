@@ -1,6 +1,6 @@
 ---
 ---
 
-# Hello World!
+# Timeline
 
 * [Vertical Timeline](pub/index.html)

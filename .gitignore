@@ -2,7 +2,7 @@ pub/robots.txt
 node_modules/
 pub/humans.txt
 pub/css/vertical
-timeline
+bower_components
 pub/404.html
 pub/css/vertical-timeline-css
 pub/Vertical-timeline-index.html
