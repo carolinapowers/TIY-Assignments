@@ -151,15 +151,16 @@ big:nth-child(even) {
    
 }
 
-.article {
+.commom-article {
     margin-top: 1.5em;
     background-color: #6cbfee;
     color: white;
     position:relative;
     border-radius: 6px;
+    padding-bottom:1em;
 }
 
-.phone {
+.icons {
     display: inline-block;
     margin-top: 2em;
     width:50px;
@@ -170,8 +171,8 @@ big:nth-child(even) {
     
 }
 
-.phone:before{
-    content: "\f10b";
+.icons:before{
+    
     font-family:FontAwesome;
     font-size:1.5em;
     color: white;
@@ -180,7 +181,28 @@ big:nth-child(even) {
     display:inline-block;
 }
 
-.article:before {
+.phone:before {
+    content: "\f10b";   
+}
+
+.desktop:before {
+    content: "\f108";
+    font-size: 1em;
+    padding-top: 5px;
+    text-align:center;
+    
+}
+
+.envelope:before {
+    content: "\f003";
+    font-size: 1em;
+}
+
+.globe:before {
+    content: "\f0ac";
+    font-size: 1em;
+}
+.articleeven:before {
     content: "\f0d8";
     font-family:FontAwesome;
     font-size:2.6em;
@@ -200,15 +222,8 @@ big:nth-child(even) {
     left: 0.7em;
 }
 
-.articleodd {
-     margin-top: 1.5em;
-    background-color: #6cbfee;
-    color: white;
-    position:relative;
-    border-radius: 6px;
-}
 
-.article h3 {
+.commom-article h3 {
     padding-bottom: 0.5em;
     border-bottom: 1px solid white;
 }
