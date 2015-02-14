@@ -101,6 +101,22 @@ textarea {
     display: inline;
 }
 
+.article {
+    margin-top: 1em;
+    background-color: #47a3da;
+    color: white;
+}
+
+.article:before {
+    content: "\f0d8";
+    font-family:FontAwesome;
+    font-size:2em;
+}
+
+.article h3 {
+    padding-bottom: 0.5em;
+    border-bottom: 1px solid white;
+}
 ul {
     list-style: none;
 }
