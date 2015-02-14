@@ -97,6 +97,9 @@ textarea {
    Author's custom styles
    ========================================================================== */
 
+.inline li {
+    display: inline;
+}
 
 ul {
     list-style: none;
