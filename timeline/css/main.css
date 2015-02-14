@@ -176,32 +176,37 @@ big:nth-child(even) {
     font-family:FontAwesome;
     font-size:1.5em;
     color: white;
-    margin-top: 2px;
+    
     margin-left: -3px;
     display:inline-block;
 }
 
 .phone:before {
-    content: "\f10b";   
+    content: "\f10b";  
+    margin-top: 2px;
 }
 
 .desktop:before {
     content: "\f108";
     font-size: 1em;
-    padding-top: 5px;
-    text-align:center;
-    
+    margin-top: 7px;
+    margin-left: -6px;
 }
 
 .envelope:before {
     content: "\f003";
     font-size: 1em;
+    margin-top: 6px;
+    margin-left: -5px;
 }
 
 .globe:before {
     content: "\f0ac";
-    font-size: 1em;
+    font-size: 1.2em;
+    margin-top: 6px;
+    margin-left: -4px;
 }
+
 .articleeven:before {
     content: "\f0d8";
     font-family:FontAwesome;
@@ -229,7 +234,38 @@ big:nth-child(even) {
 }
 
 
+/****************Media Queries*****************/
 
+@media screen and (min-width:  768px)  
+    { 
+
+.mainul:before {
+content: '';
+position: absolute;
+top: 230px;
+bottom: -860px;
+width: 10px;
+background: #afdcf8;
+left: 18px;
+margin-left: 20%;
+}
+        
+.commom-article {
+max-width:     
+margin-top: -60px;
+
+}
+
+.row-time {
+    position:relative;
+}    
+.icons: before {
+    position: absolute;
+    left: 10px;
+    bottom: 0;
+    margin-left: 20%;
+    
+}        
 
 
 
