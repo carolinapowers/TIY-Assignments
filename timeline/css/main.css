@@ -101,10 +101,40 @@ textarea {
     display: inline;
 }
 
+header  span {
+    display:inline-block;
+    padding-top: 6%; 
+    font-weight: 100;
+    text-transform: uppercase;
+    letter-spacing: 10px;
+}
+
+header h1 {
+    font-weight: 300;
+    font-size: 40px;
+}
+
+header ul {
+    margin-bottom: 3em;
+    text-align:center;
+    padding-left: 0;
+}
+
+
+    
+
+
+header li {
+    display:inline-block;
+    font-size: 2.5em;
+    margin-left: -3px;
+    padding: 3px;
+   
+}
+
 .span-date {
     color:lightgray;
     font-size: 1em;
-    
 }
 
 big:nth-child(odd) {
