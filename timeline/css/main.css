@@ -126,6 +126,24 @@ big:nth-child(even) {
     border-radius: 6px;
 }
 
+
+.phone {
+    background-color: red;
+    border-radius: 50px;
+}
+.phone:before{
+    content: "\f10b";
+    font-family:FontAwesome;
+    font-size:2em;
+    border: 0.5em solid blue;
+    border-radius: 50px;
+    background-color: yellow;
+    color:green;
+    position:relative;
+    float:right;
+    display:inline-block;
+}
+
 .article:before {
     content: "\f0d8";
     font-family:FontAwesome;
