@@ -101,6 +101,23 @@ textarea {
     display: inline;
 }
 
+.span-date {
+    color:lightgray;
+    font-size: 1em;
+    
+}
+
+big:nth-child(odd) {
+    display:inline-block;
+    color: #6cbfee;
+    font-size: 2em;
+    margin-left: -10px;
+}
+
+big:nth-child(even) {
+   
+}
+
 .article {
    margin-top: 1.5em;
     background-color: #6cbfee;
