@@ -247,7 +247,7 @@ big:nth-child(even) {
 content: '';
 position: absolute;
 top: 245px;
-bottom: -860px;
+bottom: -668px;
 width: 10px;
 background: #afdcf8;
 left: 27px;
@@ -276,6 +276,18 @@ margin-top: -60px;
     top: 0;
     left: -15px;
 }
+
+}
+        
+@media screen and (min-width: 992px)  {
+           
+.vertical-timeline {
+    float:left;
+    
+}
+.navbar {
+            
+        }
 
 }
 
