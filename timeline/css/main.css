@@ -104,7 +104,7 @@ ul {
     display: inline;
 }
 
-header  span {
+header span {
     display:inline-block;
     padding-top: 6%; 
     font-weight: 100;
@@ -239,36 +239,35 @@ big:nth-child(even) {
 @media screen and (min-width:  768px)  
     { 
 
+.mainul {
+    max-width: 800px;
+}
+        
 .mainul:before {
 content: '';
 position: absolute;
-top: 230px;
+top: 245px;
 bottom: -860px;
 width: 10px;
 background: #afdcf8;
-left: 18px;
-margin-left: 20%;
+left: 27px;
+margin-left: 165px;
+max-width: 800px;    
 }
+    
         
 .commom-article {
-max-width:     
 margin-top: -60px;
 
 }
 
-.row-time {
-    position:relative;
-}    
-.icons: before {
-    position: absolute;
-    left: 10px;
-    bottom: 0;
-    margin-left: 20%;
-    
-}        
+.articleeven:before {
+    transform-origin: bottom-right;
+}
+     
 
 
-
+}
 
 
 
