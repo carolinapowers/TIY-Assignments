@@ -3,4 +3,4 @@
 
 # Timeline
 
-* [Vertical Timeline](pub/index.html)
+* [Vertical Timeline](timeline/index.html)
