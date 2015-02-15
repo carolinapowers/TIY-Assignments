@@ -1,8 +1,9 @@
 
  var vm = new Vue({
-+  el: '#chessboard',
+
+  el: '#chessboard',
    data: {
-     message: 
--  }
-+  },
+     message: 'Hello from Vue'
+
+  },
  });

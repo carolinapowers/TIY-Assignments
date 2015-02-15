@@ -24,7 +24,15 @@
         <![endif]-->
 
         <!-- Add your site or application content here -->
-        <p>Hello world! This is HTML5 Boilerplate.</p>
+        
+        <table id="chessboard">
+           <thead>
+             <tr>
+              <th v-repeat="letter: 'ABCDEFGH'" id="header-{{letter}}"> {{letter}} </th>
+            </tr> 
+           </thead>
+        </table>
+        
         <!--bower:js-->
         <script src="bower_components/jquery/dist/jquery.js"></script>
         <script src="bower_components/lodash/lodash.js"></script>
