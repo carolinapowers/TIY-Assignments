@@ -3,7 +3,12 @@ var assert = require('assert'),
     events = require('../apis/github/users/carolinapowers/events.json');
 
 function answer(){
-  return {
+    var pushEvents = _.filter(events, {
+            'type': 'PushEvent'
+    });
+    console.log(pushEvents.length);
+    
+    return {
     'total': events.length,     // How many total events did you fetch?
     'PushEvent': {
       'total': "",  // How many total events of type `PushEvent` are there?
@@ -17,6 +22,7 @@ function answer(){
 } 
 
 var theAnswer = answer();
+console.log(events.length);
 
 it('should assert that "answer" exists', function(){
    assert(answer); 
@@ -24,7 +30,11 @@ it('should assert that "answer" exists', function(){
 });
 
 it('should assert that "theAnswer.total" equals "events.length" exists', function(){
-   assert(theAnswer.total == events.length);    
+   assert(theAnswer.total == events.length);   
+});
+
+it('should assert that "events.length" equals 30', function () {
+   assert.equal((events.length), 30); 
 });
 
 
