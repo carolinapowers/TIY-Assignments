@@ -25,23 +25,54 @@ var assert = require('assert');
 //    
 //}
 
-var toEnglish=["zero","one","two","three","four","five","six","seven","eight","nine","ten"]  
+var toString=["zero","one","two","three","four","five","six","seven","eight","nine","ten"]  
 
-function print(n){
-    return toEnglish[n];        
+function toEnglish(n){
+    return toString[n];        
 } 
 
-it('should print numbers from string"', function (){
-    assert.equal(print(4),"four");
+it('should print numbers from string', function (){
+    assert.equal(toEnglish(4),"four");
 })
 
-var toNumber = [ 1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
+it('should return 1 as string "one"', function() {
+    assert.equal(toEnglish(1), "one");
+})
 
-function number (string){
-    return toNumber[typeof "string"];
-} 
 
-it('should print string to number', function () {
-    assert.equal(number("zero"), 0);
-    
+it('should return "two" when 2 is entered and "not two" if any other number is entered', function () {
+    assert.equal(toEnglish(2), "two");
+} )
+
+
+it('should return "three" when 3 is entered and "not the number 3" is any other number is entered', function() {
+    assert.equal(toEnglish(3), "three");
+}) 
+
+it('should return 4 as string "four"', function(){
+   assert.equal(toEnglish(4),"four");
+})
+
+it('should return 5 as string "five"', function(){
+    assert.equal(toEnglish(5),"five");
+})
+
+it('should return 6 as string "six"', function (){
+    assert.equal(toEnglish(6),"six");
+})
+
+it('should return 7 as string "seven"', function(){
+    assert.equal(toEnglish(7),"seven");
+})
+
+it('should return 8 as string "eight"', function(){
+    assert.equal(toEnglish(8),"eight");
+})
+
+it('should return 9 as string "nine"', function(){
+    assert.equal(toEnglish(9),"nine");
+})
+
+it('should return 10 as strign "ten"', function () {
+    assert.equal(toEnglish(10),"ten");
 })
