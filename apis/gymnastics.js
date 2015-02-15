@@ -16,13 +16,13 @@ var firstDay = Date.parse(first.created_at);// Get date from 'created_at' Parse 
 var lastDay = Date.parse(last.created_at); // Parse to miliseconds.
 
 var totalDays = firstDay - lastDay; //subtracting first and last day in miliseconds.
-var intoDays = totalDays / (1000*60*60*24); // divided by that number to convert miliseconds into day.
+var intoDays = totalDays / (1000*60*60*24); // divided by that number to convert miliseconds into days.
 
 var PerDay =  pushEvents.length / intoDays; // total pushevents divided by number of days.
 
 var totalOtherEvents =  events.length - pushEvents.length;//subtract pushEvents from total events for total of others.
 
-var otherEventsperDay = totalOtherEvents / intoDays; // divide total of other events for the number of days that were converted into miliseconds and then intoDays above.
+var otherEventsperDay = totalOtherEvents / intoDays; // divide total of other events for the number of days that were converted into miliseconds and then intoDays.
 
 
 
