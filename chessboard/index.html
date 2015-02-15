@@ -31,6 +31,12 @@
               <th v-repeat="letter: 'ABCDEFGH'" id="header-{{letter}}"> {{letter}} </th>
             </tr> 
            </thead>
+           <tbody>
+            <tr v-repeat="8">
+              <th id="{{$index}}"> {{8 - $index}} </th>
+               <td v-repeat="8" id="{{$index}} {{$el}}" > </td>
+             </tr>    
+           </tbody>
         </table>
         
         <!--bower:js-->
