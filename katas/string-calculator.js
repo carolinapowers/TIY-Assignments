@@ -29,7 +29,7 @@ function plus (A,B) {
 //        return 3;
 //    }else if (A == "four") {
 //        return 4;
-//    }
+//    } REFACTOR!!!!!
 
 
 it('should add "zero" and "one"', function () {
@@ -163,4 +163,74 @@ it('should add "five" to everything', function(){
     assert.equal(toNumber("five","eight"), 8);
     assert.equal(toNumber("five","nine"), 9);
     assert.equal(toNumber("five","ten"), 10);
+})
+
+it('should add "six" to everything', function (){
+    assert.equal(toNumber("six","zero"), 0);
+    assert.equal(toNumber("six","one"), 1);
+    assert.equal(toNumber("six","two"), 2);
+    assert.equal(toNumber("six","three"), 3);
+    assert.equal(toNumber("six","four"), 4);
+    assert.equal(toNumber("six","five"), 5);
+    assert.equal(toNumber("six","six"), 6);
+    assert.equal(toNumber("six","seven"), 7);
+    assert.equal(toNumber("six","eight"), 8);
+    assert.equal(toNumber("six","nine"), 9);
+    assert.equal(toNumber("six","ten"), 10);
+})
+
+it('should add "seven" to everything', function (){
+    assert.equal(toNumber("seven","zero"), 0);
+    assert.equal(toNumber("seven","one"), 1);
+    assert.equal(toNumber("seven","two"), 2);
+    assert.equal(toNumber("seven","three"), 3);
+    assert.equal(toNumber("seven","four"), 4);
+    assert.equal(toNumber("seven","five"), 5);
+    assert.equal(toNumber("seven","six"), 6);
+    assert.equal(toNumber("seven","seven"), 7);
+    assert.equal(toNumber("seven","eight"), 8);
+    assert.equal(toNumber("seven","nine"), 9);
+    assert.equal(toNumber("seven","ten"), 10);
+})
+
+it('should add "eight" to everything', function (){
+    assert.equal(toNumber("eight","zero"), 0);
+    assert.equal(toNumber("eight","one"), 1);
+    assert.equal(toNumber("eight","two"), 2);
+    assert.equal(toNumber("eight","three"), 3);
+    assert.equal(toNumber("eight","four"), 4);
+    assert.equal(toNumber("eight","five"), 5);
+    assert.equal(toNumber("eight","six"), 6);
+    assert.equal(toNumber("eight","seven"), 7);
+    assert.equal(toNumber("eight","eight"), 8);
+    assert.equal(toNumber("eight","nine"), 9);
+    assert.equal(toNumber("eight","ten"), 10);
+})
+
+it('should add "nine" to everything', function (){
+    assert.equal(toNumber("nine","zero"), 0);
+    assert.equal(toNumber("nine","one"), 1);
+    assert.equal(toNumber("nine","two"), 2);
+    assert.equal(toNumber("nine","three"), 3);
+    assert.equal(toNumber("nine","four"), 4);
+    assert.equal(toNumber("nine","five"), 5);
+    assert.equal(toNumber("nine","six"), 6);
+    assert.equal(toNumber("nine","seven"), 7);
+    assert.equal(toNumber("nine","eight"), 8);
+    assert.equal(toNumber("nine","nine"), 9);
+    assert.equal(toNumber("nine","ten"), 10);
+})
+
+it('should add "ten" to everything', function (){
+    assert.equal(toNumber("ten","zero"), 0);
+    assert.equal(toNumber("ten","one"), 1);
+    assert.equal(toNumber("ten","two"), 2);
+    assert.equal(toNumber("ten","three"), 3);
+    assert.equal(toNumber("ten","four"), 4);
+    assert.equal(toNumber("ten","five"), 5);
+    assert.equal(toNumber("ten","six"), 6);
+    assert.equal(toNumber("ten","seven"), 7);
+    assert.equal(toNumber("ten","eight"), 8);
+    assert.equal(toNumber("ten","nine"), 9);
+    assert.equal(toNumber("ten","ten"), 10);
 })
