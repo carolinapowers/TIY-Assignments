@@ -6,7 +6,7 @@ var assert = require('assert'),
 
 var pushEvents = _.filter(events, {
         'type': 'PushEvent'
-    });
+}); // filtering the collection to get PushEvent.
    
 
 var first = _.first(events);// lodash used to get first event.
@@ -14,13 +14,17 @@ var last = _.last(events);// lodash used to get last event.
 
 var firstDay = Date.parse(first.created_at);// Get date from 'created_at' Parse to miliseconds.
 var lastDay = Date.parse(last.created_at); // Parse to miliseconds.
-var totalDays = firstDay - lastDay; //subtracting first and last day in miliseconds.
 
-var intoDays = totalDays / (1000*60*60*24); // divided by that number to convert miliseconds to day.
+var totalDays = firstDay - lastDay; //subtracting first and last day in miliseconds.
+var intoDays = totalDays / (1000*60*60*24); // divided by that number to convert miliseconds into day.
 
 var PerDay =  pushEvents.length / intoDays; // total pushevents divided by number of days.
 
-var 
+var totalOtherEvents =  events.length - pushEvents.length;//subtract pushEvents from total events for total of others.
+
+var otherEventsperDay = totalOtherEvents / intoDays; // divide total of other events for the number of days that were converted into miliseconds and then intoDays above.
+
+
 
 function answer(){
     return {
@@ -30,14 +34,20 @@ function answer(){
       'perDay': PerDay, 
     },
     'other': {
-      'total': events.length - pushEvents.length,   
-      'perDay': "",  // How many per day, on average?
+      'total': totalOtherEvents, 
+      'perDay': otherEventsperDay, 
     }
   };
 } 
 
-var theAnswer = answer();
 console.log(events.length);
+console.log(pushEvents.length);
+console.log(PerDay);
+console.log(totalOtherEvents);
+console.log(otherEventsperDay);
+
+var theAnswer = answer();
+
 
 it('should assert that "answer" exists', function(){
    assert(answer); 
