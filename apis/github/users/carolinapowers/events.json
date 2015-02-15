@@ -1,102 +1,6 @@
 [
   {
-    "id": "2540935736",
-    "type": "IssueCommentEvent",
-    "actor": {
-      "id": 10137641,
-      "login": "carolinapowers",
-      "gravatar_id": "",
-      "url": "https://api.github.com/users/carolinapowers",
-      "avatar_url": "https://avatars.githubusercontent.com/u/10137641?"
-    },
-    "repo": {
-      "id": 28655540,
-      "name": "sak55/TIY-Assignments",
-      "url": "https://api.github.com/repos/sak55/TIY-Assignments"
-    },
-    "payload": {
-      "action": "created",
-      "issue": {
-        "url": "https://api.github.com/repos/sak55/TIY-Assignments/issues/17",
-        "labels_url": "https://api.github.com/repos/sak55/TIY-Assignments/issues/17/labels{/name}",
-        "comments_url": "https://api.github.com/repos/sak55/TIY-Assignments/issues/17/comments",
-        "events_url": "https://api.github.com/repos/sak55/TIY-Assignments/issues/17/events",
-        "html_url": "https://github.com/sak55/TIY-Assignments/pull/17",
-        "id": 55535677,
-        "number": 17,
-        "title": "Assignment 13 pull request",
-        "user": {
-          "login": "sak55",
-          "id": 10141533,
-          "avatar_url": "https://avatars.githubusercontent.com/u/10141533?v=3",
-          "gravatar_id": "",
-          "url": "https://api.github.com/users/sak55",
-          "html_url": "https://github.com/sak55",
-          "followers_url": "https://api.github.com/users/sak55/followers",
-          "following_url": "https://api.github.com/users/sak55/following{/other_user}",
-          "gists_url": "https://api.github.com/users/sak55/gists{/gist_id}",
-          "starred_url": "https://api.github.com/users/sak55/starred{/owner}{/repo}",
-          "subscriptions_url": "https://api.github.com/users/sak55/subscriptions",
-          "organizations_url": "https://api.github.com/users/sak55/orgs",
-          "repos_url": "https://api.github.com/users/sak55/repos",
-          "events_url": "https://api.github.com/users/sak55/events{/privacy}",
-          "received_events_url": "https://api.github.com/users/sak55/received_events",
-          "type": "User",
-          "site_admin": false
-        },
-        "labels": [
-
-        ],
-        "state": "open",
-        "locked": false,
-        "assignee": null,
-        "milestone": null,
-        "comments": 3,
-        "created_at": "2015-01-26T20:51:44Z",
-        "updated_at": "2015-01-28T01:58:55Z",
-        "closed_at": null,
-        "pull_request": {
-          "url": "https://api.github.com/repos/sak55/TIY-Assignments/pulls/17",
-          "html_url": "https://github.com/sak55/TIY-Assignments/pull/17",
-          "diff_url": "https://github.com/sak55/TIY-Assignments/pull/17.diff",
-          "patch_url": "https://github.com/sak55/TIY-Assignments/pull/17.patch"
-        },
-        "body": ""
-      },
-      "comment": {
-        "url": "https://api.github.com/repos/sak55/TIY-Assignments/issues/comments/71767899",
-        "html_url": "https://github.com/sak55/TIY-Assignments/pull/17#issuecomment-71767899",
-        "issue_url": "https://api.github.com/repos/sak55/TIY-Assignments/issues/17",
-        "id": 71767899,
-        "user": {
-          "login": "carolinapowers",
-          "id": 10137641,
-          "avatar_url": "https://avatars.githubusercontent.com/u/10137641?v=3",
-          "gravatar_id": "",
-          "url": "https://api.github.com/users/carolinapowers",
-          "html_url": "https://github.com/carolinapowers",
-          "followers_url": "https://api.github.com/users/carolinapowers/followers",
-          "following_url": "https://api.github.com/users/carolinapowers/following{/other_user}",
-          "gists_url": "https://api.github.com/users/carolinapowers/gists{/gist_id}",
-          "starred_url": "https://api.github.com/users/carolinapowers/starred{/owner}{/repo}",
-          "subscriptions_url": "https://api.github.com/users/carolinapowers/subscriptions",
-          "organizations_url": "https://api.github.com/users/carolinapowers/orgs",
-          "repos_url": "https://api.github.com/users/carolinapowers/repos",
-          "events_url": "https://api.github.com/users/carolinapowers/events{/privacy}",
-          "received_events_url": "https://api.github.com/users/carolinapowers/received_events",
-          "type": "User",
-          "site_admin": false
-        },
-        "created_at": "2015-01-28T01:58:55Z",
-        "updated_at": "2015-01-28T01:58:55Z",
-        "body": ":+1: "
-      }
-    },
-    "public": true,
-    "created_at": "2015-01-28T01:58:55Z"
-  },
-  {
-    "id": "2540904506",
+    "id": "2582360908",
     "type": "IssueCommentEvent",
     "actor": {
       "id": 10137641,
@@ -113,14 +17,14 @@
     "payload": {
       "action": "created",
       "issue": {
-        "url": "https://api.github.com/repos/TheIronYard--Orlando/FEE--2015--SPRING/issues/172",
-        "labels_url": "https://api.github.com/repos/TheIronYard--Orlando/FEE--2015--SPRING/issues/172/labels{/name}",
-        "comments_url": "https://api.github.com/repos/TheIronYard--Orlando/FEE--2015--SPRING/issues/172/comments",
-        "events_url": "https://api.github.com/repos/TheIronYard--Orlando/FEE--2015--SPRING/issues/172/events",
-        "html_url": "https://github.com/TheIronYard--Orlando/FEE--2015--SPRING/issues/172",
-        "id": 55676243,
-        "number": 172,
-        "title": "14 -- Almost Lodash -- Carolina Powers",
+        "url": "https://api.github.com/repos/TheIronYard--Orlando/FEE--2015--SPRING/issues/298",
+        "labels_url": "https://api.github.com/repos/TheIronYard--Orlando/FEE--2015--SPRING/issues/298/labels{/name}",
+        "comments_url": "https://api.github.com/repos/TheIronYard--Orlando/FEE--2015--SPRING/issues/298/comments",
+        "events_url": "https://api.github.com/repos/TheIronYard--Orlando/FEE--2015--SPRING/issues/298/events",
+        "html_url": "https://github.com/TheIronYard--Orlando/FEE--2015--SPRING/issues/298",
+        "id": 57549462,
+        "number": 298,
+        "title": " 24 -- One Helluva Ride -- Carolina Powers",
         "user": {
           "login": "carolinapowers",
           "id": 10137641,
@@ -148,16 +52,16 @@
         "assignee": null,
         "milestone": null,
         "comments": 2,
-        "created_at": "2015-01-27T21:22:25Z",
-        "updated_at": "2015-01-28T01:38:30Z",
+        "created_at": "2015-02-13T02:07:00Z",
+        "updated_at": "2015-02-15T04:47:15Z",
         "closed_at": null,
-        "body": "## Deliverables\r\n\r\n* _WIP Issue:_ `14 -- Almost Lodash` with:\r\n  * link to your PR from your _WIP Branch_ to `master`\r\n  * comment with at least two `answer()` results from `scripts/gymnastics.js`\r\n* _WIP Branch:_ `feature/14--almost-lodash` with:\r\n  * `scripts/check-writing.js`\r\n    * using array lookups instead of `if`-`return` chains\r\n    * tests covering up to `20`\r\n  * `scripts/string-calculator.js`\r\n    * using dictionary lookups instead of `if`-`return` chains\r\n    * tests covering from `plus(\"zero\", \"zero\")` to `plus(\"ten\", \"ten\")`\r\n  * commits to `scripts/gymnastics.js`\r\n  * commits to `apis/github/users/USERNAME/events.json`\r\n* PR in `TIY-Assignments` from `feature/14--almost-lodash` to `master`\r\n  * with 2x :+1:'s from peers"
+        "body": "\r\nRemember to link _each_ of your PRs to your _WIP Issue_!\r\n\r\n## Requirements\r\n* [ ] YAK\r\n* [ ] _WIP Issue:_ `24 -- Helluva Ride`\r\n  * [x] checklist of assignments and checkpoints\r\n  * [ ] link to each PR you merge\r\n* [ ] _WIP Branch:_\r\n  * [ ] work in: `TIY-Assignments:feature/24--helluva-ride`\r\n  * [ ] deploy into: `TIY-Assignments:gh-pages`\r\n* [ ] _WIP Files:_\r\n  * [ ] `timeline/index.html`\r\n  * [ ] `surf+paddle/index.html`\r\n  * [ ] `katas/`\r\n    * [ ] `string-calculator.js`\r\n    * [ ] `check-writing.js`\r\n    * [ ] `roman-numerals.js`\r\n    * [ ] `euler-1.js` -- formerly `3s+5s.js`\r\n    * [ ] `euler-2.js` -- even Fibonacci\r\n    * [ ] `euler-4.js` -- largest palindrome\r\n    * [ ] `euler-5.js` -- smallest multiple\r\n  * [ ] `apis/gymnastics.js`\r\n  * [ ] `chessboard/`\r\n    * [ ] `index.html`\r\n    * [ ] `css/main.css`\r\n    * [ ] `js/main.js`\r\n  * [ ] `github/`\r\n    * [ ] `index.html`\r\n    * [ ] `css/main.css`\r\n    * [ ] `js/main.js`\r\n"
       },
       "comment": {
-        "url": "https://api.github.com/repos/TheIronYard--Orlando/FEE--2015--SPRING/issues/comments/71765955",
-        "html_url": "https://github.com/TheIronYard--Orlando/FEE--2015--SPRING/issues/172#issuecomment-71765955",
-        "issue_url": "https://api.github.com/repos/TheIronYard--Orlando/FEE--2015--SPRING/issues/172",
-        "id": 71765955,
+        "url": "https://api.github.com/repos/TheIronYard--Orlando/FEE--2015--SPRING/issues/comments/74403989",
+        "html_url": "https://github.com/TheIronYard--Orlando/FEE--2015--SPRING/issues/298#issuecomment-74403989",
+        "issue_url": "https://api.github.com/repos/TheIronYard--Orlando/FEE--2015--SPRING/issues/298",
+        "id": 74403989,
         "user": {
           "login": "carolinapowers",
           "id": 10137641,
@@ -177,13 +81,13 @@
           "type": "User",
           "site_admin": false
         },
-        "created_at": "2015-01-28T01:38:30Z",
-        "updated_at": "2015-01-28T01:38:30Z",
-        "body": "answer( ) \r\n{ total: 30, PushEvent: { total: 20 } }"
+        "created_at": "2015-02-15T04:47:15Z",
+        "updated_at": "2015-02-15T04:47:15Z",
+        "body": "https://github.com/carolinapowers/TIY-Assignments/pull/22"
       }
     },
     "public": true,
-    "created_at": "2015-01-28T01:38:31Z",
+    "created_at": "2015-02-15T04:47:15Z",
     "org": {
       "id": 8798300,
       "login": "TheIronYard--Orlando",
@@ -193,7 +97,7 @@
     }
   },
   {
-    "id": "2540885904",
+    "id": "2582360816",
     "type": "IssueCommentEvent",
     "actor": {
       "id": 10137641,
@@ -210,14 +114,14 @@
     "payload": {
       "action": "created",
       "issue": {
-        "url": "https://api.github.com/repos/TheIronYard--Orlando/FEE--2015--SPRING/issues/172",
-        "labels_url": "https://api.github.com/repos/TheIronYard--Orlando/FEE--2015--SPRING/issues/172/labels{/name}",
-        "comments_url": "https://api.github.com/repos/TheIronYard--Orlando/FEE--2015--SPRING/issues/172/comments",
-        "events_url": "https://api.github.com/repos/TheIronYard--Orlando/FEE--2015--SPRING/issues/172/events",
-        "html_url": "https://github.com/TheIronYard--Orlando/FEE--2015--SPRING/issues/172",
-        "id": 55676243,
-        "number": 172,
-        "title": "14 -- Almost Lodash -- Carolina Powers",
+        "url": "https://api.github.com/repos/TheIronYard--Orlando/FEE--2015--SPRING/issues/298",
+        "labels_url": "https://api.github.com/repos/TheIronYard--Orlando/FEE--2015--SPRING/issues/298/labels{/name}",
+        "comments_url": "https://api.github.com/repos/TheIronYard--Orlando/FEE--2015--SPRING/issues/298/comments",
+        "events_url": "https://api.github.com/repos/TheIronYard--Orlando/FEE--2015--SPRING/issues/298/events",
+        "html_url": "https://github.com/TheIronYard--Orlando/FEE--2015--SPRING/issues/298",
+        "id": 57549462,
+        "number": 298,
+        "title": " 24 -- One Helluva Ride -- Carolina Powers",
         "user": {
           "login": "carolinapowers",
           "id": 10137641,
@@ -245,16 +149,16 @@
         "assignee": null,
         "milestone": null,
         "comments": 1,
-        "created_at": "2015-01-27T21:22:25Z",
-        "updated_at": "2015-01-28T01:26:21Z",
+        "created_at": "2015-02-13T02:07:00Z",
+        "updated_at": "2015-02-15T04:47:02Z",
         "closed_at": null,
-        "body": "## Deliverables\r\n\r\n* _WIP Issue:_ `14 -- Almost Lodash` with:\r\n  * link to your PR from your _WIP Branch_ to `master`\r\n  * comment with at least two `answer()` results from `scripts/gymnastics.js`\r\n* _WIP Branch:_ `feature/14--almost-lodash` with:\r\n  * `scripts/check-writing.js`\r\n    * using array lookups instead of `if`-`return` chains\r\n    * tests covering up to `20`\r\n  * `scripts/string-calculator.js`\r\n    * using dictionary lookups instead of `if`-`return` chains\r\n    * tests covering from `plus(\"zero\", \"zero\")` to `plus(\"ten\", \"ten\")`\r\n  * commits to `scripts/gymnastics.js`\r\n  * commits to `apis/github/users/USERNAME/events.json`\r\n* PR in `TIY-Assignments` from `feature/14--almost-lodash` to `master`\r\n  * with 2x :+1:'s from peers"
+        "body": "\r\nRemember to link _each_ of your PRs to your _WIP Issue_!\r\n\r\n## Requirements\r\n* [ ] YAK\r\n* [ ] _WIP Issue:_ `24 -- Helluva Ride`\r\n  * [x] checklist of assignments and checkpoints\r\n  * [ ] link to each PR you merge\r\n* [ ] _WIP Branch:_\r\n  * [ ] work in: `TIY-Assignments:feature/24--helluva-ride`\r\n  * [ ] deploy into: `TIY-Assignments:gh-pages`\r\n* [ ] _WIP Files:_\r\n  * [ ] `timeline/index.html`\r\n  * [ ] `surf+paddle/index.html`\r\n  * [ ] `katas/`\r\n    * [ ] `string-calculator.js`\r\n    * [ ] `check-writing.js`\r\n    * [ ] `roman-numerals.js`\r\n    * [ ] `euler-1.js` -- formerly `3s+5s.js`\r\n    * [ ] `euler-2.js` -- even Fibonacci\r\n    * [ ] `euler-4.js` -- largest palindrome\r\n    * [ ] `euler-5.js` -- smallest multiple\r\n  * [ ] `apis/gymnastics.js`\r\n  * [ ] `chessboard/`\r\n    * [ ] `index.html`\r\n    * [ ] `css/main.css`\r\n    * [ ] `js/main.js`\r\n  * [ ] `github/`\r\n    * [ ] `index.html`\r\n    * [ ] `css/main.css`\r\n    * [ ] `js/main.js`\r\n"
       },
       "comment": {
-        "url": "https://api.github.com/repos/TheIronYard--Orlando/FEE--2015--SPRING/issues/comments/71764747",
-        "html_url": "https://github.com/TheIronYard--Orlando/FEE--2015--SPRING/issues/172#issuecomment-71764747",
-        "issue_url": "https://api.github.com/repos/TheIronYard--Orlando/FEE--2015--SPRING/issues/172",
-        "id": 71764747,
+        "url": "https://api.github.com/repos/TheIronYard--Orlando/FEE--2015--SPRING/issues/comments/74403986",
+        "html_url": "https://github.com/TheIronYard--Orlando/FEE--2015--SPRING/issues/298#issuecomment-74403986",
+        "issue_url": "https://api.github.com/repos/TheIronYard--Orlando/FEE--2015--SPRING/issues/298",
+        "id": 74403986,
         "user": {
           "login": "carolinapowers",
           "id": 10137641,
@@ -274,13 +178,13 @@
           "type": "User",
           "site_admin": false
         },
-        "created_at": "2015-01-28T01:26:21Z",
-        "updated_at": "2015-01-28T01:26:21Z",
-        "body": "https://github.com/carolinapowers/TIY-Assignments/pull/13"
+        "created_at": "2015-02-15T04:47:02Z",
+        "updated_at": "2015-02-15T04:47:02Z",
+        "body": "https://github.com/carolinapowers/TIY-Assignments/pull/21"
       }
     },
     "public": true,
-    "created_at": "2015-01-28T01:26:21Z",
+    "created_at": "2015-02-15T04:47:02Z",
     "org": {
       "id": 8798300,
       "login": "TheIronYard--Orlando",
@@ -290,331 +194,7 @@
     }
   },
   {
-    "id": "2540885423",
-    "type": "PullRequestEvent",
-    "actor": {
-      "id": 10137641,
-      "login": "carolinapowers",
-      "gravatar_id": "",
-      "url": "https://api.github.com/users/carolinapowers",
-      "avatar_url": "https://avatars.githubusercontent.com/u/10137641?"
-    },
-    "repo": {
-      "id": 27947597,
-      "name": "carolinapowers/TIY-Assignments",
-      "url": "https://api.github.com/repos/carolinapowers/TIY-Assignments"
-    },
-    "payload": {
-      "action": "opened",
-      "number": 13,
-      "pull_request": {
-        "url": "https://api.github.com/repos/carolinapowers/TIY-Assignments/pulls/13",
-        "id": 28160998,
-        "html_url": "https://github.com/carolinapowers/TIY-Assignments/pull/13",
-        "diff_url": "https://github.com/carolinapowers/TIY-Assignments/pull/13.diff",
-        "patch_url": "https://github.com/carolinapowers/TIY-Assignments/pull/13.patch",
-        "issue_url": "https://api.github.com/repos/carolinapowers/TIY-Assignments/issues/13",
-        "number": 13,
-        "state": "open",
-        "locked": false,
-        "title": " Almost lodash",
-        "user": {
-          "login": "carolinapowers",
-          "id": 10137641,
-          "avatar_url": "https://avatars.githubusercontent.com/u/10137641?v=3",
-          "gravatar_id": "",
-          "url": "https://api.github.com/users/carolinapowers",
-          "html_url": "https://github.com/carolinapowers",
-          "followers_url": "https://api.github.com/users/carolinapowers/followers",
-          "following_url": "https://api.github.com/users/carolinapowers/following{/other_user}",
-          "gists_url": "https://api.github.com/users/carolinapowers/gists{/gist_id}",
-          "starred_url": "https://api.github.com/users/carolinapowers/starred{/owner}{/repo}",
-          "subscriptions_url": "https://api.github.com/users/carolinapowers/subscriptions",
-          "organizations_url": "https://api.github.com/users/carolinapowers/orgs",
-          "repos_url": "https://api.github.com/users/carolinapowers/repos",
-          "events_url": "https://api.github.com/users/carolinapowers/events{/privacy}",
-          "received_events_url": "https://api.github.com/users/carolinapowers/received_events",
-          "type": "User",
-          "site_admin": false
-        },
-        "body": "",
-        "created_at": "2015-01-28T01:26:03Z",
-        "updated_at": "2015-01-28T01:26:03Z",
-        "closed_at": null,
-        "merged_at": null,
-        "merge_commit_sha": null,
-        "assignee": null,
-        "milestone": null,
-        "commits_url": "https://api.github.com/repos/carolinapowers/TIY-Assignments/pulls/13/commits",
-        "review_comments_url": "https://api.github.com/repos/carolinapowers/TIY-Assignments/pulls/13/comments",
-        "review_comment_url": "https://api.github.com/repos/carolinapowers/TIY-Assignments/pulls/comments/{number}",
-        "comments_url": "https://api.github.com/repos/carolinapowers/TIY-Assignments/issues/13/comments",
-        "statuses_url": "https://api.github.com/repos/carolinapowers/TIY-Assignments/statuses/e4684baff4ec43e6b18a38d600dfeb0233c558e3",
-        "head": {
-          "label": "carolinapowers:feature/14--almost-lodash",
-          "ref": "feature/14--almost-lodash",
-          "sha": "e4684baff4ec43e6b18a38d600dfeb0233c558e3",
-          "user": {
-            "login": "carolinapowers",
-            "id": 10137641,
-            "avatar_url": "https://avatars.githubusercontent.com/u/10137641?v=3",
-            "gravatar_id": "",
-            "url": "https://api.github.com/users/carolinapowers",
-            "html_url": "https://github.com/carolinapowers",
-            "followers_url": "https://api.github.com/users/carolinapowers/followers",
-            "following_url": "https://api.github.com/users/carolinapowers/following{/other_user}",
-            "gists_url": "https://api.github.com/users/carolinapowers/gists{/gist_id}",
-            "starred_url": "https://api.github.com/users/carolinapowers/starred{/owner}{/repo}",
-            "subscriptions_url": "https://api.github.com/users/carolinapowers/subscriptions",
-            "organizations_url": "https://api.github.com/users/carolinapowers/orgs",
-            "repos_url": "https://api.github.com/users/carolinapowers/repos",
-            "events_url": "https://api.github.com/users/carolinapowers/events{/privacy}",
-            "received_events_url": "https://api.github.com/users/carolinapowers/received_events",
-            "type": "User",
-            "site_admin": false
-          },
-          "repo": {
-            "id": 27947597,
-            "name": "TIY-Assignments",
-            "full_name": "carolinapowers/TIY-Assignments",
-            "owner": {
-              "login": "carolinapowers",
-              "id": 10137641,
-              "avatar_url": "https://avatars.githubusercontent.com/u/10137641?v=3",
-              "gravatar_id": "",
-              "url": "https://api.github.com/users/carolinapowers",
-              "html_url": "https://github.com/carolinapowers",
-              "followers_url": "https://api.github.com/users/carolinapowers/followers",
-              "following_url": "https://api.github.com/users/carolinapowers/following{/other_user}",
-              "gists_url": "https://api.github.com/users/carolinapowers/gists{/gist_id}",
-              "starred_url": "https://api.github.com/users/carolinapowers/starred{/owner}{/repo}",
-              "subscriptions_url": "https://api.github.com/users/carolinapowers/subscriptions",
-              "organizations_url": "https://api.github.com/users/carolinapowers/orgs",
-              "repos_url": "https://api.github.com/users/carolinapowers/repos",
-              "events_url": "https://api.github.com/users/carolinapowers/events{/privacy}",
-              "received_events_url": "https://api.github.com/users/carolinapowers/received_events",
-              "type": "User",
-              "site_admin": false
-            },
-            "private": false,
-            "html_url": "https://github.com/carolinapowers/TIY-Assignments",
-            "description": "",
-            "fork": false,
-            "url": "https://api.github.com/repos/carolinapowers/TIY-Assignments",
-            "forks_url": "https://api.github.com/repos/carolinapowers/TIY-Assignments/forks",
-            "keys_url": "https://api.github.com/repos/carolinapowers/TIY-Assignments/keys{/key_id}",
-            "collaborators_url": "https://api.github.com/repos/carolinapowers/TIY-Assignments/collaborators{/collaborator}",
-            "teams_url": "https://api.github.com/repos/carolinapowers/TIY-Assignments/teams",
-            "hooks_url": "https://api.github.com/repos/carolinapowers/TIY-Assignments/hooks",
-            "issue_events_url": "https://api.github.com/repos/carolinapowers/TIY-Assignments/issues/events{/number}",
-            "events_url": "https://api.github.com/repos/carolinapowers/TIY-Assignments/events",
-            "assignees_url": "https://api.github.com/repos/carolinapowers/TIY-Assignments/assignees{/user}",
-            "branches_url": "https://api.github.com/repos/carolinapowers/TIY-Assignments/branches{/branch}",
-            "tags_url": "https://api.github.com/repos/carolinapowers/TIY-Assignments/tags",
-            "blobs_url": "https://api.github.com/repos/carolinapowers/TIY-Assignments/git/blobs{/sha}",
-            "git_tags_url": "https://api.github.com/repos/carolinapowers/TIY-Assignments/git/tags{/sha}",
-            "git_refs_url": "https://api.github.com/repos/carolinapowers/TIY-Assignments/git/refs{/sha}",
-            "trees_url": "https://api.github.com/repos/carolinapowers/TIY-Assignments/git/trees{/sha}",
-            "statuses_url": "https://api.github.com/repos/carolinapowers/TIY-Assignments/statuses/{sha}",
-            "languages_url": "https://api.github.com/repos/carolinapowers/TIY-Assignments/languages",
-            "stargazers_url": "https://api.github.com/repos/carolinapowers/TIY-Assignments/stargazers",
-            "contributors_url": "https://api.github.com/repos/carolinapowers/TIY-Assignments/contributors",
-            "subscribers_url": "https://api.github.com/repos/carolinapowers/TIY-Assignments/subscribers",
-            "subscription_url": "https://api.github.com/repos/carolinapowers/TIY-Assignments/subscription",
-            "commits_url": "https://api.github.com/repos/carolinapowers/TIY-Assignments/commits{/sha}",
-            "git_commits_url": "https://api.github.com/repos/carolinapowers/TIY-Assignments/git/commits{/sha}",
-            "comments_url": "https://api.github.com/repos/carolinapowers/TIY-Assignments/comments{/number}",
-            "issue_comment_url": "https://api.github.com/repos/carolinapowers/TIY-Assignments/issues/comments/{number}",
-            "contents_url": "https://api.github.com/repos/carolinapowers/TIY-Assignments/contents/{+path}",
-            "compare_url": "https://api.github.com/repos/carolinapowers/TIY-Assignments/compare/{base}...{head}",
-            "merges_url": "https://api.github.com/repos/carolinapowers/TIY-Assignments/merges",
-            "archive_url": "https://api.github.com/repos/carolinapowers/TIY-Assignments/{archive_format}{/ref}",
-            "downloads_url": "https://api.github.com/repos/carolinapowers/TIY-Assignments/downloads",
-            "issues_url": "https://api.github.com/repos/carolinapowers/TIY-Assignments/issues{/number}",
-            "pulls_url": "https://api.github.com/repos/carolinapowers/TIY-Assignments/pulls{/number}",
-            "milestones_url": "https://api.github.com/repos/carolinapowers/TIY-Assignments/milestones{/number}",
-            "notifications_url": "https://api.github.com/repos/carolinapowers/TIY-Assignments/notifications{?since,all,participating}",
-            "labels_url": "https://api.github.com/repos/carolinapowers/TIY-Assignments/labels{/name}",
-            "releases_url": "https://api.github.com/repos/carolinapowers/TIY-Assignments/releases{/id}",
-            "created_at": "2014-12-13T03:09:45Z",
-            "updated_at": "2015-01-28T00:16:06Z",
-            "pushed_at": "2015-01-28T01:23:40Z",
-            "git_url": "git://github.com/carolinapowers/TIY-Assignments.git",
-            "ssh_url": "git@github.com:carolinapowers/TIY-Assignments.git",
-            "clone_url": "https://github.com/carolinapowers/TIY-Assignments.git",
-            "svn_url": "https://github.com/carolinapowers/TIY-Assignments",
-            "homepage": null,
-            "size": 15644,
-            "stargazers_count": 1,
-            "watchers_count": 1,
-            "language": "JavaScript",
-            "has_issues": true,
-            "has_downloads": true,
-            "has_wiki": true,
-            "has_pages": false,
-            "forks_count": 0,
-            "mirror_url": null,
-            "open_issues_count": 1,
-            "forks": 0,
-            "open_issues": 1,
-            "watchers": 1,
-            "default_branch": "master"
-          }
-        },
-        "base": {
-          "label": "carolinapowers:master",
-          "ref": "master",
-          "sha": "9399a9d7a6fcf75af15fffa2e20bc880434bad85",
-          "user": {
-            "login": "carolinapowers",
-            "id": 10137641,
-            "avatar_url": "https://avatars.githubusercontent.com/u/10137641?v=3",
-            "gravatar_id": "",
-            "url": "https://api.github.com/users/carolinapowers",
-            "html_url": "https://github.com/carolinapowers",
-            "followers_url": "https://api.github.com/users/carolinapowers/followers",
-            "following_url": "https://api.github.com/users/carolinapowers/following{/other_user}",
-            "gists_url": "https://api.github.com/users/carolinapowers/gists{/gist_id}",
-            "starred_url": "https://api.github.com/users/carolinapowers/starred{/owner}{/repo}",
-            "subscriptions_url": "https://api.github.com/users/carolinapowers/subscriptions",
-            "organizations_url": "https://api.github.com/users/carolinapowers/orgs",
-            "repos_url": "https://api.github.com/users/carolinapowers/repos",
-            "events_url": "https://api.github.com/users/carolinapowers/events{/privacy}",
-            "received_events_url": "https://api.github.com/users/carolinapowers/received_events",
-            "type": "User",
-            "site_admin": false
-          },
-          "repo": {
-            "id": 27947597,
-            "name": "TIY-Assignments",
-            "full_name": "carolinapowers/TIY-Assignments",
-            "owner": {
-              "login": "carolinapowers",
-              "id": 10137641,
-              "avatar_url": "https://avatars.githubusercontent.com/u/10137641?v=3",
-              "gravatar_id": "",
-              "url": "https://api.github.com/users/carolinapowers",
-              "html_url": "https://github.com/carolinapowers",
-              "followers_url": "https://api.github.com/users/carolinapowers/followers",
-              "following_url": "https://api.github.com/users/carolinapowers/following{/other_user}",
-              "gists_url": "https://api.github.com/users/carolinapowers/gists{/gist_id}",
-              "starred_url": "https://api.github.com/users/carolinapowers/starred{/owner}{/repo}",
-              "subscriptions_url": "https://api.github.com/users/carolinapowers/subscriptions",
-              "organizations_url": "https://api.github.com/users/carolinapowers/orgs",
-              "repos_url": "https://api.github.com/users/carolinapowers/repos",
-              "events_url": "https://api.github.com/users/carolinapowers/events{/privacy}",
-              "received_events_url": "https://api.github.com/users/carolinapowers/received_events",
-              "type": "User",
-              "site_admin": false
-            },
-            "private": false,
-            "html_url": "https://github.com/carolinapowers/TIY-Assignments",
-            "description": "",
-            "fork": false,
-            "url": "https://api.github.com/repos/carolinapowers/TIY-Assignments",
-            "forks_url": "https://api.github.com/repos/carolinapowers/TIY-Assignments/forks",
-            "keys_url": "https://api.github.com/repos/carolinapowers/TIY-Assignments/keys{/key_id}",
-            "collaborators_url": "https://api.github.com/repos/carolinapowers/TIY-Assignments/collaborators{/collaborator}",
-            "teams_url": "https://api.github.com/repos/carolinapowers/TIY-Assignments/teams",
-            "hooks_url": "https://api.github.com/repos/carolinapowers/TIY-Assignments/hooks",
-            "issue_events_url": "https://api.github.com/repos/carolinapowers/TIY-Assignments/issues/events{/number}",
-            "events_url": "https://api.github.com/repos/carolinapowers/TIY-Assignments/events",
-            "assignees_url": "https://api.github.com/repos/carolinapowers/TIY-Assignments/assignees{/user}",
-            "branches_url": "https://api.github.com/repos/carolinapowers/TIY-Assignments/branches{/branch}",
-            "tags_url": "https://api.github.com/repos/carolinapowers/TIY-Assignments/tags",
-            "blobs_url": "https://api.github.com/repos/carolinapowers/TIY-Assignments/git/blobs{/sha}",
-            "git_tags_url": "https://api.github.com/repos/carolinapowers/TIY-Assignments/git/tags{/sha}",
-            "git_refs_url": "https://api.github.com/repos/carolinapowers/TIY-Assignments/git/refs{/sha}",
-            "trees_url": "https://api.github.com/repos/carolinapowers/TIY-Assignments/git/trees{/sha}",
-            "statuses_url": "https://api.github.com/repos/carolinapowers/TIY-Assignments/statuses/{sha}",
-            "languages_url": "https://api.github.com/repos/carolinapowers/TIY-Assignments/languages",
-            "stargazers_url": "https://api.github.com/repos/carolinapowers/TIY-Assignments/stargazers",
-            "contributors_url": "https://api.github.com/repos/carolinapowers/TIY-Assignments/contributors",
-            "subscribers_url": "https://api.github.com/repos/carolinapowers/TIY-Assignments/subscribers",
-            "subscription_url": "https://api.github.com/repos/carolinapowers/TIY-Assignments/subscription",
-            "commits_url": "https://api.github.com/repos/carolinapowers/TIY-Assignments/commits{/sha}",
-            "git_commits_url": "https://api.github.com/repos/carolinapowers/TIY-Assignments/git/commits{/sha}",
-            "comments_url": "https://api.github.com/repos/carolinapowers/TIY-Assignments/comments{/number}",
-            "issue_comment_url": "https://api.github.com/repos/carolinapowers/TIY-Assignments/issues/comments/{number}",
-            "contents_url": "https://api.github.com/repos/carolinapowers/TIY-Assignments/contents/{+path}",
-            "compare_url": "https://api.github.com/repos/carolinapowers/TIY-Assignments/compare/{base}...{head}",
-            "merges_url": "https://api.github.com/repos/carolinapowers/TIY-Assignments/merges",
-            "archive_url": "https://api.github.com/repos/carolinapowers/TIY-Assignments/{archive_format}{/ref}",
-            "downloads_url": "https://api.github.com/repos/carolinapowers/TIY-Assignments/downloads",
-            "issues_url": "https://api.github.com/repos/carolinapowers/TIY-Assignments/issues{/number}",
-            "pulls_url": "https://api.github.com/repos/carolinapowers/TIY-Assignments/pulls{/number}",
-            "milestones_url": "https://api.github.com/repos/carolinapowers/TIY-Assignments/milestones{/number}",
-            "notifications_url": "https://api.github.com/repos/carolinapowers/TIY-Assignments/notifications{?since,all,participating}",
-            "labels_url": "https://api.github.com/repos/carolinapowers/TIY-Assignments/labels{/name}",
-            "releases_url": "https://api.github.com/repos/carolinapowers/TIY-Assignments/releases{/id}",
-            "created_at": "2014-12-13T03:09:45Z",
-            "updated_at": "2015-01-28T00:16:06Z",
-            "pushed_at": "2015-01-28T01:23:40Z",
-            "git_url": "git://github.com/carolinapowers/TIY-Assignments.git",
-            "ssh_url": "git@github.com:carolinapowers/TIY-Assignments.git",
-            "clone_url": "https://github.com/carolinapowers/TIY-Assignments.git",
-            "svn_url": "https://github.com/carolinapowers/TIY-Assignments",
-            "homepage": null,
-            "size": 15644,
-            "stargazers_count": 1,
-            "watchers_count": 1,
-            "language": "JavaScript",
-            "has_issues": true,
-            "has_downloads": true,
-            "has_wiki": true,
-            "has_pages": false,
-            "forks_count": 0,
-            "mirror_url": null,
-            "open_issues_count": 1,
-            "forks": 0,
-            "open_issues": 1,
-            "watchers": 1,
-            "default_branch": "master"
-          }
-        },
-        "_links": {
-          "self": {
-            "href": "https://api.github.com/repos/carolinapowers/TIY-Assignments/pulls/13"
-          },
-          "html": {
-            "href": "https://github.com/carolinapowers/TIY-Assignments/pull/13"
-          },
-          "issue": {
-            "href": "https://api.github.com/repos/carolinapowers/TIY-Assignments/issues/13"
-          },
-          "comments": {
-            "href": "https://api.github.com/repos/carolinapowers/TIY-Assignments/issues/13/comments"
-          },
-          "review_comments": {
-            "href": "https://api.github.com/repos/carolinapowers/TIY-Assignments/pulls/13/comments"
-          },
-          "review_comment": {
-            "href": "https://api.github.com/repos/carolinapowers/TIY-Assignments/pulls/comments/{number}"
-          },
-          "commits": {
-            "href": "https://api.github.com/repos/carolinapowers/TIY-Assignments/pulls/13/commits"
-          },
-          "statuses": {
-            "href": "https://api.github.com/repos/carolinapowers/TIY-Assignments/statuses/e4684baff4ec43e6b18a38d600dfeb0233c558e3"
-          }
-        },
-        "merged": false,
-        "mergeable": null,
-        "mergeable_state": "unknown",
-        "merged_by": null,
-        "comments": 0,
-        "review_comments": 0,
-        "commits": 2,
-        "additions": 203,
-        "deletions": 4,
-        "changed_files": 2
-      }
-    },
-    "public": true,
-    "created_at": "2015-01-28T01:26:03Z"
-  },
-  {
-    "id": "2540881567",
+    "id": "2582358911",
     "type": "PushEvent",
     "actor": {
       "id": 10137641,
@@ -629,186 +209,120 @@
       "url": "https://api.github.com/repos/carolinapowers/TIY-Assignments"
     },
     "payload": {
-      "push_id": 558011054,
-      "size": 1,
-      "distinct_size": 1,
-      "ref": "refs/heads/feature/14--almost-lodash",
-      "head": "e4684baff4ec43e6b18a38d600dfeb0233c558e3",
-      "before": "377c45398702044247b86d1cca7d136abe635abd",
-      "commits": [
-        {
-          "sha": "e4684baff4ec43e6b18a38d600dfeb0233c558e3",
-          "author": {
-            "email": "carolinapoloni@gmail.com",
-            "name": "Carolina Powers"
-          },
-          "message": "check-writing tests covering up to 20",
-          "distinct": true,
-          "url": "https://api.github.com/repos/carolinapowers/TIY-Assignments/commits/e4684baff4ec43e6b18a38d600dfeb0233c558e3"
-        }
-      ]
-    },
-    "public": true,
-    "created_at": "2015-01-28T01:23:41Z"
-  },
-  {
-    "id": "2540839998",
-    "type": "CreateEvent",
-    "actor": {
-      "id": 10137641,
-      "login": "carolinapowers",
-      "gravatar_id": "",
-      "url": "https://api.github.com/users/carolinapowers",
-      "avatar_url": "https://avatars.githubusercontent.com/u/10137641?"
-    },
-    "repo": {
-      "id": 27947597,
-      "name": "carolinapowers/TIY-Assignments",
-      "url": "https://api.github.com/repos/carolinapowers/TIY-Assignments"
-    },
-    "payload": {
-      "ref": "feature/14--almost-lodash",
-      "ref_type": "branch",
-      "master_branch": "master",
-      "description": "",
-      "pusher_type": "user"
-    },
-    "public": true,
-    "created_at": "2015-01-28T00:57:58Z"
-  },
-  {
-    "id": "2540771155",
-    "type": "DeleteEvent",
-    "actor": {
-      "id": 10137641,
-      "login": "carolinapowers",
-      "gravatar_id": "",
-      "url": "https://api.github.com/users/carolinapowers",
-      "avatar_url": "https://avatars.githubusercontent.com/u/10137641?"
-    },
-    "repo": {
-      "id": 27947597,
-      "name": "carolinapowers/TIY-Assignments",
-      "url": "https://api.github.com/repos/carolinapowers/TIY-Assignments"
-    },
-    "payload": {
-      "ref": "feature/13--lists+dicts",
-      "ref_type": "branch",
-      "pusher_type": "user"
-    },
-    "public": true,
-    "created_at": "2015-01-28T00:16:59Z"
-  },
-  {
-    "id": "2540769594",
-    "type": "PushEvent",
-    "actor": {
-      "id": 10137641,
-      "login": "carolinapowers",
-      "gravatar_id": "",
-      "url": "https://api.github.com/users/carolinapowers",
-      "avatar_url": "https://avatars.githubusercontent.com/u/10137641?"
-    },
-    "repo": {
-      "id": 27947597,
-      "name": "carolinapowers/TIY-Assignments",
-      "url": "https://api.github.com/repos/carolinapowers/TIY-Assignments"
-    },
-    "payload": {
-      "push_id": 557966808,
-      "size": 8,
-      "distinct_size": 1,
+      "push_id": 574981499,
+      "size": 10,
+      "distinct_size": 0,
       "ref": "refs/heads/master",
-      "head": "9399a9d7a6fcf75af15fffa2e20bc880434bad85",
-      "before": "974712f5aae3ed3a53ad80175d689df825febceb",
+      "head": "3c17cc68dd871de4d4115f7ee2c71ef02a701ccf",
+      "before": "1efc871676c7f6d47012ac1fbcab98758ea801d9",
       "commits": [
         {
-          "sha": "715a58149ce2fe4d259244f3ce7982956d7231c1",
+          "sha": "5c84ea69aaa1590dfc5c6d1bb4b871c5aed95d4f",
           "author": {
             "email": "carolinapoloni@gmail.com",
             "name": "Carolina Powers"
           },
-          "message": "gymnastics.js",
+          "message": "string-calculator",
           "distinct": false,
-          "url": "https://api.github.com/repos/carolinapowers/TIY-Assignments/commits/715a58149ce2fe4d259244f3ce7982956d7231c1"
+          "url": "https://api.github.com/repos/carolinapowers/TIY-Assignments/commits/5c84ea69aaa1590dfc5c6d1bb4b871c5aed95d4f"
         },
         {
-          "sha": "bf2dffec779116e2b0bf3bc8dc03a7f5f230c31f",
+          "sha": "580eecbc3e26453882903091a2ffee5e1562e3fe",
           "author": {
             "email": "carolinapoloni@gmail.com",
             "name": "Carolina Powers"
           },
-          "message": "check-writing with if and else if statements",
+          "message": "first kata function and tests",
           "distinct": false,
-          "url": "https://api.github.com/repos/carolinapowers/TIY-Assignments/commits/bf2dffec779116e2b0bf3bc8dc03a7f5f230c31f"
+          "url": "https://api.github.com/repos/carolinapowers/TIY-Assignments/commits/580eecbc3e26453882903091a2ffee5e1562e3fe"
         },
         {
-          "sha": "8992b77ebcfa9a464bb62638ddb3aa33e776259f",
+          "sha": "61fb9c37651d0b2509190e1ec242a28523c2ad10",
           "author": {
             "email": "carolinapoloni@gmail.com",
             "name": "Carolina Powers"
           },
-          "message": "toEnglish.png",
+          "message": "a lot of else if...so it is time to refactor",
           "distinct": false,
-          "url": "https://api.github.com/repos/carolinapowers/TIY-Assignments/commits/8992b77ebcfa9a464bb62638ddb3aa33e776259f"
+          "url": "https://api.github.com/repos/carolinapowers/TIY-Assignments/commits/61fb9c37651d0b2509190e1ec242a28523c2ad10"
         },
         {
-          "sha": "ab8b2f16748455898766eb427797633d1b86b0d0",
+          "sha": "a03afd215c37f1d6a975d16b67cefc39ddb89b29",
           "author": {
             "email": "carolinapoloni@gmail.com",
             "name": "Carolina Powers"
           },
-          "message": "function and array",
+          "message": "refactoring with an array of string numbers and a function with stringNumber object",
           "distinct": false,
-          "url": "https://api.github.com/repos/carolinapowers/TIY-Assignments/commits/ab8b2f16748455898766eb427797633d1b86b0d0"
+          "url": "https://api.github.com/repos/carolinapowers/TIY-Assignments/commits/a03afd215c37f1d6a975d16b67cefc39ddb89b29"
         },
         {
-          "sha": "b9c172c6b092a322abfff8e52678be0709b2b941",
+          "sha": "aa95a033eb2154a6f36b35270d059ed3f0e5ebe8",
           "author": {
             "email": "carolinapoloni@gmail.com",
             "name": "Carolina Powers"
           },
-          "message": "JS.md file up to prototype map and string calculator",
+          "message": "more string-calculator tests",
           "distinct": false,
-          "url": "https://api.github.com/repos/carolinapowers/TIY-Assignments/commits/b9c172c6b092a322abfff8e52678be0709b2b941"
+          "url": "https://api.github.com/repos/carolinapowers/TIY-Assignments/commits/aa95a033eb2154a6f36b35270d059ed3f0e5ebe8"
         },
         {
-          "sha": "dfd5bac2ca27b37585695fd55585b2b96636738e",
+          "sha": "63503daffb3663acac98c5d9c92d2058e390b1c8",
           "author": {
             "email": "carolinapoloni@gmail.com",
             "name": "Carolina Powers"
           },
-          "message": "Iteration Methods completed",
+          "message": "function minus was added",
           "distinct": false,
-          "url": "https://api.github.com/repos/carolinapowers/TIY-Assignments/commits/dfd5bac2ca27b37585695fd55585b2b96636738e"
+          "url": "https://api.github.com/repos/carolinapowers/TIY-Assignments/commits/63503daffb3663acac98c5d9c92d2058e390b1c8"
         },
         {
-          "sha": "33205c9df2283bc526d5e01b15ba9dc17739af15",
+          "sha": "2637407cabae7465318a3be221c793d631693564",
           "author": {
             "email": "carolinapoloni@gmail.com",
             "name": "Carolina Powers"
           },
-          "message": "total of events and pushevents",
+          "message": "final commit for string-calculator",
           "distinct": false,
-          "url": "https://api.github.com/repos/carolinapowers/TIY-Assignments/commits/33205c9df2283bc526d5e01b15ba9dc17739af15"
+          "url": "https://api.github.com/repos/carolinapowers/TIY-Assignments/commits/2637407cabae7465318a3be221c793d631693564"
         },
         {
-          "sha": "9399a9d7a6fcf75af15fffa2e20bc880434bad85",
+          "sha": "68dd7f1d4dbc86247ab6e26c5a9b218e6e6e4d4f",
           "author": {
             "email": "carolinapoloni@gmail.com",
             "name": "Carolina Powers"
           },
-          "message": "last commit for string calculator before merging it",
-          "distinct": true,
-          "url": "https://api.github.com/repos/carolinapowers/TIY-Assignments/commits/9399a9d7a6fcf75af15fffa2e20bc880434bad85"
+          "message": "check-writing with function toEnglish and else if",
+          "distinct": false,
+          "url": "https://api.github.com/repos/carolinapowers/TIY-Assignments/commits/68dd7f1d4dbc86247ab6e26c5a9b218e6e6e4d4f"
+        },
+        {
+          "sha": "f2b02c263f34bfc9711b1dd6c38f3962eb5b42d5",
+          "author": {
+            "email": "carolinapoloni@gmail.com",
+            "name": "Carolina Powers"
+          },
+          "message": "trying to see if the function toNumber could work like the toEnglish",
+          "distinct": false,
+          "url": "https://api.github.com/repos/carolinapowers/TIY-Assignments/commits/f2b02c263f34bfc9711b1dd6c38f3962eb5b42d5"
+        },
+        {
+          "sha": "3c17cc68dd871de4d4115f7ee2c71ef02a701ccf",
+          "author": {
+            "email": "carolinapoloni@gmail.com",
+            "name": "Carolina Powers"
+          },
+          "message": "check-writing tests up to ten",
+          "distinct": false,
+          "url": "https://api.github.com/repos/carolinapowers/TIY-Assignments/commits/3c17cc68dd871de4d4115f7ee2c71ef02a701ccf"
         }
       ]
     },
     "public": true,
-    "created_at": "2015-01-28T00:16:06Z"
+    "created_at": "2015-02-15T04:42:43Z"
   },
   {
-    "id": "2540769591",
+    "id": "2582358909",
     "type": "PullRequestEvent",
     "actor": {
       "id": 10137641,
@@ -824,18 +338,18 @@
     },
     "payload": {
       "action": "closed",
-      "number": 12,
+      "number": 22,
       "pull_request": {
-        "url": "https://api.github.com/repos/carolinapowers/TIY-Assignments/pulls/12",
-        "id": 28056292,
-        "html_url": "https://github.com/carolinapowers/TIY-Assignments/pull/12",
-        "diff_url": "https://github.com/carolinapowers/TIY-Assignments/pull/12.diff",
-        "patch_url": "https://github.com/carolinapowers/TIY-Assignments/pull/12.patch",
-        "issue_url": "https://api.github.com/repos/carolinapowers/TIY-Assignments/issues/12",
-        "number": 12,
+        "url": "https://api.github.com/repos/carolinapowers/TIY-Assignments/pulls/22",
+        "id": 29326924,
+        "html_url": "https://github.com/carolinapowers/TIY-Assignments/pull/22",
+        "diff_url": "https://github.com/carolinapowers/TIY-Assignments/pull/22.diff",
+        "patch_url": "https://github.com/carolinapowers/TIY-Assignments/pull/22.patch",
+        "issue_url": "https://api.github.com/repos/carolinapowers/TIY-Assignments/issues/22",
+        "number": 22,
         "state": "closed",
         "locked": false,
-        "title": "lists + dicts",
+        "title": "String-calculator and check-writing",
         "user": {
           "login": "carolinapowers",
           "id": 10137641,
@@ -855,23 +369,23 @@
           "type": "User",
           "site_admin": false
         },
-        "body": "",
-        "created_at": "2015-01-26T20:12:10Z",
-        "updated_at": "2015-01-28T00:16:06Z",
-        "closed_at": "2015-01-28T00:16:06Z",
-        "merged_at": "2015-01-28T00:16:06Z",
-        "merge_commit_sha": "c9394833a457a2f17a4d9dbb6094a36e16d32012",
+        "body": "To be done : \r\n\r\n* [ ] Add some tests for minus and plus functions.",
+        "created_at": "2015-02-14T23:02:16Z",
+        "updated_at": "2015-02-15T04:42:43Z",
+        "closed_at": "2015-02-15T04:42:43Z",
+        "merged_at": "2015-02-15T04:42:43Z",
+        "merge_commit_sha": "76f6d0dca1393e45baa11b787c837818ee51381d",
         "assignee": null,
         "milestone": null,
-        "commits_url": "https://api.github.com/repos/carolinapowers/TIY-Assignments/pulls/12/commits",
-        "review_comments_url": "https://api.github.com/repos/carolinapowers/TIY-Assignments/pulls/12/comments",
+        "commits_url": "https://api.github.com/repos/carolinapowers/TIY-Assignments/pulls/22/commits",
+        "review_comments_url": "https://api.github.com/repos/carolinapowers/TIY-Assignments/pulls/22/comments",
         "review_comment_url": "https://api.github.com/repos/carolinapowers/TIY-Assignments/pulls/comments/{number}",
-        "comments_url": "https://api.github.com/repos/carolinapowers/TIY-Assignments/issues/12/comments",
-        "statuses_url": "https://api.github.com/repos/carolinapowers/TIY-Assignments/statuses/33205c9df2283bc526d5e01b15ba9dc17739af15",
+        "comments_url": "https://api.github.com/repos/carolinapowers/TIY-Assignments/issues/22/comments",
+        "statuses_url": "https://api.github.com/repos/carolinapowers/TIY-Assignments/statuses/3c17cc68dd871de4d4115f7ee2c71ef02a701ccf",
         "head": {
-          "label": "carolinapowers:feature/13--lists+dicts",
-          "ref": "feature/13--lists+dicts",
-          "sha": "33205c9df2283bc526d5e01b15ba9dc17739af15",
+          "label": "carolinapowers:feature/24--helluva-ride",
+          "ref": "feature/24--helluva-ride",
+          "sha": "3c17cc68dd871de4d4115f7ee2c71ef02a701ccf",
           "user": {
             "login": "carolinapowers",
             "id": 10137641,
@@ -955,21 +469,21 @@
             "labels_url": "https://api.github.com/repos/carolinapowers/TIY-Assignments/labels{/name}",
             "releases_url": "https://api.github.com/repos/carolinapowers/TIY-Assignments/releases{/id}",
             "created_at": "2014-12-13T03:09:45Z",
-            "updated_at": "2015-01-28T00:16:06Z",
-            "pushed_at": "2015-01-28T00:16:06Z",
+            "updated_at": "2015-02-14T21:59:40Z",
+            "pushed_at": "2015-02-15T04:42:43Z",
             "git_url": "git://github.com/carolinapowers/TIY-Assignments.git",
             "ssh_url": "git@github.com:carolinapowers/TIY-Assignments.git",
             "clone_url": "https://github.com/carolinapowers/TIY-Assignments.git",
             "svn_url": "https://github.com/carolinapowers/TIY-Assignments",
             "homepage": null,
-            "size": 15644,
+            "size": 16120,
             "stargazers_count": 1,
             "watchers_count": 1,
-            "language": "JavaScript",
+            "language": "CSS",
             "has_issues": true,
             "has_downloads": true,
             "has_wiki": true,
-            "has_pages": false,
+            "has_pages": true,
             "forks_count": 0,
             "mirror_url": null,
             "open_issues_count": 0,
@@ -982,7 +496,7 @@
         "base": {
           "label": "carolinapowers:master",
           "ref": "master",
-          "sha": "974712f5aae3ed3a53ad80175d689df825febceb",
+          "sha": "1efc871676c7f6d47012ac1fbcab98758ea801d9",
           "user": {
             "login": "carolinapowers",
             "id": 10137641,
@@ -1066,21 +580,21 @@
             "labels_url": "https://api.github.com/repos/carolinapowers/TIY-Assignments/labels{/name}",
             "releases_url": "https://api.github.com/repos/carolinapowers/TIY-Assignments/releases{/id}",
             "created_at": "2014-12-13T03:09:45Z",
-            "updated_at": "2015-01-28T00:16:06Z",
-            "pushed_at": "2015-01-28T00:16:06Z",
+            "updated_at": "2015-02-14T21:59:40Z",
+            "pushed_at": "2015-02-15T04:42:43Z",
             "git_url": "git://github.com/carolinapowers/TIY-Assignments.git",
             "ssh_url": "git@github.com:carolinapowers/TIY-Assignments.git",
             "clone_url": "https://github.com/carolinapowers/TIY-Assignments.git",
             "svn_url": "https://github.com/carolinapowers/TIY-Assignments",
             "homepage": null,
-            "size": 15644,
+            "size": 16120,
             "stargazers_count": 1,
             "watchers_count": 1,
-            "language": "JavaScript",
+            "language": "CSS",
             "has_issues": true,
             "has_downloads": true,
             "has_wiki": true,
-            "has_pages": false,
+            "has_pages": true,
             "forks_count": 0,
             "mirror_url": null,
             "open_issues_count": 0,
@@ -1092,28 +606,28 @@
         },
         "_links": {
           "self": {
-            "href": "https://api.github.com/repos/carolinapowers/TIY-Assignments/pulls/12"
+            "href": "https://api.github.com/repos/carolinapowers/TIY-Assignments/pulls/22"
           },
           "html": {
-            "href": "https://github.com/carolinapowers/TIY-Assignments/pull/12"
+            "href": "https://github.com/carolinapowers/TIY-Assignments/pull/22"
           },
           "issue": {
-            "href": "https://api.github.com/repos/carolinapowers/TIY-Assignments/issues/12"
+            "href": "https://api.github.com/repos/carolinapowers/TIY-Assignments/issues/22"
           },
           "comments": {
-            "href": "https://api.github.com/repos/carolinapowers/TIY-Assignments/issues/12/comments"
+            "href": "https://api.github.com/repos/carolinapowers/TIY-Assignments/issues/22/comments"
           },
           "review_comments": {
-            "href": "https://api.github.com/repos/carolinapowers/TIY-Assignments/pulls/12/comments"
+            "href": "https://api.github.com/repos/carolinapowers/TIY-Assignments/pulls/22/comments"
           },
           "review_comment": {
             "href": "https://api.github.com/repos/carolinapowers/TIY-Assignments/pulls/comments/{number}"
           },
           "commits": {
-            "href": "https://api.github.com/repos/carolinapowers/TIY-Assignments/pulls/12/commits"
+            "href": "https://api.github.com/repos/carolinapowers/TIY-Assignments/pulls/22/commits"
           },
           "statuses": {
-            "href": "https://api.github.com/repos/carolinapowers/TIY-Assignments/statuses/33205c9df2283bc526d5e01b15ba9dc17739af15"
+            "href": "https://api.github.com/repos/carolinapowers/TIY-Assignments/statuses/3c17cc68dd871de4d4115f7ee2c71ef02a701ccf"
           }
         },
         "merged": true,
@@ -1138,19 +652,19 @@
           "type": "User",
           "site_admin": false
         },
-        "comments": 3,
+        "comments": 2,
         "review_comments": 0,
-        "commits": 7,
-        "additions": 291,
-        "deletions": 29,
-        "changed_files": 5
+        "commits": 10,
+        "additions": 314,
+        "deletions": 0,
+        "changed_files": 2
       }
     },
     "public": true,
-    "created_at": "2015-01-28T00:16:06Z"
+    "created_at": "2015-02-15T04:42:43Z"
   },
   {
-    "id": "2540765632",
+    "id": "2582353092",
     "type": "PushEvent",
     "actor": {
       "id": 10137641,
@@ -1165,100 +679,31 @@
       "url": "https://api.github.com/repos/carolinapowers/TIY-Assignments"
     },
     "payload": {
-      "push_id": 557965001,
+      "push_id": 574978775,
       "size": 1,
       "distinct_size": 1,
-      "ref": "refs/heads/feature/13--lists+dicts",
-      "head": "33205c9df2283bc526d5e01b15ba9dc17739af15",
-      "before": "dfd5bac2ca27b37585695fd55585b2b96636738e",
+      "ref": "refs/heads/feature/24--helluva-ride",
+      "head": "3c17cc68dd871de4d4115f7ee2c71ef02a701ccf",
+      "before": "f2b02c263f34bfc9711b1dd6c38f3962eb5b42d5",
       "commits": [
         {
-          "sha": "33205c9df2283bc526d5e01b15ba9dc17739af15",
+          "sha": "3c17cc68dd871de4d4115f7ee2c71ef02a701ccf",
           "author": {
             "email": "carolinapoloni@gmail.com",
             "name": "Carolina Powers"
           },
-          "message": "total of events and pushevents",
+          "message": "check-writing tests up to ten",
           "distinct": true,
-          "url": "https://api.github.com/repos/carolinapowers/TIY-Assignments/commits/33205c9df2283bc526d5e01b15ba9dc17739af15"
+          "url": "https://api.github.com/repos/carolinapowers/TIY-Assignments/commits/3c17cc68dd871de4d4115f7ee2c71ef02a701ccf"
         }
       ]
     },
     "public": true,
-    "created_at": "2015-01-28T00:14:07Z"
+    "created_at": "2015-02-15T04:29:34Z"
   },
   {
-    "id": "2540374538",
-    "type": "IssuesEvent",
-    "actor": {
-      "id": 10137641,
-      "login": "carolinapowers",
-      "gravatar_id": "",
-      "url": "https://api.github.com/users/carolinapowers",
-      "avatar_url": "https://avatars.githubusercontent.com/u/10137641?"
-    },
-    "repo": {
-      "id": 25180640,
-      "name": "TheIronYard--Orlando/FEE--2015--SPRING",
-      "url": "https://api.github.com/repos/TheIronYard--Orlando/FEE--2015--SPRING"
-    },
-    "payload": {
-      "action": "opened",
-      "issue": {
-        "url": "https://api.github.com/repos/TheIronYard--Orlando/FEE--2015--SPRING/issues/172",
-        "labels_url": "https://api.github.com/repos/TheIronYard--Orlando/FEE--2015--SPRING/issues/172/labels{/name}",
-        "comments_url": "https://api.github.com/repos/TheIronYard--Orlando/FEE--2015--SPRING/issues/172/comments",
-        "events_url": "https://api.github.com/repos/TheIronYard--Orlando/FEE--2015--SPRING/issues/172/events",
-        "html_url": "https://github.com/TheIronYard--Orlando/FEE--2015--SPRING/issues/172",
-        "id": 55676243,
-        "number": 172,
-        "title": "14 -- Almost Lodash -- Carolina Powers",
-        "user": {
-          "login": "carolinapowers",
-          "id": 10137641,
-          "avatar_url": "https://avatars.githubusercontent.com/u/10137641?v=3",
-          "gravatar_id": "",
-          "url": "https://api.github.com/users/carolinapowers",
-          "html_url": "https://github.com/carolinapowers",
-          "followers_url": "https://api.github.com/users/carolinapowers/followers",
-          "following_url": "https://api.github.com/users/carolinapowers/following{/other_user}",
-          "gists_url": "https://api.github.com/users/carolinapowers/gists{/gist_id}",
-          "starred_url": "https://api.github.com/users/carolinapowers/starred{/owner}{/repo}",
-          "subscriptions_url": "https://api.github.com/users/carolinapowers/subscriptions",
-          "organizations_url": "https://api.github.com/users/carolinapowers/orgs",
-          "repos_url": "https://api.github.com/users/carolinapowers/repos",
-          "events_url": "https://api.github.com/users/carolinapowers/events{/privacy}",
-          "received_events_url": "https://api.github.com/users/carolinapowers/received_events",
-          "type": "User",
-          "site_admin": false
-        },
-        "labels": [
-
-        ],
-        "state": "open",
-        "locked": false,
-        "assignee": null,
-        "milestone": null,
-        "comments": 0,
-        "created_at": "2015-01-27T21:22:25Z",
-        "updated_at": "2015-01-27T21:22:25Z",
-        "closed_at": null,
-        "body": "WIP Issue: 14 -- Almost Lodash with:\r\nlink to your PR from your WIP Branch to master\r\ncomment with at least two answer() results from scripts/gymnastics.js\r\nWIP Branch: feature/14--almost-lodash with:\r\nscripts/check-writing.js\r\nusing array lookups instead of if-return chains\r\ntests covering up to 20\r\nscripts/string-calculator.js\r\nusing dictionary lookups instead of if-return chains\r\ntests covering from plus(\"zero\", \"zero\") to plus(\"ten\", \"ten\")\r\ncommits to scripts/gymnastics.js\r\ncommits to apis/github/users/USERNAME/events.json\r\nPR in TIY-Assignments from feature/14--almost-lodash to master\r\nwith 2x :+1:'s from peers"
-      }
-    },
-    "public": true,
-    "created_at": "2015-01-27T21:22:25Z",
-    "org": {
-      "id": 8798300,
-      "login": "TheIronYard--Orlando",
-      "gravatar_id": "",
-      "url": "https://api.github.com/orgs/TheIronYard--Orlando",
-      "avatar_url": "https://avatars.githubusercontent.com/u/8798300?"
-    }
-  },
-  {
-    "id": "2540360279",
-    "type": "IssueCommentEvent",
+    "id": "2582347744",
+    "type": "PushEvent",
     "actor": {
       "id": 10137641,
       "login": "carolinapowers",
@@ -1272,32 +717,70 @@
       "url": "https://api.github.com/repos/carolinapowers/TIY-Assignments"
     },
     "payload": {
+      "push_id": 574976233,
+      "size": 1,
+      "distinct_size": 1,
+      "ref": "refs/heads/feature/24--helluva-ride",
+      "head": "f2b02c263f34bfc9711b1dd6c38f3962eb5b42d5",
+      "before": "68dd7f1d4dbc86247ab6e26c5a9b218e6e6e4d4f",
+      "commits": [
+        {
+          "sha": "f2b02c263f34bfc9711b1dd6c38f3962eb5b42d5",
+          "author": {
+            "email": "carolinapoloni@gmail.com",
+            "name": "Carolina Powers"
+          },
+          "message": "trying to see if the function toNumber could work like the toEnglish",
+          "distinct": true,
+          "url": "https://api.github.com/repos/carolinapowers/TIY-Assignments/commits/f2b02c263f34bfc9711b1dd6c38f3962eb5b42d5"
+        }
+      ]
+    },
+    "public": true,
+    "created_at": "2015-02-15T04:17:12Z"
+  },
+  {
+    "id": "2582345706",
+    "type": "IssueCommentEvent",
+    "actor": {
+      "id": 10137641,
+      "login": "carolinapowers",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/carolinapowers",
+      "avatar_url": "https://avatars.githubusercontent.com/u/10137641?"
+    },
+    "repo": {
+      "id": 28697055,
+      "name": "jaredstevick/TIY-Assignments",
+      "url": "https://api.github.com/repos/jaredstevick/TIY-Assignments"
+    },
+    "payload": {
       "action": "created",
       "issue": {
-        "url": "https://api.github.com/repos/carolinapowers/TIY-Assignments/issues/12",
-        "labels_url": "https://api.github.com/repos/carolinapowers/TIY-Assignments/issues/12/labels{/name}",
-        "comments_url": "https://api.github.com/repos/carolinapowers/TIY-Assignments/issues/12/comments",
-        "events_url": "https://api.github.com/repos/carolinapowers/TIY-Assignments/issues/12/events",
-        "html_url": "https://github.com/carolinapowers/TIY-Assignments/pull/12",
-        "id": 55531024,
-        "number": 12,
-        "title": "lists + dicts",
+        "url": "https://api.github.com/repos/jaredstevick/TIY-Assignments/issues/29",
+        "labels_url": "https://api.github.com/repos/jaredstevick/TIY-Assignments/issues/29/labels{/name}",
+        "comments_url": "https://api.github.com/repos/jaredstevick/TIY-Assignments/issues/29/comments",
+        "events_url": "https://api.github.com/repos/jaredstevick/TIY-Assignments/issues/29/events",
+        "html_url": "https://github.com/jaredstevick/TIY-Assignments/pull/29",
+        "id": 57714561,
+        "number": 29,
+        "title": "Feature/24  helluva ride -- gymnastics",
         "user": {
-          "login": "carolinapowers",
-          "id": 10137641,
-          "avatar_url": "https://avatars.githubusercontent.com/u/10137641?v=3",
+          "login": "jaredstevick",
+          "id": 9483436,
+          "avatar_url": "https://avatars.githubusercontent.com/u/9483436?v=3",
           "gravatar_id": "",
-          "url": "https://api.github.com/users/carolinapowers",
-          "html_url": "https://github.com/carolinapowers",
-          "followers_url": "https://api.github.com/users/carolinapowers/followers",
-          "following_url": "https://api.github.com/users/carolinapowers/following{/other_user}",
-          "gists_url": "https://api.github.com/users/carolinapowers/gists{/gist_id}",
-          "starred_url": "https://api.github.com/users/carolinapowers/starred{/owner}{/repo}",
-          "subscriptions_url": "https://api.github.com/users/carolinapowers/subscriptions",
-          "organizations_url": "https://api.github.com/users/carolinapowers/orgs",
-          "repos_url": "https://api.github.com/users/carolinapowers/repos",
-          "events_url": "https://api.github.com/users/carolinapowers/events{/privacy}",
-          "received_events_url": "https://api.github.com/users/carolinapowers/received_events",
+          "url": "https://api.github.com/users/jaredstevick",
+          "html_url": "https://github.com/jaredstevick",
+          "followers_url": "https://api.github.com/users/jaredstevick/followers",
+          "following_url": "https://api.github.com/users/jaredstevick/following{/other_user}",
+          "gists_url": "https://api.github.com/users/jaredstevick/gists{/gist_id}",
+          "starred_url": "https://api.github.com/users/jaredstevick/starred{/owner}{/repo}",
+          "subscriptions_url": "https://api.github.com/users/jaredstevick/subscriptions",
+          "organizations_url": "https://api.github.com/users/jaredstevick/orgs",
+          "repos_url": "https://api.github.com/users/jaredstevick/repos",
+          "events_url": "https://api.github.com/users/jaredstevick/events{/privacy}",
+          "received_events_url": "https://api.github.com/users/jaredstevick/received_events",
           "type": "User",
           "site_admin": false
         },
@@ -1308,23 +791,23 @@
         "locked": false,
         "assignee": null,
         "milestone": null,
-        "comments": 3,
-        "created_at": "2015-01-26T20:12:10Z",
-        "updated_at": "2015-01-27T21:16:34Z",
+        "comments": 2,
+        "created_at": "2015-02-15T02:14:07Z",
+        "updated_at": "2015-02-15T04:12:43Z",
         "closed_at": null,
         "pull_request": {
-          "url": "https://api.github.com/repos/carolinapowers/TIY-Assignments/pulls/12",
-          "html_url": "https://github.com/carolinapowers/TIY-Assignments/pull/12",
-          "diff_url": "https://github.com/carolinapowers/TIY-Assignments/pull/12.diff",
-          "patch_url": "https://github.com/carolinapowers/TIY-Assignments/pull/12.patch"
+          "url": "https://api.github.com/repos/jaredstevick/TIY-Assignments/pulls/29",
+          "html_url": "https://github.com/jaredstevick/TIY-Assignments/pull/29",
+          "diff_url": "https://github.com/jaredstevick/TIY-Assignments/pull/29.diff",
+          "patch_url": "https://github.com/jaredstevick/TIY-Assignments/pull/29.patch"
         },
         "body": ""
       },
       "comment": {
-        "url": "https://api.github.com/repos/carolinapowers/TIY-Assignments/issues/comments/71729603",
-        "html_url": "https://github.com/carolinapowers/TIY-Assignments/pull/12#issuecomment-71729603",
-        "issue_url": "https://api.github.com/repos/carolinapowers/TIY-Assignments/issues/12",
-        "id": 71729603,
+        "url": "https://api.github.com/repos/jaredstevick/TIY-Assignments/issues/comments/74403337",
+        "html_url": "https://github.com/jaredstevick/TIY-Assignments/pull/29#issuecomment-74403337",
+        "issue_url": "https://api.github.com/repos/jaredstevick/TIY-Assignments/issues/29",
+        "id": 74403337,
         "user": {
           "login": "carolinapowers",
           "id": 10137641,
@@ -1344,150 +827,16 @@
           "type": "User",
           "site_admin": false
         },
-        "created_at": "2015-01-27T21:16:34Z",
-        "updated_at": "2015-01-27T21:16:34Z",
-        "body": "https://github.com/TheIronYard--Orlando/FEE--2015--SPRING/issues/164"
+        "created_at": "2015-02-15T04:12:43Z",
+        "updated_at": "2015-02-15T04:12:43Z",
+        "body": ":+1: "
       }
     },
     "public": true,
-    "created_at": "2015-01-27T21:16:34Z"
+    "created_at": "2015-02-15T04:12:43Z"
   },
   {
-    "id": "2540358595",
-    "type": "IssueCommentEvent",
-    "actor": {
-      "id": 10137641,
-      "login": "carolinapowers",
-      "gravatar_id": "",
-      "url": "https://api.github.com/users/carolinapowers",
-      "avatar_url": "https://avatars.githubusercontent.com/u/10137641?"
-    },
-    "repo": {
-      "id": 25180640,
-      "name": "TheIronYard--Orlando/FEE--2015--SPRING",
-      "url": "https://api.github.com/repos/TheIronYard--Orlando/FEE--2015--SPRING"
-    },
-    "payload": {
-      "action": "created",
-      "issue": {
-        "url": "https://api.github.com/repos/TheIronYard--Orlando/FEE--2015--SPRING/issues/164",
-        "labels_url": "https://api.github.com/repos/TheIronYard--Orlando/FEE--2015--SPRING/issues/164/labels{/name}",
-        "comments_url": "https://api.github.com/repos/TheIronYard--Orlando/FEE--2015--SPRING/issues/164/comments",
-        "events_url": "https://api.github.com/repos/TheIronYard--Orlando/FEE--2015--SPRING/issues/164/events",
-        "html_url": "https://github.com/TheIronYard--Orlando/FEE--2015--SPRING/issues/164",
-        "id": 55535625,
-        "number": 164,
-        "title": "13 -- Lists + Dicts -- Carolina Powers",
-        "user": {
-          "login": "carolinapowers",
-          "id": 10137641,
-          "avatar_url": "https://avatars.githubusercontent.com/u/10137641?v=3",
-          "gravatar_id": "",
-          "url": "https://api.github.com/users/carolinapowers",
-          "html_url": "https://github.com/carolinapowers",
-          "followers_url": "https://api.github.com/users/carolinapowers/followers",
-          "following_url": "https://api.github.com/users/carolinapowers/following{/other_user}",
-          "gists_url": "https://api.github.com/users/carolinapowers/gists{/gist_id}",
-          "starred_url": "https://api.github.com/users/carolinapowers/starred{/owner}{/repo}",
-          "subscriptions_url": "https://api.github.com/users/carolinapowers/subscriptions",
-          "organizations_url": "https://api.github.com/users/carolinapowers/orgs",
-          "repos_url": "https://api.github.com/users/carolinapowers/repos",
-          "events_url": "https://api.github.com/users/carolinapowers/events{/privacy}",
-          "received_events_url": "https://api.github.com/users/carolinapowers/received_events",
-          "type": "User",
-          "site_admin": false
-        },
-        "labels": [
-          {
-            "url": "https://api.github.com/repos/TheIronYard--Orlando/FEE--2015--SPRING/labels/Incomplete",
-            "name": "Incomplete",
-            "color": "e11d21"
-          }
-        ],
-        "state": "open",
-        "locked": false,
-        "assignee": null,
-        "milestone": {
-          "url": "https://api.github.com/repos/TheIronYard--Orlando/FEE--2015--SPRING/milestones/12",
-          "labels_url": "https://api.github.com/repos/TheIronYard--Orlando/FEE--2015--SPRING/milestones/12/labels",
-          "id": 953366,
-          "number": 12,
-          "title": "13 -- Lists+Dicts",
-          "description": "* _WIP Issue_ named `13 -- Lists+Dicts` with tasks _and estimates!_\r\n* PR in `TIY-Assignments` from `feature/13--lists+dicts` to `master` with:\r\n    * diagram of `toEnglish()` from `scripts/check-writing.js` in `docs/toEnglish.png`\r\n    * more documentation in `docs/JS.md` for _non-experimental_ [Iteration Methods](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array#Iteration_methods)\r\n    * JSON file in `apis/github/users/USERNAME/events.json` (where `USERNAME` is _you_)\r\n    * new file in `scripts/` called `gymnastics.js` with a function called `answers` that meets **Requirements**",
-          "creator": {
-            "login": "LoganArnett",
-            "id": 8780547,
-            "avatar_url": "https://avatars.githubusercontent.com/u/8780547?v=3",
-            "gravatar_id": "",
-            "url": "https://api.github.com/users/LoganArnett",
-            "html_url": "https://github.com/LoganArnett",
-            "followers_url": "https://api.github.com/users/LoganArnett/followers",
-            "following_url": "https://api.github.com/users/LoganArnett/following{/other_user}",
-            "gists_url": "https://api.github.com/users/LoganArnett/gists{/gist_id}",
-            "starred_url": "https://api.github.com/users/LoganArnett/starred{/owner}{/repo}",
-            "subscriptions_url": "https://api.github.com/users/LoganArnett/subscriptions",
-            "organizations_url": "https://api.github.com/users/LoganArnett/orgs",
-            "repos_url": "https://api.github.com/users/LoganArnett/repos",
-            "events_url": "https://api.github.com/users/LoganArnett/events{/privacy}",
-            "received_events_url": "https://api.github.com/users/LoganArnett/received_events",
-            "type": "User",
-            "site_admin": false
-          },
-          "open_issues": 11,
-          "closed_issues": 0,
-          "state": "open",
-          "created_at": "2015-01-27T15:36:52Z",
-          "updated_at": "2015-01-27T18:42:00Z",
-          "due_on": null,
-          "closed_at": null
-        },
-        "comments": 2,
-        "created_at": "2015-01-26T20:51:22Z",
-        "updated_at": "2015-01-27T21:15:54Z",
-        "closed_at": null,
-        "body": "### Tasks\r\n\r\n* [x] **Yak Shaving** (M)\r\n    * Create your _WIP Issue_ named `13 -- Lists + Dicts` with tasks _and estimates!_\r\n    * Merge your PR, update your local `master`, and open a new branch: `feature/13--lists+dicts`\r\n    * Create a new file in `apis/github/users/USERNAME/events.json` where `USERNAME` is... you get it.\r\n    * Use [`curl`](http://curl.haxx.se/docs/manpage.html) or [Postman](http://www.getpostman.com/) to fetch [your public events from the Github API](https://developer.github.com/v3/activity/events/#list-public-events-performed-by-a-user)\r\n    * Commit, push, and open a PR!\r\n* [x] **Take a Picture** (M)\r\n* [x] **One More Time...**(L)\r\n    * [x] Checkpoint: **String Calculator** with `if` and `return` (no `else`)\r\n    * [x] Checkpoint: **Check Writing** refactored to `fromEnglish()`\r\n    * [x] Checkpoint: **Check Writing** refactored `fromEnglish()` to use _at least one_ lookup!\r\n    * [x] Checkpoint: **Check Writing** with 100% `Array` lookups instead of `if`\r\n    * [x] Mission Complete\r\n* [x] **Reading JavaScript** (L)\r\n    * [x] Checkpoint: Let's talk about `forEach`... a lot.\r\n    * [x] Checkpoint: Here's that `every()` and `some()` crowd again.\r\n    * [x] Checkpoint: Who needs a `filter()` anyway?\r\n    * [x] Checkpoint: Can I get a `map()` over here?\r\n    * [x] Checkpoint: I wish I could `reduce()` this assignment...\r\n    * [x] Checkpoint: Am I `reduceRight()`...?\r\n    * [x] Mission Complete!\r\n* [ ] **API Gymnastics** (M)\r\n    * [x] Checkpoint: Got me some data...\r\n    * [ ] Checkpoint: Count it up right...\r\n    * [ ] Checkpoint: Filtering out just the `PushEvent` entries...\r\n    * [ ] Checkpoint: Now doing the complete opposite...\r\n    * [ ] Checkpoint: I have all the `answers` now!\r\n    * [ ] Mission Complete"
-      },
-      "comment": {
-        "url": "https://api.github.com/repos/TheIronYard--Orlando/FEE--2015--SPRING/issues/comments/71729468",
-        "html_url": "https://github.com/TheIronYard--Orlando/FEE--2015--SPRING/issues/164#issuecomment-71729468",
-        "issue_url": "https://api.github.com/repos/TheIronYard--Orlando/FEE--2015--SPRING/issues/164",
-        "id": 71729468,
-        "user": {
-          "login": "carolinapowers",
-          "id": 10137641,
-          "avatar_url": "https://avatars.githubusercontent.com/u/10137641?v=3",
-          "gravatar_id": "",
-          "url": "https://api.github.com/users/carolinapowers",
-          "html_url": "https://github.com/carolinapowers",
-          "followers_url": "https://api.github.com/users/carolinapowers/followers",
-          "following_url": "https://api.github.com/users/carolinapowers/following{/other_user}",
-          "gists_url": "https://api.github.com/users/carolinapowers/gists{/gist_id}",
-          "starred_url": "https://api.github.com/users/carolinapowers/starred{/owner}{/repo}",
-          "subscriptions_url": "https://api.github.com/users/carolinapowers/subscriptions",
-          "organizations_url": "https://api.github.com/users/carolinapowers/orgs",
-          "repos_url": "https://api.github.com/users/carolinapowers/repos",
-          "events_url": "https://api.github.com/users/carolinapowers/events{/privacy}",
-          "received_events_url": "https://api.github.com/users/carolinapowers/received_events",
-          "type": "User",
-          "site_admin": false
-        },
-        "created_at": "2015-01-27T21:15:54Z",
-        "updated_at": "2015-01-27T21:15:54Z",
-        "body": "[11:27 AM] Carolina Powers: https://github.com/carolinapowers/TIY-Assignments/pull/12"
-      }
-    },
-    "public": true,
-    "created_at": "2015-01-27T21:15:54Z",
-    "org": {
-      "id": 8798300,
-      "login": "TheIronYard--Orlando",
-      "gravatar_id": "",
-      "url": "https://api.github.com/orgs/TheIronYard--Orlando",
-      "avatar_url": "https://avatars.githubusercontent.com/u/8798300?"
-    }
-  },
-  {
-    "id": "2538222831",
+    "id": "2582339841",
     "type": "PushEvent",
     "actor": {
       "id": 10137641,
@@ -1502,30 +851,30 @@
       "url": "https://api.github.com/repos/carolinapowers/TIY-Assignments"
     },
     "payload": {
-      "push_id": 556929922,
+      "push_id": 574972588,
       "size": 1,
       "distinct_size": 1,
-      "ref": "refs/heads/feature/13--lists+dicts",
-      "head": "dfd5bac2ca27b37585695fd55585b2b96636738e",
-      "before": "b9c172c6b092a322abfff8e52678be0709b2b941",
+      "ref": "refs/heads/feature/24--helluva-ride",
+      "head": "68dd7f1d4dbc86247ab6e26c5a9b218e6e6e4d4f",
+      "before": "2637407cabae7465318a3be221c793d631693564",
       "commits": [
         {
-          "sha": "dfd5bac2ca27b37585695fd55585b2b96636738e",
+          "sha": "68dd7f1d4dbc86247ab6e26c5a9b218e6e6e4d4f",
           "author": {
             "email": "carolinapoloni@gmail.com",
             "name": "Carolina Powers"
           },
-          "message": "Iteration Methods completed",
+          "message": "check-writing with function toEnglish and else if",
           "distinct": true,
-          "url": "https://api.github.com/repos/carolinapowers/TIY-Assignments/commits/dfd5bac2ca27b37585695fd55585b2b96636738e"
+          "url": "https://api.github.com/repos/carolinapowers/TIY-Assignments/commits/68dd7f1d4dbc86247ab6e26c5a9b218e6e6e4d4f"
         }
       ]
     },
     "public": true,
-    "created_at": "2015-01-27T03:27:19Z"
+    "created_at": "2015-02-15T03:59:50Z"
   },
   {
-    "id": "2538194047",
+    "id": "2582333394",
     "type": "PushEvent",
     "actor": {
       "id": 10137641,
@@ -1540,30 +889,30 @@
       "url": "https://api.github.com/repos/carolinapowers/TIY-Assignments"
     },
     "payload": {
-      "push_id": 556918129,
+      "push_id": 574969826,
       "size": 1,
       "distinct_size": 1,
-      "ref": "refs/heads/feature/13--lists+dicts",
-      "head": "b9c172c6b092a322abfff8e52678be0709b2b941",
-      "before": "ab8b2f16748455898766eb427797633d1b86b0d0",
+      "ref": "refs/heads/feature/24--helluva-ride",
+      "head": "2637407cabae7465318a3be221c793d631693564",
+      "before": "63503daffb3663acac98c5d9c92d2058e390b1c8",
       "commits": [
         {
-          "sha": "b9c172c6b092a322abfff8e52678be0709b2b941",
+          "sha": "2637407cabae7465318a3be221c793d631693564",
           "author": {
             "email": "carolinapoloni@gmail.com",
             "name": "Carolina Powers"
           },
-          "message": "JS.md file up to prototype map and string calculator",
+          "message": "final commit for string-calculator",
           "distinct": true,
-          "url": "https://api.github.com/repos/carolinapowers/TIY-Assignments/commits/b9c172c6b092a322abfff8e52678be0709b2b941"
+          "url": "https://api.github.com/repos/carolinapowers/TIY-Assignments/commits/2637407cabae7465318a3be221c793d631693564"
         }
       ]
     },
     "public": true,
-    "created_at": "2015-01-27T03:04:07Z"
+    "created_at": "2015-02-15T03:46:51Z"
   },
   {
-    "id": "2537966991",
+    "id": "2582333017",
     "type": "PushEvent",
     "actor": {
       "id": 10137641,
@@ -1578,30 +927,30 @@
       "url": "https://api.github.com/repos/carolinapowers/TIY-Assignments"
     },
     "payload": {
-      "push_id": 556830108,
+      "push_id": 574969676,
       "size": 1,
       "distinct_size": 1,
-      "ref": "refs/heads/feature/13--lists+dicts",
-      "head": "ab8b2f16748455898766eb427797633d1b86b0d0",
-      "before": "8992b77ebcfa9a464bb62638ddb3aa33e776259f",
+      "ref": "refs/heads/feature/24--helluva-ride",
+      "head": "63503daffb3663acac98c5d9c92d2058e390b1c8",
+      "before": "aa95a033eb2154a6f36b35270d059ed3f0e5ebe8",
       "commits": [
         {
-          "sha": "ab8b2f16748455898766eb427797633d1b86b0d0",
+          "sha": "63503daffb3663acac98c5d9c92d2058e390b1c8",
           "author": {
             "email": "carolinapoloni@gmail.com",
             "name": "Carolina Powers"
           },
-          "message": "function and array",
+          "message": "function minus was added",
           "distinct": true,
-          "url": "https://api.github.com/repos/carolinapowers/TIY-Assignments/commits/ab8b2f16748455898766eb427797633d1b86b0d0"
+          "url": "https://api.github.com/repos/carolinapowers/TIY-Assignments/commits/63503daffb3663acac98c5d9c92d2058e390b1c8"
         }
       ]
     },
     "public": true,
-    "created_at": "2015-01-27T00:34:16Z"
+    "created_at": "2015-02-15T03:46:04Z"
   },
   {
-    "id": "2537711079",
+    "id": "2582308505",
     "type": "PushEvent",
     "actor": {
       "id": 10137641,
@@ -1616,30 +965,30 @@
       "url": "https://api.github.com/repos/carolinapowers/TIY-Assignments"
     },
     "payload": {
-      "push_id": 556730153,
+      "push_id": 574958632,
       "size": 1,
       "distinct_size": 1,
-      "ref": "refs/heads/feature/13--lists+dicts",
-      "head": "8992b77ebcfa9a464bb62638ddb3aa33e776259f",
-      "before": "bf2dffec779116e2b0bf3bc8dc03a7f5f230c31f",
+      "ref": "refs/heads/feature/24--helluva-ride",
+      "head": "aa95a033eb2154a6f36b35270d059ed3f0e5ebe8",
+      "before": "a03afd215c37f1d6a975d16b67cefc39ddb89b29",
       "commits": [
         {
-          "sha": "8992b77ebcfa9a464bb62638ddb3aa33e776259f",
+          "sha": "aa95a033eb2154a6f36b35270d059ed3f0e5ebe8",
           "author": {
             "email": "carolinapoloni@gmail.com",
             "name": "Carolina Powers"
           },
-          "message": "toEnglish.png",
+          "message": "more string-calculator tests",
           "distinct": true,
-          "url": "https://api.github.com/repos/carolinapowers/TIY-Assignments/commits/8992b77ebcfa9a464bb62638ddb3aa33e776259f"
+          "url": "https://api.github.com/repos/carolinapowers/TIY-Assignments/commits/aa95a033eb2154a6f36b35270d059ed3f0e5ebe8"
         }
       ]
     },
     "public": true,
-    "created_at": "2015-01-26T22:27:48Z"
+    "created_at": "2015-02-15T02:56:32Z"
   },
   {
-    "id": "2537595802",
+    "id": "2582295259",
     "type": "PushEvent",
     "actor": {
       "id": 10137641,
@@ -1654,31 +1003,31 @@
       "url": "https://api.github.com/repos/carolinapowers/TIY-Assignments"
     },
     "payload": {
-      "push_id": 556685181,
+      "push_id": 574952537,
       "size": 1,
       "distinct_size": 1,
-      "ref": "refs/heads/feature/13--lists+dicts",
-      "head": "bf2dffec779116e2b0bf3bc8dc03a7f5f230c31f",
-      "before": "715a58149ce2fe4d259244f3ce7982956d7231c1",
+      "ref": "refs/heads/feature/24--helluva-ride",
+      "head": "a03afd215c37f1d6a975d16b67cefc39ddb89b29",
+      "before": "61fb9c37651d0b2509190e1ec242a28523c2ad10",
       "commits": [
         {
-          "sha": "bf2dffec779116e2b0bf3bc8dc03a7f5f230c31f",
+          "sha": "a03afd215c37f1d6a975d16b67cefc39ddb89b29",
           "author": {
             "email": "carolinapoloni@gmail.com",
             "name": "Carolina Powers"
           },
-          "message": "check-writing with if and else if statements",
+          "message": "refactoring with an array of string numbers and a function with stringNumber object",
           "distinct": true,
-          "url": "https://api.github.com/repos/carolinapowers/TIY-Assignments/commits/bf2dffec779116e2b0bf3bc8dc03a7f5f230c31f"
+          "url": "https://api.github.com/repos/carolinapowers/TIY-Assignments/commits/a03afd215c37f1d6a975d16b67cefc39ddb89b29"
         }
       ]
     },
     "public": true,
-    "created_at": "2015-01-26T21:40:01Z"
+    "created_at": "2015-02-15T02:29:41Z"
   },
   {
-    "id": "2537475626",
-    "type": "IssuesEvent",
+    "id": "2582278322",
+    "type": "PushEvent",
     "actor": {
       "id": 10137641,
       "login": "carolinapowers",
@@ -1687,66 +1036,73 @@
       "avatar_url": "https://avatars.githubusercontent.com/u/10137641?"
     },
     "repo": {
-      "id": 25180640,
-      "name": "TheIronYard--Orlando/FEE--2015--SPRING",
-      "url": "https://api.github.com/repos/TheIronYard--Orlando/FEE--2015--SPRING"
+      "id": 27947597,
+      "name": "carolinapowers/TIY-Assignments",
+      "url": "https://api.github.com/repos/carolinapowers/TIY-Assignments"
     },
     "payload": {
-      "action": "opened",
-      "issue": {
-        "url": "https://api.github.com/repos/TheIronYard--Orlando/FEE--2015--SPRING/issues/164",
-        "labels_url": "https://api.github.com/repos/TheIronYard--Orlando/FEE--2015--SPRING/issues/164/labels{/name}",
-        "comments_url": "https://api.github.com/repos/TheIronYard--Orlando/FEE--2015--SPRING/issues/164/comments",
-        "events_url": "https://api.github.com/repos/TheIronYard--Orlando/FEE--2015--SPRING/issues/164/events",
-        "html_url": "https://github.com/TheIronYard--Orlando/FEE--2015--SPRING/issues/164",
-        "id": 55535625,
-        "number": 164,
-        "title": "13 -- Lists + Dicts -- Carolina Powers",
-        "user": {
-          "login": "carolinapowers",
-          "id": 10137641,
-          "avatar_url": "https://avatars.githubusercontent.com/u/10137641?v=3",
-          "gravatar_id": "",
-          "url": "https://api.github.com/users/carolinapowers",
-          "html_url": "https://github.com/carolinapowers",
-          "followers_url": "https://api.github.com/users/carolinapowers/followers",
-          "following_url": "https://api.github.com/users/carolinapowers/following{/other_user}",
-          "gists_url": "https://api.github.com/users/carolinapowers/gists{/gist_id}",
-          "starred_url": "https://api.github.com/users/carolinapowers/starred{/owner}{/repo}",
-          "subscriptions_url": "https://api.github.com/users/carolinapowers/subscriptions",
-          "organizations_url": "https://api.github.com/users/carolinapowers/orgs",
-          "repos_url": "https://api.github.com/users/carolinapowers/repos",
-          "events_url": "https://api.github.com/users/carolinapowers/events{/privacy}",
-          "received_events_url": "https://api.github.com/users/carolinapowers/received_events",
-          "type": "User",
-          "site_admin": false
-        },
-        "labels": [
-
-        ],
-        "state": "open",
-        "locked": false,
-        "assignee": null,
-        "milestone": null,
-        "comments": 0,
-        "created_at": "2015-01-26T20:51:22Z",
-        "updated_at": "2015-01-26T20:51:22Z",
-        "closed_at": null,
-        "body": "### Tasks\r\n\r\n* [ ] **Yak Shaving** (M)\r\n    * Create your _WIP Issue_ named `13 -- Lists + Dicts` with tasks _and estimates!_\r\n    * Merge your PR, update your local `master`, and open a new branch: `feature/13--lists+dicts`\r\n    * Create a new file in `apis/github/users/USERNAME/events.json` where `USERNAME` is... you get it.\r\n    * Use [`curl`](http://curl.haxx.se/docs/manpage.html) or [Postman](http://www.getpostman.com/) to fetch [your public events from the Github API](https://developer.github.com/v3/activity/events/#list-public-events-performed-by-a-user)\r\n    * Commit, push, and open a PR!\r\n* [ ] **Take a Picture** (M)\r\n* [ ] **One More Time...**(L)\r\n    * [ ] Checkpoint: **String Calculator** with `if` and `return` (no `else`)\r\n    * [ ] Checkpoint: **Check Writing** refactored to `fromEnglish()`\r\n    * [ ] Checkpoint: **Check Writing** refactored `fromEnglish()` to use _at least one_ lookup!\r\n    * [ ] Checkpoint: **Check Writing** with 100% `Array` lookups instead of `if`\r\n    * [ ] Mission Complete\r\n* [ ] **Reading JavaScript** (L)\r\n    * [ ] Checkpoint: Let's talk about `forEach`... a lot.\r\n    * [ ] Checkpoint: Here's that `every()` and `some()` crowd again.\r\n    * [ ] Checkpoint: Who needs a `filter()` anyway?\r\n    * [ ] Checkpoint: Can I get a `map()` over here?\r\n    * [ ] Checkpoint: I wish I could `reduce()` this assignment...\r\n    * [ ] Checkpoint: Am I `reduceRight()`...?\r\n    * [ ] Mission Complete!\r\n* [ ] **API Gymnastics** (L)\r\n    * [ ] Checkpoint: Got me some data...\r\n    * [ ] Checkpoint: Count it up right...\r\n    * [ ] Checkpoint: Filtering out just the `PushEvent` entries...\r\n    * [ ] Checkpoint: Now doing the complete opposite...\r\n    * [ ] Checkpoint: I have all the `answers` now!\r\n    * [ ] Mission Complete"
-      }
+      "push_id": 574944864,
+      "size": 1,
+      "distinct_size": 1,
+      "ref": "refs/heads/feature/24--helluva-ride",
+      "head": "61fb9c37651d0b2509190e1ec242a28523c2ad10",
+      "before": "580eecbc3e26453882903091a2ffee5e1562e3fe",
+      "commits": [
+        {
+          "sha": "61fb9c37651d0b2509190e1ec242a28523c2ad10",
+          "author": {
+            "email": "carolinapoloni@gmail.com",
+            "name": "Carolina Powers"
+          },
+          "message": "a lot of else if...so it is time to refactor",
+          "distinct": true,
+          "url": "https://api.github.com/repos/carolinapowers/TIY-Assignments/commits/61fb9c37651d0b2509190e1ec242a28523c2ad10"
+        }
+      ]
     },
     "public": true,
-    "created_at": "2015-01-26T20:51:23Z",
-    "org": {
-      "id": 8798300,
-      "login": "TheIronYard--Orlando",
-      "gravatar_id": "",
-      "url": "https://api.github.com/orgs/TheIronYard--Orlando",
-      "avatar_url": "https://avatars.githubusercontent.com/u/8798300?"
-    }
+    "created_at": "2015-02-15T01:54:49Z"
   },
   {
-    "id": "2537382938",
+    "id": "2582272389",
+    "type": "PushEvent",
+    "actor": {
+      "id": 10137641,
+      "login": "carolinapowers",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/carolinapowers",
+      "avatar_url": "https://avatars.githubusercontent.com/u/10137641?"
+    },
+    "repo": {
+      "id": 27947597,
+      "name": "carolinapowers/TIY-Assignments",
+      "url": "https://api.github.com/repos/carolinapowers/TIY-Assignments"
+    },
+    "payload": {
+      "push_id": 574942396,
+      "size": 1,
+      "distinct_size": 1,
+      "ref": "refs/heads/feature/24--helluva-ride",
+      "head": "580eecbc3e26453882903091a2ffee5e1562e3fe",
+      "before": "5c84ea69aaa1590dfc5c6d1bb4b871c5aed95d4f",
+      "commits": [
+        {
+          "sha": "580eecbc3e26453882903091a2ffee5e1562e3fe",
+          "author": {
+            "email": "carolinapoloni@gmail.com",
+            "name": "Carolina Powers"
+          },
+          "message": "first kata function and tests",
+          "distinct": true,
+          "url": "https://api.github.com/repos/carolinapowers/TIY-Assignments/commits/580eecbc3e26453882903091a2ffee5e1562e3fe"
+        }
+      ]
+    },
+    "public": true,
+    "created_at": "2015-02-15T01:44:18Z"
+  },
+  {
+    "id": "2582180647",
     "type": "PullRequestEvent",
     "actor": {
       "id": 10137641,
@@ -1762,18 +1118,18 @@
     },
     "payload": {
       "action": "opened",
-      "number": 12,
+      "number": 22,
       "pull_request": {
-        "url": "https://api.github.com/repos/carolinapowers/TIY-Assignments/pulls/12",
-        "id": 28056292,
-        "html_url": "https://github.com/carolinapowers/TIY-Assignments/pull/12",
-        "diff_url": "https://github.com/carolinapowers/TIY-Assignments/pull/12.diff",
-        "patch_url": "https://github.com/carolinapowers/TIY-Assignments/pull/12.patch",
-        "issue_url": "https://api.github.com/repos/carolinapowers/TIY-Assignments/issues/12",
-        "number": 12,
+        "url": "https://api.github.com/repos/carolinapowers/TIY-Assignments/pulls/22",
+        "id": 29326924,
+        "html_url": "https://github.com/carolinapowers/TIY-Assignments/pull/22",
+        "diff_url": "https://github.com/carolinapowers/TIY-Assignments/pull/22.diff",
+        "patch_url": "https://github.com/carolinapowers/TIY-Assignments/pull/22.patch",
+        "issue_url": "https://api.github.com/repos/carolinapowers/TIY-Assignments/issues/22",
+        "number": 22,
         "state": "open",
         "locked": false,
-        "title": "lists + dicts",
+        "title": "String-calculator",
         "user": {
           "login": "carolinapowers",
           "id": 10137641,
@@ -1794,22 +1150,22 @@
           "site_admin": false
         },
         "body": "",
-        "created_at": "2015-01-26T20:12:10Z",
-        "updated_at": "2015-01-26T20:12:10Z",
+        "created_at": "2015-02-14T23:02:16Z",
+        "updated_at": "2015-02-14T23:02:16Z",
         "closed_at": null,
         "merged_at": null,
         "merge_commit_sha": null,
         "assignee": null,
         "milestone": null,
-        "commits_url": "https://api.github.com/repos/carolinapowers/TIY-Assignments/pulls/12/commits",
-        "review_comments_url": "https://api.github.com/repos/carolinapowers/TIY-Assignments/pulls/12/comments",
+        "commits_url": "https://api.github.com/repos/carolinapowers/TIY-Assignments/pulls/22/commits",
+        "review_comments_url": "https://api.github.com/repos/carolinapowers/TIY-Assignments/pulls/22/comments",
         "review_comment_url": "https://api.github.com/repos/carolinapowers/TIY-Assignments/pulls/comments/{number}",
-        "comments_url": "https://api.github.com/repos/carolinapowers/TIY-Assignments/issues/12/comments",
-        "statuses_url": "https://api.github.com/repos/carolinapowers/TIY-Assignments/statuses/715a58149ce2fe4d259244f3ce7982956d7231c1",
+        "comments_url": "https://api.github.com/repos/carolinapowers/TIY-Assignments/issues/22/comments",
+        "statuses_url": "https://api.github.com/repos/carolinapowers/TIY-Assignments/statuses/5c84ea69aaa1590dfc5c6d1bb4b871c5aed95d4f",
         "head": {
-          "label": "carolinapowers:feature/13--lists+dicts",
-          "ref": "feature/13--lists+dicts",
-          "sha": "715a58149ce2fe4d259244f3ce7982956d7231c1",
+          "label": "carolinapowers:feature/24--helluva-ride",
+          "ref": "feature/24--helluva-ride",
+          "sha": "5c84ea69aaa1590dfc5c6d1bb4b871c5aed95d4f",
           "user": {
             "login": "carolinapowers",
             "id": 10137641,
@@ -1893,21 +1249,21 @@
             "labels_url": "https://api.github.com/repos/carolinapowers/TIY-Assignments/labels{/name}",
             "releases_url": "https://api.github.com/repos/carolinapowers/TIY-Assignments/releases{/id}",
             "created_at": "2014-12-13T03:09:45Z",
-            "updated_at": "2015-01-26T19:48:53Z",
-            "pushed_at": "2015-01-26T20:11:51Z",
+            "updated_at": "2015-02-14T21:59:40Z",
+            "pushed_at": "2015-02-14T23:02:04Z",
             "git_url": "git://github.com/carolinapowers/TIY-Assignments.git",
             "ssh_url": "git@github.com:carolinapowers/TIY-Assignments.git",
             "clone_url": "https://github.com/carolinapowers/TIY-Assignments.git",
             "svn_url": "https://github.com/carolinapowers/TIY-Assignments",
             "homepage": null,
-            "size": 15644,
+            "size": 16120,
             "stargazers_count": 1,
             "watchers_count": 1,
             "language": "CSS",
             "has_issues": true,
             "has_downloads": true,
             "has_wiki": true,
-            "has_pages": false,
+            "has_pages": true,
             "forks_count": 0,
             "mirror_url": null,
             "open_issues_count": 1,
@@ -1920,7 +1276,7 @@
         "base": {
           "label": "carolinapowers:master",
           "ref": "master",
-          "sha": "974712f5aae3ed3a53ad80175d689df825febceb",
+          "sha": "1efc871676c7f6d47012ac1fbcab98758ea801d9",
           "user": {
             "login": "carolinapowers",
             "id": 10137641,
@@ -2004,21 +1360,21 @@
             "labels_url": "https://api.github.com/repos/carolinapowers/TIY-Assignments/labels{/name}",
             "releases_url": "https://api.github.com/repos/carolinapowers/TIY-Assignments/releases{/id}",
             "created_at": "2014-12-13T03:09:45Z",
-            "updated_at": "2015-01-26T19:48:53Z",
-            "pushed_at": "2015-01-26T20:11:51Z",
+            "updated_at": "2015-02-14T21:59:40Z",
+            "pushed_at": "2015-02-14T23:02:04Z",
             "git_url": "git://github.com/carolinapowers/TIY-Assignments.git",
             "ssh_url": "git@github.com:carolinapowers/TIY-Assignments.git",
             "clone_url": "https://github.com/carolinapowers/TIY-Assignments.git",
             "svn_url": "https://github.com/carolinapowers/TIY-Assignments",
             "homepage": null,
-            "size": 15644,
+            "size": 16120,
             "stargazers_count": 1,
             "watchers_count": 1,
             "language": "CSS",
             "has_issues": true,
             "has_downloads": true,
             "has_wiki": true,
-            "has_pages": false,
+            "has_pages": true,
             "forks_count": 0,
             "mirror_url": null,
             "open_issues_count": 1,
@@ -2030,28 +1386,28 @@
         },
         "_links": {
           "self": {
-            "href": "https://api.github.com/repos/carolinapowers/TIY-Assignments/pulls/12"
+            "href": "https://api.github.com/repos/carolinapowers/TIY-Assignments/pulls/22"
           },
           "html": {
-            "href": "https://github.com/carolinapowers/TIY-Assignments/pull/12"
+            "href": "https://github.com/carolinapowers/TIY-Assignments/pull/22"
           },
           "issue": {
-            "href": "https://api.github.com/repos/carolinapowers/TIY-Assignments/issues/12"
+            "href": "https://api.github.com/repos/carolinapowers/TIY-Assignments/issues/22"
           },
           "comments": {
-            "href": "https://api.github.com/repos/carolinapowers/TIY-Assignments/issues/12/comments"
+            "href": "https://api.github.com/repos/carolinapowers/TIY-Assignments/issues/22/comments"
           },
           "review_comments": {
-            "href": "https://api.github.com/repos/carolinapowers/TIY-Assignments/pulls/12/comments"
+            "href": "https://api.github.com/repos/carolinapowers/TIY-Assignments/pulls/22/comments"
           },
           "review_comment": {
             "href": "https://api.github.com/repos/carolinapowers/TIY-Assignments/pulls/comments/{number}"
           },
           "commits": {
-            "href": "https://api.github.com/repos/carolinapowers/TIY-Assignments/pulls/12/commits"
+            "href": "https://api.github.com/repos/carolinapowers/TIY-Assignments/pulls/22/commits"
           },
           "statuses": {
-            "href": "https://api.github.com/repos/carolinapowers/TIY-Assignments/statuses/715a58149ce2fe4d259244f3ce7982956d7231c1"
+            "href": "https://api.github.com/repos/carolinapowers/TIY-Assignments/statuses/5c84ea69aaa1590dfc5c6d1bb4b871c5aed95d4f"
           }
         },
         "merged": false,
@@ -2067,58 +1423,10 @@
       }
     },
     "public": true,
-    "created_at": "2015-01-26T20:12:10Z"
+    "created_at": "2015-02-14T23:02:16Z"
   },
   {
-    "id": "2537382118",
-    "type": "CreateEvent",
-    "actor": {
-      "id": 10137641,
-      "login": "carolinapowers",
-      "gravatar_id": "",
-      "url": "https://api.github.com/users/carolinapowers",
-      "avatar_url": "https://avatars.githubusercontent.com/u/10137641?"
-    },
-    "repo": {
-      "id": 27947597,
-      "name": "carolinapowers/TIY-Assignments",
-      "url": "https://api.github.com/repos/carolinapowers/TIY-Assignments"
-    },
-    "payload": {
-      "ref": "feature/13--lists+dicts",
-      "ref_type": "branch",
-      "master_branch": "master",
-      "description": "",
-      "pusher_type": "user"
-    },
-    "public": true,
-    "created_at": "2015-01-26T20:11:52Z"
-  },
-  {
-    "id": "2537326571",
-    "type": "DeleteEvent",
-    "actor": {
-      "id": 10137641,
-      "login": "carolinapowers",
-      "gravatar_id": "",
-      "url": "https://api.github.com/users/carolinapowers",
-      "avatar_url": "https://avatars.githubusercontent.com/u/10137641?"
-    },
-    "repo": {
-      "id": 27947597,
-      "name": "carolinapowers/TIY-Assignments",
-      "url": "https://api.github.com/repos/carolinapowers/TIY-Assignments"
-    },
-    "payload": {
-      "ref": "feature/11--coding-dojo",
-      "ref_type": "branch",
-      "pusher_type": "user"
-    },
-    "public": true,
-    "created_at": "2015-01-26T19:49:22Z"
-  },
-  {
-    "id": "2537325249",
+    "id": "2582180516",
     "type": "PushEvent",
     "actor": {
       "id": 10137641,
@@ -2133,130 +1441,258 @@
       "url": "https://api.github.com/repos/carolinapowers/TIY-Assignments"
     },
     "payload": {
-      "push_id": 556578026,
-      "size": 11,
-      "distinct_size": 0,
-      "ref": "refs/heads/master",
-      "head": "974712f5aae3ed3a53ad80175d689df825febceb",
-      "before": "c37581f78af5f82bd30b5eec0d6ffef07e47ebdc",
+      "push_id": 574901268,
+      "size": 1,
+      "distinct_size": 1,
+      "ref": "refs/heads/feature/24--helluva-ride",
+      "head": "5c84ea69aaa1590dfc5c6d1bb4b871c5aed95d4f",
+      "before": "1efc871676c7f6d47012ac1fbcab98758ea801d9",
       "commits": [
         {
-          "sha": "7a609c171c8d602a6e091627fd9dcaf9c4ad1cc3",
+          "sha": "5c84ea69aaa1590dfc5c6d1bb4b871c5aed95d4f",
           "author": {
             "email": "carolinapoloni@gmail.com",
             "name": "Carolina Powers"
           },
-          "message": "js files",
-          "distinct": false,
-          "url": "https://api.github.com/repos/carolinapowers/TIY-Assignments/commits/7a609c171c8d602a6e091627fd9dcaf9c4ad1cc3"
-        },
-        {
-          "sha": "2872338b5c9c0581ccc03d69bf96408c89dff8c1",
-          "author": {
-            "email": "carolinapoloni@gmail.com",
-            "name": "Carolina Powers"
-          },
-          "message": "@eklemen and @carolinapowers",
-          "distinct": false,
-          "url": "https://api.github.com/repos/carolinapowers/TIY-Assignments/commits/2872338b5c9c0581ccc03d69bf96408c89dff8c1"
-        },
-        {
-          "sha": "e8b071e4bbcf29d0c1cb245698b1bcab7fcd096e",
-          "author": {
-            "email": "carolinapoloni@gmail.com",
-            "name": "Carolina Powers"
-          },
-          "message": "@eklemen and @carolinapowers",
-          "distinct": false,
-          "url": "https://api.github.com/repos/carolinapowers/TIY-Assignments/commits/e8b071e4bbcf29d0c1cb245698b1bcab7fcd096e"
-        },
-        {
-          "sha": "92ef07cf23bc7fc9c8cda5ee40dbc40788caac87",
-          "author": {
-            "email": "carolinapoloni@gmail.com",
-            "name": "Carolina Powers"
-          },
-          "message": "Array literals: empty and filled",
-          "distinct": false,
-          "url": "https://api.github.com/repos/carolinapowers/TIY-Assignments/commits/92ef07cf23bc7fc9c8cda5ee40dbc40788caac87"
-        },
-        {
-          "sha": "6b8c8bd57d52882202067da433f780dfd16fd2ab",
-          "author": {
-            "email": "carolinapoloni@gmail.com",
-            "name": "Carolina Powers"
-          },
-          "message": "Five Mutators down",
-          "distinct": false,
-          "url": "https://api.github.com/repos/carolinapowers/TIY-Assignments/commits/6b8c8bd57d52882202067da433f780dfd16fd2ab"
-        },
-        {
-          "sha": "c1ec42c84687b41f3da99017b7cc70b301492162",
-          "author": {
-            "email": "carolinapoloni@gmail.com",
-            "name": "Carolina Powers"
-          },
-          "message": "7 mutators down",
-          "distinct": false,
-          "url": "https://api.github.com/repos/carolinapowers/TIY-Assignments/commits/c1ec42c84687b41f3da99017b7cc70b301492162"
-        },
-        {
-          "sha": "4ff9cabfaa778a5d820b400198267684a8d28e8a",
-          "author": {
-            "email": "carolinapoloni@gmail.com",
-            "name": "Carolina Powers"
-          },
-          "message": "moved both sides on chess board at least once",
-          "distinct": false,
-          "url": "https://api.github.com/repos/carolinapowers/TIY-Assignments/commits/4ff9cabfaa778a5d820b400198267684a8d28e8a"
-        },
-        {
-          "sha": "ba1ffd5c19b2ff03d31f98a1775ec6427f05b958",
-          "author": {
-            "email": "carolinapoloni@gmail.com",
-            "name": "Carolina Powers"
-          },
-          "message": "a few changes on chess board JS.md and main.js",
-          "distinct": false,
-          "url": "https://api.github.com/repos/carolinapowers/TIY-Assignments/commits/ba1ffd5c19b2ff03d31f98a1775ec6427f05b958"
-        },
-        {
-          "sha": "19ca5d040a074f8d958d9bfc35d4bff95a085fda",
-          "author": {
-            "email": "carolinapoloni@gmail.com",
-            "name": "Carolina Powers"
-          },
-          "message": "string calculator with && and ||",
-          "distinct": false,
-          "url": "https://api.github.com/repos/carolinapowers/TIY-Assignments/commits/19ca5d040a074f8d958d9bfc35d4bff95a085fda"
-        },
-        {
-          "sha": "2483001be530c90a45c804b6507b75dd47556988",
-          "author": {
-            "email": "carolinapoloni@gmail.com",
-            "name": "Carolina Powers"
-          },
-          "message": "10 examples for the string-calculator",
-          "distinct": false,
-          "url": "https://api.github.com/repos/carolinapowers/TIY-Assignments/commits/2483001be530c90a45c804b6507b75dd47556988"
-        },
-        {
-          "sha": "974712f5aae3ed3a53ad80175d689df825febceb",
-          "author": {
-            "email": "carolinapoloni@gmail.com",
-            "name": "Carolina Powers"
-          },
-          "message": "chess pieces moved with functions",
-          "distinct": false,
-          "url": "https://api.github.com/repos/carolinapowers/TIY-Assignments/commits/974712f5aae3ed3a53ad80175d689df825febceb"
+          "message": "string-calculator",
+          "distinct": true,
+          "url": "https://api.github.com/repos/carolinapowers/TIY-Assignments/commits/5c84ea69aaa1590dfc5c6d1bb4b871c5aed95d4f"
         }
       ]
     },
     "public": true,
-    "created_at": "2015-01-26T19:48:53Z"
+    "created_at": "2015-02-14T23:02:06Z"
   },
   {
-    "id": "2537325240",
+    "id": "2582137737",
+    "type": "PushEvent",
+    "actor": {
+      "id": 10137641,
+      "login": "carolinapowers",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/carolinapowers",
+      "avatar_url": "https://avatars.githubusercontent.com/u/10137641?"
+    },
+    "repo": {
+      "id": 27947597,
+      "name": "carolinapowers/TIY-Assignments",
+      "url": "https://api.github.com/repos/carolinapowers/TIY-Assignments"
+    },
+    "payload": {
+      "push_id": 574881961,
+      "size": 20,
+      "distinct_size": 0,
+      "ref": "refs/heads/master",
+      "head": "1efc871676c7f6d47012ac1fbcab98758ea801d9",
+      "before": "23e8eca10d968a4276f86c545018f820b8ba6366",
+      "commits": [
+        {
+          "sha": "1a6655f3411421341883771805a35d7620b9ec5e",
+          "author": {
+            "email": "carolinapoloni@gmail.com",
+            "name": "Carolina Powers"
+          },
+          "message": " trying to get my timeline/index.html to work",
+          "distinct": false,
+          "url": "https://api.github.com/repos/carolinapowers/TIY-Assignments/commits/1a6655f3411421341883771805a35d7620b9ec5e"
+        },
+        {
+          "sha": "f13672c48ae700d29f985423fba2c914a28bb28e",
+          "author": {
+            "email": "carolinapoloni@gmail.com",
+            "name": "Carolina Powers"
+          },
+          "message": "found my timeline",
+          "distinct": false,
+          "url": "https://api.github.com/repos/carolinapowers/TIY-Assignments/commits/f13672c48ae700d29f985423fba2c914a28bb28e"
+        },
+        {
+          "sha": "4322d545024e5c293efb9eaa9270e957633711f6",
+          "author": {
+            "email": "carolinapoloni@gmail.com",
+            "name": "Carolina Powers"
+          },
+          "message": "mobile first with bootstrap finally starting to work",
+          "distinct": false,
+          "url": "https://api.github.com/repos/carolinapowers/TIY-Assignments/commits/4322d545024e5c293efb9eaa9270e957633711f6"
+        },
+        {
+          "sha": "886799f702e54a90ab06ee9aca383acf079e7c9a",
+          "author": {
+            "email": "carolinapoloni@gmail.com",
+            "name": "Carolina Powers"
+          },
+          "message": "header aligned center and first article ready to apply styles",
+          "distinct": false,
+          "url": "https://api.github.com/repos/carolinapowers/TIY-Assignments/commits/886799f702e54a90ab06ee9aca383acf079e7c9a"
+        },
+        {
+          "sha": "0d9ac7d278c3b67bb9d5634ba239c7ce6e2d793c",
+          "author": {
+            "email": "carolinapoloni@gmail.com",
+            "name": "Carolina Powers"
+          },
+          "message": "added caret as a :before element",
+          "distinct": false,
+          "url": "https://api.github.com/repos/carolinapowers/TIY-Assignments/commits/0d9ac7d278c3b67bb9d5634ba239c7ce6e2d793c"
+        },
+        {
+          "sha": "898f7c367d67fc083f3ad2a9d0f608db69614f69",
+          "author": {
+            "email": "carolinapoloni@gmail.com",
+            "name": "Carolina Powers"
+          },
+          "message": "caret is placed on top for mobile version",
+          "distinct": false,
+          "url": "https://api.github.com/repos/carolinapowers/TIY-Assignments/commits/898f7c367d67fc083f3ad2a9d0f608db69614f69"
+        },
+        {
+          "sha": "1601d2261b5f7c5834f58bdf30af63d39664b3c7",
+          "author": {
+            "email": "carolinapoloni@gmail.com",
+            "name": "Carolina Powers"
+          },
+          "message": "date and time done",
+          "distinct": false,
+          "url": "https://api.github.com/repos/carolinapowers/TIY-Assignments/commits/1601d2261b5f7c5834f58bdf30af63d39664b3c7"
+        },
+        {
+          "sha": "3e06e9e5381cefc77b21501ebad4256b2eca1708",
+          "author": {
+            "email": "carolinapoloni@gmail.com",
+            "name": "Carolina Powers"
+          },
+          "message": "placed mobile icon with before element, now im trying to figure out its border radius",
+          "distinct": false,
+          "url": "https://api.github.com/repos/carolinapowers/TIY-Assignments/commits/3e06e9e5381cefc77b21501ebad4256b2eca1708"
+        },
+        {
+          "sha": "046792921e8671589cf7cc78e7e8c5d65ee1a859",
+          "author": {
+            "email": "carolinapoloni@gmail.com",
+            "name": "Carolina Powers"
+          },
+          "message": "mobile icon rounded and ready",
+          "distinct": false,
+          "url": "https://api.github.com/repos/carolinapowers/TIY-Assignments/commits/046792921e8671589cf7cc78e7e8c5d65ee1a859"
+        },
+        {
+          "sha": "18e17e823d7a9fa2ea08e6eb3c96bd14554388af",
+          "author": {
+            "email": "carolinapoloni@gmail.com",
+            "name": "Carolina Powers"
+          },
+          "message": "finished header",
+          "distinct": false,
+          "url": "https://api.github.com/repos/carolinapowers/TIY-Assignments/commits/18e17e823d7a9fa2ea08e6eb3c96bd14554388af"
+        },
+        {
+          "sha": "46dfb090a5fde9966b9f4f95ea2cbbcaa0228268",
+          "author": {
+            "email": "carolinapoloni@gmail.com",
+            "name": "Carolina Powers"
+          },
+          "message": "even and odd colors added",
+          "distinct": false,
+          "url": "https://api.github.com/repos/carolinapowers/TIY-Assignments/commits/46dfb090a5fde9966b9f4f95ea2cbbcaa0228268"
+        },
+        {
+          "sha": "11fa207f7002f3b2b2f6433b3376b2e5e27701ac",
+          "author": {
+            "email": "carolinapoloni@gmail.com",
+            "name": "Carolina Powers"
+          },
+          "message": "added icons",
+          "distinct": false,
+          "url": "https://api.github.com/repos/carolinapowers/TIY-Assignments/commits/11fa207f7002f3b2b2f6433b3376b2e5e27701ac"
+        },
+        {
+          "sha": "b2a94a21cadd2289225e36d3caebac8cb8db30ea",
+          "author": {
+            "email": "carolinapoloni@gmail.com",
+            "name": "Carolina Powers"
+          },
+          "message": " last commit with bootstrap on breaking point...giving up on it one more time and going back to my last code",
+          "distinct": false,
+          "url": "https://api.github.com/repos/carolinapowers/TIY-Assignments/commits/b2a94a21cadd2289225e36d3caebac8cb8db30ea"
+        },
+        {
+          "sha": "a3e476e68f65e4f942aaf28f2baa821d4e55191e",
+          "author": {
+            "email": "carolinapoloni@gmail.com",
+            "name": "Carolina Powers"
+          },
+          "message": "figured out how to fixed my vertical line with bootstrap, so now im working on the transforming the caret",
+          "distinct": false,
+          "url": "https://api.github.com/repos/carolinapowers/TIY-Assignments/commits/a3e476e68f65e4f942aaf28f2baa821d4e55191e"
+        },
+        {
+          "sha": "41a396d0e70d94d3be5d55a50788e574cb3abf93",
+          "author": {
+            "email": "carolinapoloni@gmail.com",
+            "name": "Carolina Powers"
+          },
+          "message": "transformed the caret and now im going to work on the header",
+          "distinct": false,
+          "url": "https://api.github.com/repos/carolinapowers/TIY-Assignments/commits/41a396d0e70d94d3be5d55a50788e574cb3abf93"
+        },
+        {
+          "sha": "81b77af6f6db39f3422862388c52cd56769d9155",
+          "author": {
+            "email": "carolinapoloni@gmail.com",
+            "name": "Carolina Powers"
+          },
+          "message": "medium size done",
+          "distinct": false,
+          "url": "https://api.github.com/repos/carolinapowers/TIY-Assignments/commits/81b77af6f6db39f3422862388c52cd56769d9155"
+        },
+        {
+          "sha": "87347b2baf66e7affe09574711d852164e21d518",
+          "author": {
+            "email": "carolinapoloni@gmail.com",
+            "name": "Carolina Powers"
+          },
+          "message": "after many many hours trying to do this timeline, this is it. i couldnt figure out the header with bootstrap and the line cuts short depending on the browser",
+          "distinct": false,
+          "url": "https://api.github.com/repos/carolinapowers/TIY-Assignments/commits/87347b2baf66e7affe09574711d852164e21d518"
+        },
+        {
+          "sha": "769f361bb58fb1598de13c6dcdcdc62fba03f80b",
+          "author": {
+            "email": "carolinapoloni@gmail.com",
+            "name": "Carolina Powers"
+          },
+          "message": "gh-pages is not reading my bootstrap",
+          "distinct": false,
+          "url": "https://api.github.com/repos/carolinapowers/TIY-Assignments/commits/769f361bb58fb1598de13c6dcdcdc62fba03f80b"
+        },
+        {
+          "sha": "06483f883ce0e1e32d504cdfeabdcc1fce455a71",
+          "author": {
+            "email": "carolinapoloni@gmail.com",
+            "name": "Carolina Powers"
+          },
+          "message": "installed bootstrap with bower and gh-pages wasnt reading it. i had to copy and paste a cdn link for bootstrap in order to make it work",
+          "distinct": false,
+          "url": "https://api.github.com/repos/carolinapowers/TIY-Assignments/commits/06483f883ce0e1e32d504cdfeabdcc1fce455a71"
+        },
+        {
+          "sha": "1efc871676c7f6d47012ac1fbcab98758ea801d9",
+          "author": {
+            "email": "carolinapoloni@gmail.com",
+            "name": "Carolina Powers"
+          },
+          "message": "added index.md",
+          "distinct": false,
+          "url": "https://api.github.com/repos/carolinapowers/TIY-Assignments/commits/1efc871676c7f6d47012ac1fbcab98758ea801d9"
+        }
+      ]
+    },
+    "public": true,
+    "created_at": "2015-02-14T21:59:40Z"
+  },
+  {
+    "id": "2582137736",
     "type": "PullRequestEvent",
     "actor": {
       "id": 10137641,
@@ -2272,18 +1708,18 @@
     },
     "payload": {
       "action": "closed",
-      "number": 11,
+      "number": 21,
       "pull_request": {
-        "url": "https://api.github.com/repos/carolinapowers/TIY-Assignments/pulls/11",
-        "id": 27873421,
-        "html_url": "https://github.com/carolinapowers/TIY-Assignments/pull/11",
-        "diff_url": "https://github.com/carolinapowers/TIY-Assignments/pull/11.diff",
-        "patch_url": "https://github.com/carolinapowers/TIY-Assignments/pull/11.patch",
-        "issue_url": "https://api.github.com/repos/carolinapowers/TIY-Assignments/issues/11",
-        "number": 11,
+        "url": "https://api.github.com/repos/carolinapowers/TIY-Assignments/pulls/21",
+        "id": 29278069,
+        "html_url": "https://github.com/carolinapowers/TIY-Assignments/pull/21",
+        "diff_url": "https://github.com/carolinapowers/TIY-Assignments/pull/21.diff",
+        "patch_url": "https://github.com/carolinapowers/TIY-Assignments/pull/21.patch",
+        "issue_url": "https://api.github.com/repos/carolinapowers/TIY-Assignments/issues/21",
+        "number": 21,
         "state": "closed",
         "locked": false,
-        "title": "11--coding-dojo",
+        "title": "Feature 24 -- Helluva Ride",
         "user": {
           "login": "carolinapowers",
           "id": 10137641,
@@ -2303,23 +1739,23 @@
           "type": "User",
           "site_admin": false
         },
-        "body": "",
-        "created_at": "2015-01-22T20:09:15Z",
-        "updated_at": "2015-01-26T19:48:53Z",
-        "closed_at": "2015-01-26T19:48:53Z",
-        "merged_at": "2015-01-26T19:48:53Z",
-        "merge_commit_sha": "c67120ee62575290d0625bf2bf7deba8f38e5560",
+        "body": "Vertical Timeline Known Issues:\r\n * [ ] Header is not responsive on medium size.\r\n * [ ] Line can cut short depending on the size of the page. \r\n\r\nPs. I did not have those issues when I created this page without bootstrap. I still have a lot to learn about this tool.",
+        "created_at": "2015-02-13T16:31:37Z",
+        "updated_at": "2015-02-14T21:59:40Z",
+        "closed_at": "2015-02-14T21:59:40Z",
+        "merged_at": "2015-02-14T21:59:40Z",
+        "merge_commit_sha": "25f1a18e64fb18480690094cb6faa68ee835149e",
         "assignee": null,
         "milestone": null,
-        "commits_url": "https://api.github.com/repos/carolinapowers/TIY-Assignments/pulls/11/commits",
-        "review_comments_url": "https://api.github.com/repos/carolinapowers/TIY-Assignments/pulls/11/comments",
+        "commits_url": "https://api.github.com/repos/carolinapowers/TIY-Assignments/pulls/21/commits",
+        "review_comments_url": "https://api.github.com/repos/carolinapowers/TIY-Assignments/pulls/21/comments",
         "review_comment_url": "https://api.github.com/repos/carolinapowers/TIY-Assignments/pulls/comments/{number}",
-        "comments_url": "https://api.github.com/repos/carolinapowers/TIY-Assignments/issues/11/comments",
-        "statuses_url": "https://api.github.com/repos/carolinapowers/TIY-Assignments/statuses/974712f5aae3ed3a53ad80175d689df825febceb",
+        "comments_url": "https://api.github.com/repos/carolinapowers/TIY-Assignments/issues/21/comments",
+        "statuses_url": "https://api.github.com/repos/carolinapowers/TIY-Assignments/statuses/1efc871676c7f6d47012ac1fbcab98758ea801d9",
         "head": {
-          "label": "carolinapowers:feature/11--coding-dojo",
-          "ref": "feature/11--coding-dojo",
-          "sha": "974712f5aae3ed3a53ad80175d689df825febceb",
+          "label": "carolinapowers:feature/24--helluva-ride",
+          "ref": "feature/24--helluva-ride",
+          "sha": "1efc871676c7f6d47012ac1fbcab98758ea801d9",
           "user": {
             "login": "carolinapowers",
             "id": 10137641,
@@ -2403,21 +1839,21 @@
             "labels_url": "https://api.github.com/repos/carolinapowers/TIY-Assignments/labels{/name}",
             "releases_url": "https://api.github.com/repos/carolinapowers/TIY-Assignments/releases{/id}",
             "created_at": "2014-12-13T03:09:45Z",
-            "updated_at": "2015-01-26T19:48:53Z",
-            "pushed_at": "2015-01-26T19:48:52Z",
+            "updated_at": "2015-02-13T01:56:44Z",
+            "pushed_at": "2015-02-14T21:59:40Z",
             "git_url": "git://github.com/carolinapowers/TIY-Assignments.git",
             "ssh_url": "git@github.com:carolinapowers/TIY-Assignments.git",
             "clone_url": "https://github.com/carolinapowers/TIY-Assignments.git",
             "svn_url": "https://github.com/carolinapowers/TIY-Assignments",
             "homepage": null,
-            "size": 15644,
+            "size": 16120,
             "stargazers_count": 1,
             "watchers_count": 1,
             "language": "CSS",
             "has_issues": true,
             "has_downloads": true,
             "has_wiki": true,
-            "has_pages": false,
+            "has_pages": true,
             "forks_count": 0,
             "mirror_url": null,
             "open_issues_count": 0,
@@ -2430,7 +1866,7 @@
         "base": {
           "label": "carolinapowers:master",
           "ref": "master",
-          "sha": "c37581f78af5f82bd30b5eec0d6ffef07e47ebdc",
+          "sha": "23e8eca10d968a4276f86c545018f820b8ba6366",
           "user": {
             "login": "carolinapowers",
             "id": 10137641,
@@ -2514,21 +1950,21 @@
             "labels_url": "https://api.github.com/repos/carolinapowers/TIY-Assignments/labels{/name}",
             "releases_url": "https://api.github.com/repos/carolinapowers/TIY-Assignments/releases{/id}",
             "created_at": "2014-12-13T03:09:45Z",
-            "updated_at": "2015-01-26T19:48:53Z",
-            "pushed_at": "2015-01-26T19:48:52Z",
+            "updated_at": "2015-02-13T01:56:44Z",
+            "pushed_at": "2015-02-14T21:59:40Z",
             "git_url": "git://github.com/carolinapowers/TIY-Assignments.git",
             "ssh_url": "git@github.com:carolinapowers/TIY-Assignments.git",
             "clone_url": "https://github.com/carolinapowers/TIY-Assignments.git",
             "svn_url": "https://github.com/carolinapowers/TIY-Assignments",
             "homepage": null,
-            "size": 15644,
+            "size": 16120,
             "stargazers_count": 1,
             "watchers_count": 1,
             "language": "CSS",
             "has_issues": true,
             "has_downloads": true,
             "has_wiki": true,
-            "has_pages": false,
+            "has_pages": true,
             "forks_count": 0,
             "mirror_url": null,
             "open_issues_count": 0,
@@ -2540,28 +1976,28 @@
         },
         "_links": {
           "self": {
-            "href": "https://api.github.com/repos/carolinapowers/TIY-Assignments/pulls/11"
+            "href": "https://api.github.com/repos/carolinapowers/TIY-Assignments/pulls/21"
           },
           "html": {
-            "href": "https://github.com/carolinapowers/TIY-Assignments/pull/11"
+            "href": "https://github.com/carolinapowers/TIY-Assignments/pull/21"
           },
           "issue": {
-            "href": "https://api.github.com/repos/carolinapowers/TIY-Assignments/issues/11"
+            "href": "https://api.github.com/repos/carolinapowers/TIY-Assignments/issues/21"
           },
           "comments": {
-            "href": "https://api.github.com/repos/carolinapowers/TIY-Assignments/issues/11/comments"
+            "href": "https://api.github.com/repos/carolinapowers/TIY-Assignments/issues/21/comments"
           },
           "review_comments": {
-            "href": "https://api.github.com/repos/carolinapowers/TIY-Assignments/pulls/11/comments"
+            "href": "https://api.github.com/repos/carolinapowers/TIY-Assignments/pulls/21/comments"
           },
           "review_comment": {
             "href": "https://api.github.com/repos/carolinapowers/TIY-Assignments/pulls/comments/{number}"
           },
           "commits": {
-            "href": "https://api.github.com/repos/carolinapowers/TIY-Assignments/pulls/11/commits"
+            "href": "https://api.github.com/repos/carolinapowers/TIY-Assignments/pulls/21/commits"
           },
           "statuses": {
-            "href": "https://api.github.com/repos/carolinapowers/TIY-Assignments/statuses/974712f5aae3ed3a53ad80175d689df825febceb"
+            "href": "https://api.github.com/repos/carolinapowers/TIY-Assignments/statuses/1efc871676c7f6d47012ac1fbcab98758ea801d9"
           }
         },
         "merged": true,
@@ -2586,19 +2022,19 @@
           "type": "User",
           "site_admin": false
         },
-        "comments": 4,
+        "comments": 2,
         "review_comments": 0,
-        "commits": 11,
-        "additions": 449,
-        "deletions": 126,
-        "changed_files": 6
+        "commits": 20,
+        "additions": 1967,
+        "deletions": 329,
+        "changed_files": 24
       }
     },
     "public": true,
-    "created_at": "2015-01-26T19:48:53Z"
+    "created_at": "2015-02-14T21:59:40Z"
   },
   {
-    "id": "2535571581",
+    "id": "2582135671",
     "type": "PushEvent",
     "actor": {
       "id": 10137641,
@@ -2613,30 +2049,40 @@
       "url": "https://api.github.com/repos/carolinapowers/TIY-Assignments"
     },
     "payload": {
-      "push_id": 555861427,
-      "size": 1,
-      "distinct_size": 1,
-      "ref": "refs/heads/feature/11--coding-dojo",
-      "head": "974712f5aae3ed3a53ad80175d689df825febceb",
-      "before": "2483001be530c90a45c804b6507b75dd47556988",
+      "push_id": 574881023,
+      "size": 2,
+      "distinct_size": 2,
+      "ref": "refs/heads/feature/24--helluva-ride",
+      "head": "1efc871676c7f6d47012ac1fbcab98758ea801d9",
+      "before": "769f361bb58fb1598de13c6dcdcdc62fba03f80b",
       "commits": [
         {
-          "sha": "974712f5aae3ed3a53ad80175d689df825febceb",
+          "sha": "06483f883ce0e1e32d504cdfeabdcc1fce455a71",
           "author": {
             "email": "carolinapoloni@gmail.com",
             "name": "Carolina Powers"
           },
-          "message": "chess pieces moved with functions",
+          "message": "installed bootstrap with bower and gh-pages wasnt reading it. i had to copy and paste a cdn link for bootstrap in order to make it work",
           "distinct": true,
-          "url": "https://api.github.com/repos/carolinapowers/TIY-Assignments/commits/974712f5aae3ed3a53ad80175d689df825febceb"
+          "url": "https://api.github.com/repos/carolinapowers/TIY-Assignments/commits/06483f883ce0e1e32d504cdfeabdcc1fce455a71"
+        },
+        {
+          "sha": "1efc871676c7f6d47012ac1fbcab98758ea801d9",
+          "author": {
+            "email": "carolinapoloni@gmail.com",
+            "name": "Carolina Powers"
+          },
+          "message": "added index.md",
+          "distinct": true,
+          "url": "https://api.github.com/repos/carolinapowers/TIY-Assignments/commits/1efc871676c7f6d47012ac1fbcab98758ea801d9"
         }
       ]
     },
     "public": true,
-    "created_at": "2015-01-26T03:24:53Z"
+    "created_at": "2015-02-14T21:56:27Z"
   },
   {
-    "id": "2535543196",
+    "id": "2582116565",
     "type": "PushEvent",
     "actor": {
       "id": 10137641,
@@ -2651,126 +2097,30 @@
       "url": "https://api.github.com/repos/carolinapowers/TIY-Assignments"
     },
     "payload": {
-      "push_id": 555849390,
+      "push_id": 574872444,
       "size": 1,
-      "distinct_size": 1,
-      "ref": "refs/heads/feature/11--coding-dojo",
-      "head": "2483001be530c90a45c804b6507b75dd47556988",
-      "before": "19ca5d040a074f8d958d9bfc35d4bff95a085fda",
+      "distinct_size": 0,
+      "ref": "refs/heads/gh-pages",
+      "head": "769f361bb58fb1598de13c6dcdcdc62fba03f80b",
+      "before": "87347b2baf66e7affe09574711d852164e21d518",
       "commits": [
         {
-          "sha": "2483001be530c90a45c804b6507b75dd47556988",
+          "sha": "769f361bb58fb1598de13c6dcdcdc62fba03f80b",
           "author": {
             "email": "carolinapoloni@gmail.com",
             "name": "Carolina Powers"
           },
-          "message": "10 examples for the string-calculator",
-          "distinct": true,
-          "url": "https://api.github.com/repos/carolinapowers/TIY-Assignments/commits/2483001be530c90a45c804b6507b75dd47556988"
+          "message": "gh-pages is not reading my bootstrap",
+          "distinct": false,
+          "url": "https://api.github.com/repos/carolinapowers/TIY-Assignments/commits/769f361bb58fb1598de13c6dcdcdc62fba03f80b"
         }
       ]
     },
     "public": true,
-    "created_at": "2015-01-26T02:52:58Z"
+    "created_at": "2015-02-14T21:28:46Z"
   },
   {
-    "id": "2535520516",
-    "type": "IssueCommentEvent",
-    "actor": {
-      "id": 10137641,
-      "login": "carolinapowers",
-      "gravatar_id": "",
-      "url": "https://api.github.com/users/carolinapowers",
-      "avatar_url": "https://avatars.githubusercontent.com/u/10137641?"
-    },
-    "repo": {
-      "id": 28544184,
-      "name": "TaylorFoster90/TIY-Assignments",
-      "url": "https://api.github.com/repos/TaylorFoster90/TIY-Assignments"
-    },
-    "payload": {
-      "action": "created",
-      "issue": {
-        "url": "https://api.github.com/repos/TaylorFoster90/TIY-Assignments/issues/10",
-        "labels_url": "https://api.github.com/repos/TaylorFoster90/TIY-Assignments/issues/10/labels{/name}",
-        "comments_url": "https://api.github.com/repos/TaylorFoster90/TIY-Assignments/issues/10/comments",
-        "events_url": "https://api.github.com/repos/TaylorFoster90/TIY-Assignments/issues/10/events",
-        "html_url": "https://github.com/TaylorFoster90/TIY-Assignments/pull/10",
-        "id": 55195167,
-        "number": 10,
-        "title": "Feature/11--coding-dojo",
-        "user": {
-          "login": "TaylorFoster90",
-          "id": 10275025,
-          "avatar_url": "https://avatars.githubusercontent.com/u/10275025?v=3",
-          "gravatar_id": "",
-          "url": "https://api.github.com/users/TaylorFoster90",
-          "html_url": "https://github.com/TaylorFoster90",
-          "followers_url": "https://api.github.com/users/TaylorFoster90/followers",
-          "following_url": "https://api.github.com/users/TaylorFoster90/following{/other_user}",
-          "gists_url": "https://api.github.com/users/TaylorFoster90/gists{/gist_id}",
-          "starred_url": "https://api.github.com/users/TaylorFoster90/starred{/owner}{/repo}",
-          "subscriptions_url": "https://api.github.com/users/TaylorFoster90/subscriptions",
-          "organizations_url": "https://api.github.com/users/TaylorFoster90/orgs",
-          "repos_url": "https://api.github.com/users/TaylorFoster90/repos",
-          "events_url": "https://api.github.com/users/TaylorFoster90/events{/privacy}",
-          "received_events_url": "https://api.github.com/users/TaylorFoster90/received_events",
-          "type": "User",
-          "site_admin": false
-        },
-        "labels": [
-
-        ],
-        "state": "open",
-        "locked": false,
-        "assignee": null,
-        "milestone": null,
-        "comments": 2,
-        "created_at": "2015-01-22T19:11:04Z",
-        "updated_at": "2015-01-26T02:27:29Z",
-        "closed_at": null,
-        "pull_request": {
-          "url": "https://api.github.com/repos/TaylorFoster90/TIY-Assignments/pulls/10",
-          "html_url": "https://github.com/TaylorFoster90/TIY-Assignments/pull/10",
-          "diff_url": "https://github.com/TaylorFoster90/TIY-Assignments/pull/10.diff",
-          "patch_url": "https://github.com/TaylorFoster90/TIY-Assignments/pull/10.patch"
-        },
-        "body": ""
-      },
-      "comment": {
-        "url": "https://api.github.com/repos/TaylorFoster90/TIY-Assignments/issues/comments/71407615",
-        "html_url": "https://github.com/TaylorFoster90/TIY-Assignments/pull/10#issuecomment-71407615",
-        "issue_url": "https://api.github.com/repos/TaylorFoster90/TIY-Assignments/issues/10",
-        "id": 71407615,
-        "user": {
-          "login": "carolinapowers",
-          "id": 10137641,
-          "avatar_url": "https://avatars.githubusercontent.com/u/10137641?v=3",
-          "gravatar_id": "",
-          "url": "https://api.github.com/users/carolinapowers",
-          "html_url": "https://github.com/carolinapowers",
-          "followers_url": "https://api.github.com/users/carolinapowers/followers",
-          "following_url": "https://api.github.com/users/carolinapowers/following{/other_user}",
-          "gists_url": "https://api.github.com/users/carolinapowers/gists{/gist_id}",
-          "starred_url": "https://api.github.com/users/carolinapowers/starred{/owner}{/repo}",
-          "subscriptions_url": "https://api.github.com/users/carolinapowers/subscriptions",
-          "organizations_url": "https://api.github.com/users/carolinapowers/orgs",
-          "repos_url": "https://api.github.com/users/carolinapowers/repos",
-          "events_url": "https://api.github.com/users/carolinapowers/events{/privacy}",
-          "received_events_url": "https://api.github.com/users/carolinapowers/received_events",
-          "type": "User",
-          "site_admin": false
-        },
-        "created_at": "2015-01-26T02:27:29Z",
-        "updated_at": "2015-01-26T02:27:29Z",
-        "body": ":+1: "
-      }
-    },
-    "public": true,
-    "created_at": "2015-01-26T02:27:29Z"
-  },
-  {
-    "id": "2535520374",
+    "id": "2582116164",
     "type": "PushEvent",
     "actor": {
       "id": 10137641,
@@ -2785,31 +2135,31 @@
       "url": "https://api.github.com/repos/carolinapowers/TIY-Assignments"
     },
     "payload": {
-      "push_id": 555839515,
+      "push_id": 574872255,
       "size": 1,
       "distinct_size": 1,
-      "ref": "refs/heads/feature/11--coding-dojo",
-      "head": "19ca5d040a074f8d958d9bfc35d4bff95a085fda",
-      "before": "ba1ffd5c19b2ff03d31f98a1775ec6427f05b958",
+      "ref": "refs/heads/feature/24--helluva-ride",
+      "head": "769f361bb58fb1598de13c6dcdcdc62fba03f80b",
+      "before": "87347b2baf66e7affe09574711d852164e21d518",
       "commits": [
         {
-          "sha": "19ca5d040a074f8d958d9bfc35d4bff95a085fda",
+          "sha": "769f361bb58fb1598de13c6dcdcdc62fba03f80b",
           "author": {
             "email": "carolinapoloni@gmail.com",
             "name": "Carolina Powers"
           },
-          "message": "string calculator with && and ||",
+          "message": "gh-pages is not reading my bootstrap",
           "distinct": true,
-          "url": "https://api.github.com/repos/carolinapowers/TIY-Assignments/commits/19ca5d040a074f8d958d9bfc35d4bff95a085fda"
+          "url": "https://api.github.com/repos/carolinapowers/TIY-Assignments/commits/769f361bb58fb1598de13c6dcdcdc62fba03f80b"
         }
       ]
     },
     "public": true,
-    "created_at": "2015-01-26T02:27:19Z"
+    "created_at": "2015-02-14T21:28:07Z"
   },
   {
-    "id": "2535451880",
-    "type": "IssueCommentEvent",
+    "id": "2582100585",
+    "type": "PushEvent",
     "actor": {
       "id": 10137641,
       "login": "carolinapowers",
@@ -2823,89 +2173,221 @@
       "url": "https://api.github.com/repos/carolinapowers/TIY-Assignments"
     },
     "payload": {
-      "action": "created",
-      "issue": {
-        "url": "https://api.github.com/repos/carolinapowers/TIY-Assignments/issues/11",
-        "labels_url": "https://api.github.com/repos/carolinapowers/TIY-Assignments/issues/11/labels{/name}",
-        "comments_url": "https://api.github.com/repos/carolinapowers/TIY-Assignments/issues/11/comments",
-        "events_url": "https://api.github.com/repos/carolinapowers/TIY-Assignments/issues/11/events",
-        "html_url": "https://github.com/carolinapowers/TIY-Assignments/pull/11",
-        "id": 55202211,
-        "number": 11,
-        "title": "11--coding-dojo",
-        "user": {
-          "login": "carolinapowers",
-          "id": 10137641,
-          "avatar_url": "https://avatars.githubusercontent.com/u/10137641?v=3",
-          "gravatar_id": "",
-          "url": "https://api.github.com/users/carolinapowers",
-          "html_url": "https://github.com/carolinapowers",
-          "followers_url": "https://api.github.com/users/carolinapowers/followers",
-          "following_url": "https://api.github.com/users/carolinapowers/following{/other_user}",
-          "gists_url": "https://api.github.com/users/carolinapowers/gists{/gist_id}",
-          "starred_url": "https://api.github.com/users/carolinapowers/starred{/owner}{/repo}",
-          "subscriptions_url": "https://api.github.com/users/carolinapowers/subscriptions",
-          "organizations_url": "https://api.github.com/users/carolinapowers/orgs",
-          "repos_url": "https://api.github.com/users/carolinapowers/repos",
-          "events_url": "https://api.github.com/users/carolinapowers/events{/privacy}",
-          "received_events_url": "https://api.github.com/users/carolinapowers/received_events",
-          "type": "User",
-          "site_admin": false
+      "push_id": 574865060,
+      "size": 26,
+      "distinct_size": 0,
+      "ref": "refs/heads/gh-pages",
+      "head": "87347b2baf66e7affe09574711d852164e21d518",
+      "before": "3ee5d9ca4f3b9570c2065e574bb17fd22c169a7d",
+      "commits": [
+        {
+          "sha": "73e0aa2bfaa0acf7ca2dc6cef535a403e84d5b56",
+          "author": {
+            "email": "carolinapoloni@gmail.com",
+            "name": "Carolina Powers"
+          },
+          "message": "merging colorclock",
+          "distinct": false,
+          "url": "https://api.github.com/repos/carolinapowers/TIY-Assignments/commits/73e0aa2bfaa0acf7ca2dc6cef535a403e84d5b56"
         },
-        "labels": [
-
-        ],
-        "state": "open",
-        "locked": false,
-        "assignee": null,
-        "milestone": null,
-        "comments": 2,
-        "created_at": "2015-01-22T20:09:15Z",
-        "updated_at": "2015-01-26T01:02:48Z",
-        "closed_at": null,
-        "pull_request": {
-          "url": "https://api.github.com/repos/carolinapowers/TIY-Assignments/pulls/11",
-          "html_url": "https://github.com/carolinapowers/TIY-Assignments/pull/11",
-          "diff_url": "https://github.com/carolinapowers/TIY-Assignments/pull/11.diff",
-          "patch_url": "https://github.com/carolinapowers/TIY-Assignments/pull/11.patch"
+        {
+          "sha": "bf11db2f32b40ab3641783f7c516417a8940e6d2",
+          "author": {
+            "email": "carolinapoloni@gmail.com",
+            "name": "Carolina Powers"
+          },
+          "message": " getting set up with chai",
+          "distinct": false,
+          "url": "https://api.github.com/repos/carolinapowers/TIY-Assignments/commits/bf11db2f32b40ab3641783f7c516417a8940e6d2"
         },
-        "body": ""
-      },
-      "comment": {
-        "url": "https://api.github.com/repos/carolinapowers/TIY-Assignments/issues/comments/71403482",
-        "html_url": "https://github.com/carolinapowers/TIY-Assignments/pull/11#issuecomment-71403482",
-        "issue_url": "https://api.github.com/repos/carolinapowers/TIY-Assignments/issues/11",
-        "id": 71403482,
-        "user": {
-          "login": "carolinapowers",
-          "id": 10137641,
-          "avatar_url": "https://avatars.githubusercontent.com/u/10137641?v=3",
-          "gravatar_id": "",
-          "url": "https://api.github.com/users/carolinapowers",
-          "html_url": "https://github.com/carolinapowers",
-          "followers_url": "https://api.github.com/users/carolinapowers/followers",
-          "following_url": "https://api.github.com/users/carolinapowers/following{/other_user}",
-          "gists_url": "https://api.github.com/users/carolinapowers/gists{/gist_id}",
-          "starred_url": "https://api.github.com/users/carolinapowers/starred{/owner}{/repo}",
-          "subscriptions_url": "https://api.github.com/users/carolinapowers/subscriptions",
-          "organizations_url": "https://api.github.com/users/carolinapowers/orgs",
-          "repos_url": "https://api.github.com/users/carolinapowers/repos",
-          "events_url": "https://api.github.com/users/carolinapowers/events{/privacy}",
-          "received_events_url": "https://api.github.com/users/carolinapowers/received_events",
-          "type": "User",
-          "site_admin": false
+        {
+          "sha": "6d8881a4b17de482248055aafce4f36264fd5380",
+          "author": {
+            "email": "carolinapoloni@gmail.com",
+            "name": "Carolina Powers"
+          },
+          "message": "commiting some methods and tests",
+          "distinct": false,
+          "url": "https://api.github.com/repos/carolinapowers/TIY-Assignments/commits/6d8881a4b17de482248055aafce4f36264fd5380"
         },
-        "created_at": "2015-01-26T01:02:48Z",
-        "updated_at": "2015-01-26T01:02:48Z",
-        "body": "https://github.com/TheIronYard--Orlando/FEE--2015--SPRING/issues/148"
-      }
+        {
+          "sha": "29dddbafd170a6fe057eddc0f02a6e697076c605",
+          "author": {
+            "email": "carolinapoloni@gmail.com",
+            "name": "Carolina Powers"
+          },
+          "message": "trying to construct the Knight through a function, but no success...",
+          "distinct": false,
+          "url": "https://api.github.com/repos/carolinapowers/TIY-Assignments/commits/29dddbafd170a6fe057eddc0f02a6e697076c605"
+        },
+        {
+          "sha": "e2fa3f1e57b775a42487da022bad4a5e3006772c",
+          "author": {
+            "email": "carolinapoloni@gmail.com",
+            "name": "Carolina Powers"
+          },
+          "message": "commiting some of my strugle with toHTML",
+          "distinct": false,
+          "url": "https://api.github.com/repos/carolinapowers/TIY-Assignments/commits/e2fa3f1e57b775a42487da022bad4a5e3006772c"
+        },
+        {
+          "sha": "3b6309311505035873f1699b2b465b22a570081d",
+          "author": {
+            "email": "carolinapoloni@gmail.com",
+            "name": "Carolina Powers"
+          },
+          "message": "figured out how to add queenside property to object Knight",
+          "distinct": false,
+          "url": "https://api.github.com/repos/carolinapowers/TIY-Assignments/commits/3b6309311505035873f1699b2b465b22a570081d"
+        },
+        {
+          "sha": "6aca93b078983c8062f2a158c09a1cf1a70041a9",
+          "author": {
+            "email": "carolinapoloni@gmail.com",
+            "name": "Carolina Powers"
+          },
+          "message": "flags in the sand for the bard",
+          "distinct": false,
+          "url": "https://api.github.com/repos/carolinapowers/TIY-Assignments/commits/6aca93b078983c8062f2a158c09a1cf1a70041a9"
+        },
+        {
+          "sha": "b852abfa15efcd35ecfe9cd8eb1199b272fdb175",
+          "author": {
+            "email": "carolinapoloni@gmail.com",
+            "name": "Carolina Powers"
+          },
+          "message": "tried to  piece, but it didn't work... thats it for tonight",
+          "distinct": false,
+          "url": "https://api.github.com/repos/carolinapowers/TIY-Assignments/commits/b852abfa15efcd35ecfe9cd8eb1199b272fdb175"
+        },
+        {
+          "sha": "23e8eca10d968a4276f86c545018f820b8ba6366",
+          "author": {
+            "email": "carolinapoloni@gmail.com",
+            "name": "Carolina Powers"
+          },
+          "message": "package.json scripts",
+          "distinct": false,
+          "url": "https://api.github.com/repos/carolinapowers/TIY-Assignments/commits/23e8eca10d968a4276f86c545018f820b8ba6366"
+        },
+        {
+          "sha": "1a6655f3411421341883771805a35d7620b9ec5e",
+          "author": {
+            "email": "carolinapoloni@gmail.com",
+            "name": "Carolina Powers"
+          },
+          "message": " trying to get my timeline/index.html to work",
+          "distinct": false,
+          "url": "https://api.github.com/repos/carolinapowers/TIY-Assignments/commits/1a6655f3411421341883771805a35d7620b9ec5e"
+        },
+        {
+          "sha": "f13672c48ae700d29f985423fba2c914a28bb28e",
+          "author": {
+            "email": "carolinapoloni@gmail.com",
+            "name": "Carolina Powers"
+          },
+          "message": "found my timeline",
+          "distinct": false,
+          "url": "https://api.github.com/repos/carolinapowers/TIY-Assignments/commits/f13672c48ae700d29f985423fba2c914a28bb28e"
+        },
+        {
+          "sha": "4322d545024e5c293efb9eaa9270e957633711f6",
+          "author": {
+            "email": "carolinapoloni@gmail.com",
+            "name": "Carolina Powers"
+          },
+          "message": "mobile first with bootstrap finally starting to work",
+          "distinct": false,
+          "url": "https://api.github.com/repos/carolinapowers/TIY-Assignments/commits/4322d545024e5c293efb9eaa9270e957633711f6"
+        },
+        {
+          "sha": "886799f702e54a90ab06ee9aca383acf079e7c9a",
+          "author": {
+            "email": "carolinapoloni@gmail.com",
+            "name": "Carolina Powers"
+          },
+          "message": "header aligned center and first article ready to apply styles",
+          "distinct": false,
+          "url": "https://api.github.com/repos/carolinapowers/TIY-Assignments/commits/886799f702e54a90ab06ee9aca383acf079e7c9a"
+        },
+        {
+          "sha": "0d9ac7d278c3b67bb9d5634ba239c7ce6e2d793c",
+          "author": {
+            "email": "carolinapoloni@gmail.com",
+            "name": "Carolina Powers"
+          },
+          "message": "added caret as a :before element",
+          "distinct": false,
+          "url": "https://api.github.com/repos/carolinapowers/TIY-Assignments/commits/0d9ac7d278c3b67bb9d5634ba239c7ce6e2d793c"
+        },
+        {
+          "sha": "898f7c367d67fc083f3ad2a9d0f608db69614f69",
+          "author": {
+            "email": "carolinapoloni@gmail.com",
+            "name": "Carolina Powers"
+          },
+          "message": "caret is placed on top for mobile version",
+          "distinct": false,
+          "url": "https://api.github.com/repos/carolinapowers/TIY-Assignments/commits/898f7c367d67fc083f3ad2a9d0f608db69614f69"
+        },
+        {
+          "sha": "1601d2261b5f7c5834f58bdf30af63d39664b3c7",
+          "author": {
+            "email": "carolinapoloni@gmail.com",
+            "name": "Carolina Powers"
+          },
+          "message": "date and time done",
+          "distinct": false,
+          "url": "https://api.github.com/repos/carolinapowers/TIY-Assignments/commits/1601d2261b5f7c5834f58bdf30af63d39664b3c7"
+        },
+        {
+          "sha": "3e06e9e5381cefc77b21501ebad4256b2eca1708",
+          "author": {
+            "email": "carolinapoloni@gmail.com",
+            "name": "Carolina Powers"
+          },
+          "message": "placed mobile icon with before element, now im trying to figure out its border radius",
+          "distinct": false,
+          "url": "https://api.github.com/repos/carolinapowers/TIY-Assignments/commits/3e06e9e5381cefc77b21501ebad4256b2eca1708"
+        },
+        {
+          "sha": "046792921e8671589cf7cc78e7e8c5d65ee1a859",
+          "author": {
+            "email": "carolinapoloni@gmail.com",
+            "name": "Carolina Powers"
+          },
+          "message": "mobile icon rounded and ready",
+          "distinct": false,
+          "url": "https://api.github.com/repos/carolinapowers/TIY-Assignments/commits/046792921e8671589cf7cc78e7e8c5d65ee1a859"
+        },
+        {
+          "sha": "18e17e823d7a9fa2ea08e6eb3c96bd14554388af",
+          "author": {
+            "email": "carolinapoloni@gmail.com",
+            "name": "Carolina Powers"
+          },
+          "message": "finished header",
+          "distinct": false,
+          "url": "https://api.github.com/repos/carolinapowers/TIY-Assignments/commits/18e17e823d7a9fa2ea08e6eb3c96bd14554388af"
+        },
+        {
+          "sha": "46dfb090a5fde9966b9f4f95ea2cbbcaa0228268",
+          "author": {
+            "email": "carolinapoloni@gmail.com",
+            "name": "Carolina Powers"
+          },
+          "message": "even and odd colors added",
+          "distinct": false,
+          "url": "https://api.github.com/repos/carolinapowers/TIY-Assignments/commits/46dfb090a5fde9966b9f4f95ea2cbbcaa0228268"
+        }
+      ]
     },
     "public": true,
-    "created_at": "2015-01-26T01:02:48Z"
+    "created_at": "2015-02-14T21:04:40Z"
   },
   {
-    "id": "2535325818",
-    "type": "IssueCommentEvent",
+    "id": "2582085313",
+    "type": "PushEvent",
     "actor": {
       "id": 10137641,
       "login": "carolinapowers",
@@ -2914,90 +2396,297 @@
       "avatar_url": "https://avatars.githubusercontent.com/u/10137641?"
     },
     "repo": {
-      "id": 25180640,
-      "name": "TheIronYard--Orlando/FEE--2015--SPRING",
-      "url": "https://api.github.com/repos/TheIronYard--Orlando/FEE--2015--SPRING"
+      "id": 27947597,
+      "name": "carolinapowers/TIY-Assignments",
+      "url": "https://api.github.com/repos/carolinapowers/TIY-Assignments"
     },
     "payload": {
-      "action": "created",
-      "issue": {
-        "url": "https://api.github.com/repos/TheIronYard--Orlando/FEE--2015--SPRING/issues/148",
-        "labels_url": "https://api.github.com/repos/TheIronYard--Orlando/FEE--2015--SPRING/issues/148/labels{/name}",
-        "comments_url": "https://api.github.com/repos/TheIronYard--Orlando/FEE--2015--SPRING/issues/148/comments",
-        "events_url": "https://api.github.com/repos/TheIronYard--Orlando/FEE--2015--SPRING/issues/148/events",
-        "html_url": "https://github.com/TheIronYard--Orlando/FEE--2015--SPRING/issues/148",
-        "id": 55200935,
-        "number": 148,
-        "title": "11 -- Coding Dojo Style -- Carolina Powers",
-        "user": {
-          "login": "carolinapowers",
-          "id": 10137641,
-          "avatar_url": "https://avatars.githubusercontent.com/u/10137641?v=3",
-          "gravatar_id": "",
-          "url": "https://api.github.com/users/carolinapowers",
-          "html_url": "https://github.com/carolinapowers",
-          "followers_url": "https://api.github.com/users/carolinapowers/followers",
-          "following_url": "https://api.github.com/users/carolinapowers/following{/other_user}",
-          "gists_url": "https://api.github.com/users/carolinapowers/gists{/gist_id}",
-          "starred_url": "https://api.github.com/users/carolinapowers/starred{/owner}{/repo}",
-          "subscriptions_url": "https://api.github.com/users/carolinapowers/subscriptions",
-          "organizations_url": "https://api.github.com/users/carolinapowers/orgs",
-          "repos_url": "https://api.github.com/users/carolinapowers/repos",
-          "events_url": "https://api.github.com/users/carolinapowers/events{/privacy}",
-          "received_events_url": "https://api.github.com/users/carolinapowers/received_events",
-          "type": "User",
-          "site_admin": false
-        },
-        "labels": [
-
-        ],
-        "state": "open",
-        "locked": false,
-        "assignee": null,
-        "milestone": null,
-        "comments": 3,
-        "created_at": "2015-01-22T19:58:11Z",
-        "updated_at": "2015-01-25T22:19:17Z",
-        "closed_at": null,
-        "body": "### Tasks\r\n\r\n* [x] **Yak Shaving** (M)\r\n  * Merge your last PR if you haven't already! (use the merge button, Luke)\r\n  * Pull your `master` branch locally _after_ you merge!\r\n  * Create a new branch called `feature/11--coding-dojo`\r\n  * Delete and commit `scripts/main.js`\r\n  * Create and commit `scripts/string-calculator.js` and `scripts/check-writing.js`\r\n  * Push your branch and open a PR\r\n* [ ] **Reading JavaScript** (M)\r\n  * [x] Checkpoint: `Array` literals: empty and filled\r\n  * [x] Checkpoint: Other ways to create an `Array`?\r\n  * [x] Checkpoint: What's your `length`...?\r\n  * [x] Checkpoint: First Mutator method!\r\n  * [x] Checkpoint: Five Mutators down!\r\n  * [x] Checkpoint: What, there's only 7?\r\n  * [x] Mission Complete!\r\n* [ ] **A Nice Game of Chess** (L)\r\n  * [x] Checkpoint: Retyped [the example](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array#Example:_Creating_a_two-dimensional_array) in `scripts/main.js`\r\n  * [x] Checkpoint: I can move pieces! Well, one, really.\r\n  * [x] Checkpoint: Moved _both_ sides at least once!\r\n  * [x] Checkpoint: Opening complete!\r\n* [ ] **Coding Dojo** -- Time for your katas (L)\r\n  * [ ] Checkpoint: TDD **String Calculator** from `\"zero\"` to `\"five\"` in _my_ repo\r\n  * [x] Checkpoint: TDD **String Calculator** from `\"zero\"` to `\"five\"` in _another_ repo\r\n  * [ ] Checkpoint: TDD **String Calculator** from `\"zero\"` to `\"ten\"`! (HipChat that $#!+)\r\n  * [x] Checkpoint: TDD **Check Writing** from `1` to `10` in _my_ repo\r\n  * [ ] Checkpoint: TDD **Check Writing** from `1` to `10` in _another_ repo\r\n  * **BONUS:** TDD **Check Writing** above `20`...?\r\n* [ ] [**JavaScript Koans**](https://github.com/mrdavidlaing/javascript-koans) (L)\r\n  * [x] Checkpoint: Forked and installed...!\r\n  * [x] Checkpoint: Ran it and it broke... as intended!\r\n  * [x] Checkpoint: Got `AboutExpects.js` green!\r\n  * [x] Checkpoint: Got `AboutArrays.js` green!\r\n  * **BONUS:** Got `AboutFunctions.js` green! (but I'm really confused)\r\n  * **BONUS:** Got `AboutObjects.js` green! (wasn't that bad, actually)\r\n* [x] **BLOG IT!** (M)"
-      },
-      "comment": {
-        "url": "https://api.github.com/repos/TheIronYard--Orlando/FEE--2015--SPRING/issues/comments/71396735",
-        "html_url": "https://github.com/TheIronYard--Orlando/FEE--2015--SPRING/issues/148#issuecomment-71396735",
-        "issue_url": "https://api.github.com/repos/TheIronYard--Orlando/FEE--2015--SPRING/issues/148",
-        "id": 71396735,
-        "user": {
-          "login": "carolinapowers",
-          "id": 10137641,
-          "avatar_url": "https://avatars.githubusercontent.com/u/10137641?v=3",
-          "gravatar_id": "",
-          "url": "https://api.github.com/users/carolinapowers",
-          "html_url": "https://github.com/carolinapowers",
-          "followers_url": "https://api.github.com/users/carolinapowers/followers",
-          "following_url": "https://api.github.com/users/carolinapowers/following{/other_user}",
-          "gists_url": "https://api.github.com/users/carolinapowers/gists{/gist_id}",
-          "starred_url": "https://api.github.com/users/carolinapowers/starred{/owner}{/repo}",
-          "subscriptions_url": "https://api.github.com/users/carolinapowers/subscriptions",
-          "organizations_url": "https://api.github.com/users/carolinapowers/orgs",
-          "repos_url": "https://api.github.com/users/carolinapowers/repos",
-          "events_url": "https://api.github.com/users/carolinapowers/events{/privacy}",
-          "received_events_url": "https://api.github.com/users/carolinapowers/received_events",
-          "type": "User",
-          "site_admin": false
-        },
-        "created_at": "2015-01-25T22:19:16Z",
-        "updated_at": "2015-01-25T22:19:16Z",
-        "body": "http://carolinapowers.github.io/#post2"
-      }
+      "push_id": 574858046,
+      "size": 1,
+      "distinct_size": 1,
+      "ref": "refs/heads/feature/24--helluva-ride",
+      "head": "87347b2baf66e7affe09574711d852164e21d518",
+      "before": "81b77af6f6db39f3422862388c52cd56769d9155",
+      "commits": [
+        {
+          "sha": "87347b2baf66e7affe09574711d852164e21d518",
+          "author": {
+            "email": "carolinapoloni@gmail.com",
+            "name": "Carolina Powers"
+          },
+          "message": "after many many hours trying to do this timeline, this is it. i couldnt figure out the header with bootstrap and the line cuts short depending on the browser",
+          "distinct": true,
+          "url": "https://api.github.com/repos/carolinapowers/TIY-Assignments/commits/87347b2baf66e7affe09574711d852164e21d518"
+        }
+      ]
     },
     "public": true,
-    "created_at": "2015-01-25T22:19:17Z",
-    "org": {
-      "id": 8798300,
-      "login": "TheIronYard--Orlando",
+    "created_at": "2015-02-14T20:41:53Z"
+  },
+  {
+    "id": "2582037857",
+    "type": "PushEvent",
+    "actor": {
+      "id": 10137641,
+      "login": "carolinapowers",
       "gravatar_id": "",
-      "url": "https://api.github.com/orgs/TheIronYard--Orlando",
-      "avatar_url": "https://avatars.githubusercontent.com/u/8798300?"
-    }
+      "url": "https://api.github.com/users/carolinapowers",
+      "avatar_url": "https://avatars.githubusercontent.com/u/10137641?"
+    },
+    "repo": {
+      "id": 27947597,
+      "name": "carolinapowers/TIY-Assignments",
+      "url": "https://api.github.com/repos/carolinapowers/TIY-Assignments"
+    },
+    "payload": {
+      "push_id": 574836089,
+      "size": 1,
+      "distinct_size": 1,
+      "ref": "refs/heads/feature/24--helluva-ride",
+      "head": "81b77af6f6db39f3422862388c52cd56769d9155",
+      "before": "41a396d0e70d94d3be5d55a50788e574cb3abf93",
+      "commits": [
+        {
+          "sha": "81b77af6f6db39f3422862388c52cd56769d9155",
+          "author": {
+            "email": "carolinapoloni@gmail.com",
+            "name": "Carolina Powers"
+          },
+          "message": "medium size done",
+          "distinct": true,
+          "url": "https://api.github.com/repos/carolinapowers/TIY-Assignments/commits/81b77af6f6db39f3422862388c52cd56769d9155"
+        }
+      ]
+    },
+    "public": true,
+    "created_at": "2015-02-14T19:30:33Z"
+  },
+  {
+    "id": "2581970187",
+    "type": "PushEvent",
+    "actor": {
+      "id": 10137641,
+      "login": "carolinapowers",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/carolinapowers",
+      "avatar_url": "https://avatars.githubusercontent.com/u/10137641?"
+    },
+    "repo": {
+      "id": 27947597,
+      "name": "carolinapowers/TIY-Assignments",
+      "url": "https://api.github.com/repos/carolinapowers/TIY-Assignments"
+    },
+    "payload": {
+      "push_id": 574806095,
+      "size": 1,
+      "distinct_size": 1,
+      "ref": "refs/heads/feature/24--helluva-ride",
+      "head": "41a396d0e70d94d3be5d55a50788e574cb3abf93",
+      "before": "a3e476e68f65e4f942aaf28f2baa821d4e55191e",
+      "commits": [
+        {
+          "sha": "41a396d0e70d94d3be5d55a50788e574cb3abf93",
+          "author": {
+            "email": "carolinapoloni@gmail.com",
+            "name": "Carolina Powers"
+          },
+          "message": "transformed the caret and now im going to work on the header",
+          "distinct": true,
+          "url": "https://api.github.com/repos/carolinapowers/TIY-Assignments/commits/41a396d0e70d94d3be5d55a50788e574cb3abf93"
+        }
+      ]
+    },
+    "public": true,
+    "created_at": "2015-02-14T17:54:12Z"
+  },
+  {
+    "id": "2581961433",
+    "type": "PushEvent",
+    "actor": {
+      "id": 10137641,
+      "login": "carolinapowers",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/carolinapowers",
+      "avatar_url": "https://avatars.githubusercontent.com/u/10137641?"
+    },
+    "repo": {
+      "id": 27947597,
+      "name": "carolinapowers/TIY-Assignments",
+      "url": "https://api.github.com/repos/carolinapowers/TIY-Assignments"
+    },
+    "payload": {
+      "push_id": 574802190,
+      "size": 1,
+      "distinct_size": 1,
+      "ref": "refs/heads/feature/24--helluva-ride",
+      "head": "a3e476e68f65e4f942aaf28f2baa821d4e55191e",
+      "before": "b2a94a21cadd2289225e36d3caebac8cb8db30ea",
+      "commits": [
+        {
+          "sha": "a3e476e68f65e4f942aaf28f2baa821d4e55191e",
+          "author": {
+            "email": "carolinapoloni@gmail.com",
+            "name": "Carolina Powers"
+          },
+          "message": "figured out how to fixed my vertical line with bootstrap, so now im working on the transforming the caret",
+          "distinct": true,
+          "url": "https://api.github.com/repos/carolinapowers/TIY-Assignments/commits/a3e476e68f65e4f942aaf28f2baa821d4e55191e"
+        }
+      ]
+    },
+    "public": true,
+    "created_at": "2015-02-14T17:41:26Z"
+  },
+  {
+    "id": "2581921710",
+    "type": "PushEvent",
+    "actor": {
+      "id": 10137641,
+      "login": "carolinapowers",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/carolinapowers",
+      "avatar_url": "https://avatars.githubusercontent.com/u/10137641?"
+    },
+    "repo": {
+      "id": 27947597,
+      "name": "carolinapowers/TIY-Assignments",
+      "url": "https://api.github.com/repos/carolinapowers/TIY-Assignments"
+    },
+    "payload": {
+      "push_id": 574784397,
+      "size": 1,
+      "distinct_size": 1,
+      "ref": "refs/heads/feature/24--helluva-ride",
+      "head": "b2a94a21cadd2289225e36d3caebac8cb8db30ea",
+      "before": "11fa207f7002f3b2b2f6433b3376b2e5e27701ac",
+      "commits": [
+        {
+          "sha": "b2a94a21cadd2289225e36d3caebac8cb8db30ea",
+          "author": {
+            "email": "carolinapoloni@gmail.com",
+            "name": "Carolina Powers"
+          },
+          "message": " last commit with bootstrap on breaking point...giving up on it one more time and going back to my last code",
+          "distinct": true,
+          "url": "https://api.github.com/repos/carolinapowers/TIY-Assignments/commits/b2a94a21cadd2289225e36d3caebac8cb8db30ea"
+        }
+      ]
+    },
+    "public": true,
+    "created_at": "2015-02-14T16:43:51Z"
+  },
+  {
+    "id": "2581578096",
+    "type": "PushEvent",
+    "actor": {
+      "id": 10137641,
+      "login": "carolinapowers",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/carolinapowers",
+      "avatar_url": "https://avatars.githubusercontent.com/u/10137641?"
+    },
+    "repo": {
+      "id": 27947597,
+      "name": "carolinapowers/TIY-Assignments",
+      "url": "https://api.github.com/repos/carolinapowers/TIY-Assignments"
+    },
+    "payload": {
+      "push_id": 574632909,
+      "size": 1,
+      "distinct_size": 1,
+      "ref": "refs/heads/feature/24--helluva-ride",
+      "head": "11fa207f7002f3b2b2f6433b3376b2e5e27701ac",
+      "before": "46dfb090a5fde9966b9f4f95ea2cbbcaa0228268",
+      "commits": [
+        {
+          "sha": "11fa207f7002f3b2b2f6433b3376b2e5e27701ac",
+          "author": {
+            "email": "carolinapoloni@gmail.com",
+            "name": "Carolina Powers"
+          },
+          "message": "added icons",
+          "distinct": true,
+          "url": "https://api.github.com/repos/carolinapowers/TIY-Assignments/commits/11fa207f7002f3b2b2f6433b3376b2e5e27701ac"
+        }
+      ]
+    },
+    "public": true,
+    "created_at": "2015-02-14T05:57:37Z"
+  },
+  {
+    "id": "2581565655",
+    "type": "PushEvent",
+    "actor": {
+      "id": 10137641,
+      "login": "carolinapowers",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/carolinapowers",
+      "avatar_url": "https://avatars.githubusercontent.com/u/10137641?"
+    },
+    "repo": {
+      "id": 27947597,
+      "name": "carolinapowers/TIY-Assignments",
+      "url": "https://api.github.com/repos/carolinapowers/TIY-Assignments"
+    },
+    "payload": {
+      "push_id": 574627352,
+      "size": 1,
+      "distinct_size": 1,
+      "ref": "refs/heads/feature/24--helluva-ride",
+      "head": "46dfb090a5fde9966b9f4f95ea2cbbcaa0228268",
+      "before": "18e17e823d7a9fa2ea08e6eb3c96bd14554388af",
+      "commits": [
+        {
+          "sha": "46dfb090a5fde9966b9f4f95ea2cbbcaa0228268",
+          "author": {
+            "email": "carolinapoloni@gmail.com",
+            "name": "Carolina Powers"
+          },
+          "message": "even and odd colors added",
+          "distinct": true,
+          "url": "https://api.github.com/repos/carolinapowers/TIY-Assignments/commits/46dfb090a5fde9966b9f4f95ea2cbbcaa0228268"
+        }
+      ]
+    },
+    "public": true,
+    "created_at": "2015-02-14T05:32:34Z"
+  },
+  {
+    "id": "2581548347",
+    "type": "PushEvent",
+    "actor": {
+      "id": 10137641,
+      "login": "carolinapowers",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/carolinapowers",
+      "avatar_url": "https://avatars.githubusercontent.com/u/10137641?"
+    },
+    "repo": {
+      "id": 27947597,
+      "name": "carolinapowers/TIY-Assignments",
+      "url": "https://api.github.com/repos/carolinapowers/TIY-Assignments"
+    },
+    "payload": {
+      "push_id": 574619516,
+      "size": 1,
+      "distinct_size": 1,
+      "ref": "refs/heads/feature/24--helluva-ride",
+      "head": "18e17e823d7a9fa2ea08e6eb3c96bd14554388af",
+      "before": "046792921e8671589cf7cc78e7e8c5d65ee1a859",
+      "commits": [
+        {
+          "sha": "18e17e823d7a9fa2ea08e6eb3c96bd14554388af",
+          "author": {
+            "email": "carolinapoloni@gmail.com",
+            "name": "Carolina Powers"
+          },
+          "message": "finished header",
+          "distinct": true,
+          "url": "https://api.github.com/repos/carolinapowers/TIY-Assignments/commits/18e17e823d7a9fa2ea08e6eb3c96bd14554388af"
+        }
+      ]
+    },
+    "public": true,
+    "created_at": "2015-02-14T04:57:41Z"
   }
 ]
