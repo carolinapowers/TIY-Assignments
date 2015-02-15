@@ -32,10 +32,38 @@
             </tr> 
            </thead>
            <tbody>
-            <tr v-repeat="8">
-              <th id="{{$index}}"> {{8 - $index}} </th>
-               <td v-repeat="8" id="{{$index}} {{$el}}" > </td>
-             </tr>    
+            <tr v-repeat="1">
+              <th> {{8}} </th>
+              <td v-repeat="8" id="row8-{{$index}}"></td>
+            </tr>
+            <tr v-repeat="1">
+              <th> {{7}} </th>
+              <td v-repeat="8" id="row7-{{$index}}" ></td>
+            </tr>
+            <tr v-repeat="1">
+              <th> {{6}} </th>
+              <td v-repeat="8" id="row6-{{$index}}" ></td>
+            </tr> 
+            <tr v-repeat="1">
+              <th> {{5}} </th>
+              <td v-repeat="8" id="row5-{{$index}}" ></td>
+            </tr>
+            <tr v-repeat="1">
+              <th> {{4}} </th>
+              <td v-repeat="8" id="row4-{{$index}}" >  </td>
+            </tr>
+            <tr v-repeat="1">
+              <th> {{3}} </th>
+              <td v-repeat="8" id="row3-{{$index}}" >  </td>
+            </tr> 
+            <tr v-repeat="1">
+              <th> {{2}} </th>
+              <td v-repeat="8" id="row2-{{$index}}" >  </td>
+            </tr> 
+            <tr v-repeat="1">
+              <th> {{1}} </th>
+              <td v-repeat="8" id="row1-{{$index}}" >  </td>
+            </tr>         
            </tbody>
         </table>
         
