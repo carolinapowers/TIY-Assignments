@@ -12,25 +12,22 @@ var pushEvents = _.filter(events, {
 var first = _.first(events);
 var last = _.last(events);
 
-var firstDay = first.created_at;
-console.log(firstDay);
+var firstDay = Date.parse(first.created_at);// Get date from 'created_at' Parse to miliseconds.
+var lastDay = Date.parse(last.created_at); // Parse to miliseconds.
+var totalDays = firstDay - lastDay; //subtracting first and last day in miliseconds.
 
-var lastDay = last.created_at;
-console.log(lastDay);
+var intoDays = totalDays / (1000*60*60*24); // divided by that number to convert miliseconds to day.
 
-var totalDays = lastDay - firstDay;
-console.log(totalDays);
+var PerDay =  pushEvents.length / intoDays; // total pushevents divided by number of days.
 
-//var totalDays = last.created_at - first.created_at;
-//console.log(first);
-//console.log(last);
+
 
 function answer(){
     return {
-    'total': events.length,     // How many total events did you fetch?
+    'total': events.length,    
     'PushEvent': {
-      'total': pushEvents.length,  // How many total events of type `PushEvent` are there?
-      'perDay': "", // On average, how many`PushEvent` entries per day?
+      'total': pushEvents.length,  
+      'perDay': PerDay, 
     },
     'other': {
       'total': "",   // How many _other_ events are in the data?
