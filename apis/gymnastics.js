@@ -7,10 +7,10 @@ var assert = require('assert'),
 var pushEvents = _.filter(events, {
         'type': 'PushEvent'
     });
-    console.log(pushEvents.length);
+   
 
-var first = _.first(events);
-var last = _.last(events);
+var first = _.first(events);// lodash used to get first event.
+var last = _.last(events);// lodash used to get last event.
 
 var firstDay = Date.parse(first.created_at);// Get date from 'created_at' Parse to miliseconds.
 var lastDay = Date.parse(last.created_at); // Parse to miliseconds.
@@ -20,7 +20,7 @@ var intoDays = totalDays / (1000*60*60*24); // divided by that number to convert
 
 var PerDay =  pushEvents.length / intoDays; // total pushevents divided by number of days.
 
-
+var 
 
 function answer(){
     return {
@@ -30,7 +30,7 @@ function answer(){
       'perDay': PerDay, 
     },
     'other': {
-      'total': "",   // How many _other_ events are in the data?
+      'total': events.length - pushEvents.length,   
       'perDay': "",  // How many per day, on average?
     }
   };
