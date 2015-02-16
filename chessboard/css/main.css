@@ -99,7 +99,7 @@ textarea {
 
 
 body {
-    background-color: #999;
+    background-color: #aaa;
 }
 
 
@@ -120,7 +120,7 @@ thead tr {
     padding-left: 10em;
 }
 
-thead  {
+thead th {
     padding-left: 4%; 
     font-size: 4vw;
     color: #34495e;
@@ -152,7 +152,7 @@ background-color: #3775ae;
 
 .fa {
     color: #4d4d4d;
-    background-color: #ccc; 
+    background-color: #fff; 
     border: 1px solid #cecece;
     padding: .5% .8%;
     margin-right: 0.2ex;
