@@ -3,4 +3,9 @@
 
 # Timeline
 
-* [Vertical Timeline](timeline/index.html)
+* [Vertical Timeline](carolinapowers.github.io/tiy-assignments/timeline/index.html)
+
+
+# Chess
+
+*[Chess](chessboard/index.html) 
