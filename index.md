@@ -3,9 +3,14 @@
 
 # Timeline
 
-* [Vertical Timeline](carolinapowers.github.io/tiy-assignments/timeline/index.html)
+* [Vertical Timeline](timeline/index.html)
 
 
 # Chess
 
-*[Chess](chessboard/index.html) 
+* [Chess](chessboard/index.html) 
+
+
+#Surf and Paddle
+
+* [Surf & Paddle](surf+paddle/index.html)
