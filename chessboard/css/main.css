@@ -99,7 +99,7 @@ textarea {
 
 
 body {
-    background-color: #aaa;
+    background-color: #999;
 }
 
 
@@ -108,7 +108,19 @@ table {
     margin: 0 auto;
 }
 
-thead th {
+thead {
+    text-align: right;
+}
+
+thead {
+   text-align: center;
+}
+
+thead tr {
+    padding-left: 10em;
+}
+
+thead  {
     padding-left: 4%; 
     font-size: 4vw;
     color: #34495e;
@@ -133,6 +145,23 @@ tbody :nth-child(odd) td:nth-child(odd) {
 background-color: #3775ae;
 }
 
+.button-group {
+    text-align: center;
+    padding: 2em 0;
+}
+
+.fa {
+    color: #4d4d4d;
+    background-color: #ccc; 
+    border: 1px solid #cecece;
+    padding: .5% .8%;
+    margin-right: 0.2ex;
+}
+
+.fa:hover{
+    color: #fff;
+    background-color: #3775ae;
+}
 
 
 /********* adding chess pieces********/
