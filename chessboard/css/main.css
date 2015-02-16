@@ -141,124 +141,119 @@ td:before {
     font-size: 9vw;
 }
 
-/*td:hover::before {
-    background-color: lightgreen;
-    
-}*/
-
 
 /****Black Pieces****/
 
 /*rooks*/
-.piece.black.rook:before {
+#row8-0:before, #row8-7:before {
     position: absolute;
     content: "\265C";
     
 }
-.piece.black.rook:hover {
+#row8-0:hover {
     background-color: #758db0;
 }
 
 /*knights*/
-.piece.black.knight:before {
+#row8-1:before, #row8-6:before {
     position: absolute;
     content: "\265E";
         
 }
-.piece.black.knight:hover {
+#row8-1:hover {
     background-color: #758db0;
 }
 
 /*bishops*/
-.piece.black.bishop:before {
+#row8-2:before,#row8-5:before {
     position: absolute;
     content: "\265D";
 }
-.piece.black.bishop:hover {
+#row8-2:hover {
     background-color: #758db0;
 }
 
 /*queen*/
-.piece.black.queen:before {
+#row8-3:before {
     position: absolute;
     content: "\265B";
 }
-.piece.black.queen:hover {
+#row8-3:hover {
     background-color: #758db0;
 }
 
 /*king*/
-.piece.black.king:before {
+#row8-4:before {
     position: absolute;
     content: "\265A";
 }
-#e8:hover {
+#row8-4:hover {
     background-color: #758db0;
 }
 
 /*pawns*/
-.piece.black.pawn:before {
+#row7-0:before, #row7-1:before, #row7-2:before, #row7-3:before, #row7-4:before, #row7-5:before, #row7-6:before, #row7-7:before {
     position: absolute;
     content: "\265F";
 }
-.piece.black.pawn:hover {
+#row7-0:hover, #row7-1:hover, #row7-2:hover, #row7-3:hover, #row7-4:hover, #row7-5:hover, #row7-6:hover, #row7-7:hover {
 background-color: #758db0;
 }
 
 /******White Pieces******/
 
 /*rooks*/
-#a1:before, #h1:before {
+#row1-0:before, #row1-7:before {
     position: absolute;
     content: "\2656";
 }
-#a1:hover, #h1:hover {
+#row1-0:hover, #row1-7:hover{
     background-color: #758db0;
 }
 
 /*knights*/
-#b1:before, #g1:before {
+#row1-1:before, #row1-6:before {
     position: absolute;
     content: "\2658";
 }
-#b1:hover, #g1:hover {
+#row1-1:hover, #row1-6:hover {
     background-color: #758db0;
 }
 
 /*bishops*/
-#c1:before, #f1:before {
+#row1-2:before, #row1-5:before {
     position: absolute;
     content: "\2657";
 }
-#c1:hover, #f1:hover {
+#row1-2:hover, #row1-5:hover {
     background-color: #758db0;
 }
 
 /*queen*/
-#d1:before {
+#row1-3:before {
     position: absolute;
     content: "\2655";
 }
-#d1:hover {
+#row1-3:hover {
      background-color: #758db0;
 }
 
 /*king*/
-#e1:before {
+#row1-4:before {
     position: absolute;
     content: "\2654";
 }
-#e1:hover {
+#row1-4:hover {
     background-color: #758db0;
 }
 
 /*pawns*/
-#a2:before, #b2:before, #c2:before, #d2:before, #e2:before, #f2:before, #g2:before, #h2:before {
+#row2-0:before, #row2-1:before, #row2-2:before, #row2-3:before, #row2-4:before, #row2-5:before, #row2-6:before, #row2-7:before {
     position: absolute;
     content: "\2659";
 }
 
-#a2:hover, #b2:hover, #c2:hover, #d2:hover, #e2:hover, #f2:hover, #g2:hover, #h2:hover {
+#row2-0:hover, #row2-1:hover, #row2-2:hover, #row2-3:hover, #row2-4:hover, #row2-5:hover, #row2-6:hover, #row2-7:hover {
 
  background-color: #758db0;
     
