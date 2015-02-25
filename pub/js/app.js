@@ -23,6 +23,11 @@
       this.current = newGallery || 0;
     };
   });
+    
+   app.controller('ReviewController', function(){
+       this.review={};
+       product.reviews.push(this.review);
+  });
 
   var gems = [
     {
