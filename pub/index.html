@@ -60,7 +60,8 @@
           <h4>Specs</h4>
           <blockquote>Shine: {{product.shine}}</blockquote>
         </div>
-        <<div ng-show="tab.isSet(3)">
+       
+         <div ng-show="tab.isSet(3)">
             <!--  Product Reviews List -->
             <ul>
               <h4>Reviews</h4>
@@ -82,6 +83,17 @@
                 {{reviewCtrl.review.body}}
                 <cite class="clearfix">—{{reviewCtrl.review.author}}</cite>
               </blockquote>
+               <!--  Review Form -->
+              <h4>Submit a Review</h4>
+              <fieldset class="form-group">
+                <select ng-model="reviewCtrl.review.stars" class="form-control" ng-options="stars for stars in [5,4,3,2,1]" title="Stars">
+                  <option value>Rate the Product</option>
+                </select>
+              </fieldset>
+              
+              
+
+
 
               
 
