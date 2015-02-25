@@ -62,6 +62,9 @@
         </div>
         <div ng-show="tab.isSet(3)">
           <h4>Reviews</h4>
+          <form ng-controller="ReviewController as reviewCtrl" ng-submit="reviewCtrl.addReview(product)"></form>   
+              <li ng-repeat="review in product.reviews"></li>
+          
         </div>
       </section>
     </div>
