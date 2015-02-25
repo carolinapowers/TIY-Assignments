@@ -60,12 +60,31 @@
           <h4>Specs</h4>
           <blockquote>Shine: {{product.shine}}</blockquote>
         </div>
-        <div ng-show="tab.isSet(3)">
-          <h4>Reviews</h4>
-          <form ng-controller="ReviewController as reviewCtrl" ng-submit="reviewCtrl.addReview(product)"></form>   
-              <li ng-repeat="review in product.reviews"></li>
-          
-        </div>
+        <<div ng-show="tab.isSet(3)">
+            <!--  Product Reviews List -->
+            <ul>
+              <h4>Reviews</h4>
+              <li ng-repeat="review in product.reviews">
+                <blockquote>
+                  <strong>{{review.stars}} Stars</strong>
+                  {{review.body}}
+                  <cite class="clearfix">—{{review.author}}<date>{{review.createdOn | date}}</date></cite>
+                </blockquote>
+              </li>
+            </ul>
+
+            <!--  Review Form -->
+            <form name="reviewForm" ng-controller="ReviewController as reviewCtrl" ng-submit="reviewCtrl.addReview(product)">
+
+              <!--  Live Preview -->
+              <blockquote >
+                <strong>{{reviewCtrl.review.stars}} Stars</strong>
+                {{reviewCtrl.review.body}}
+                <cite class="clearfix">—{{reviewCtrl.review.author}}</cite>
+              </blockquote>
+
+              
+
       </section>
     </div>
   </body>
