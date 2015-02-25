@@ -26,7 +26,10 @@
     
    app.controller('ReviewController', function(){
        this.review={};
-       product.reviews.push(this.review);
+      
+       this.addReview= function() {    product.reviews.push(this.review)
+       this.review = {};
+};
   });
 
   var gems = [
