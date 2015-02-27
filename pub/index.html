@@ -35,8 +35,8 @@
       </h3>
 
         <!-- Image Gallery  -->
-        <div class='gallery' ng-show="product.images.length" ng-controller="GalleryController as gallery">
-            <img ng-src="{{product.images[gallery.current]}}" />
+        <div class='gallery text-center' ng-show="product.images.length" ng-controller="GalleryController as gallery">
+            <img ng-src="{{product.images[gallery.current]}}" style="height: 170px" />
             <ul class="list-inline thumbs">
                 <li class="thumbnail" ng-repeat="image in product.images">
                     <img ng-src="{{image}}" />
