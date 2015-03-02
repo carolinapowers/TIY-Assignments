@@ -5,47 +5,16 @@
         this.products = gems;
     });
 
-    //    app.controller('TabController', function () {
-    //        this.tab = 1;
-    //
-    //        this.setTab = function (newValue) {
-    //            this.tab = newValue;
-    //        };
-    //
-    //        this.isSet = function (tabName) {
-    //            return this.tab === tabName;
-    //        };
-    //    });
-    app.directive("productTabs", function () {
-        return {
-            restrict: "E",
-            templateUrl: "product-tabs.html",
-            controller: function () {
-                this.tab = 1;
+    app.controller('TabController', function () {
+        this.tab = 1;
 
-                this.isSet = function (checkTab) {
-                    return this.tab === checkTab;
-                };
+        this.setTab = function (newValue) {
+            this.tab = newValue;
+        };
 
-                this.setTab = function (setTab) {
-                    this.tab = setTab;
-                };
-            },
-            controllerAs: "tab",
-
-            controller: function () {
-                this.review = {};
-
-                this.addReview = function (product) {
-                    product.reviews.push(this.review);
-                    this.review = {};
-                    this.review.createdOn = Date.now();
-                }
-
-            },
-            controllerAs: "reviewCtrl",
-
-        }
+        this.isSet = function (tabName) {
+            return this.tab === tabName;
+        };
     });
 
     app.controller('GalleryController', function () {
@@ -55,15 +24,15 @@
         };
     });
 
-//    app.controller('ReviewController', function () {
-               //        this.review = {};
-               //
-               //        this.addReview = function (product) {
-               //            product.reviews.push(this.review);
-               //            this.review = {};
-               //            this.review.createdOn = Date.now();
-               //        };
-               //    });
+    app.controller('ReviewController', function () {
+        this.review = {};
+
+        this.addReview = function (product) {
+            product.reviews.push(this.review);
+            this.review = {};
+            this.review.createdOn = Date.now();
+        };
+    });
 
     app.directive("productDescription", function () {
         return {
