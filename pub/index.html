@@ -55,7 +55,8 @@
                     <a href ng-click="tab.setTab(3)">Reviews</a>
                 </li>
             </ul>
-            <div ng-show="tab.isSet(1)" ng-include="'product-description.html'">
+            <div ng-show="tab.isSet(1)">
+                <product-description></product-description>
 
             </div>
             <div product-specs ng-show="tab.isSet(2)">
