@@ -17,7 +17,6 @@
     <link rel="stylesheet" href="css/main.css">
     <script src="js/vendor/modernizr-2.6.2.min.js"></script>
     <!--bower:js-->
-
     <script src="../bower_components/angular/angular.js"></script>
     <!--endbower-->
 </head>
@@ -56,9 +55,8 @@
                     <a href ng-click="tab.setTab(3)">Reviews</a>
                 </li>
             </ul>
-            <div ng-show="tab.isSet(1)">
-                <h4>Description</h4>
-                <blockquote>{{product.description}}</blockquote>
+            <div ng-show="tab.isSet(1)" ng-include="'product-description.html'">
+
             </div>
             <div ng-show="tab.isSet(2)">
                 <h4>Specs</h4>
@@ -103,13 +101,6 @@
                     </fieldset>
                 </form>
             </div>
-
-
-
-
-
-
-
         </section>
     </div>
 </body>
