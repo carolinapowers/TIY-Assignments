@@ -525,7 +525,9 @@ footer img {
         height: 100px;
     }
     
-    footer img { 
+    footer img {
+        margin-top: -0.8em;
+        margin-left: 1.1em;
         float: left;
     }
     
