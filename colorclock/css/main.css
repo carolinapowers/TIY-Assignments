@@ -102,11 +102,20 @@ textarea {
 
 
 #displayDate {
-    display: inline-block;
+    display:block;
     color: white;
     font-size: 8em;
-    margin-top: 20%;
-    margin-left: 32%;
+    margin-top: 4ex;
+    text-align: center;
+    font-weight:200;
+}
+
+#num {
+    color: white;
+    font-size: 2em;
+    text-align: center;
+    
+ 
 }
 
 

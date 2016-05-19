@@ -25,7 +25,10 @@
         <![endif]-->
 
         <!-- Add your site or application content here -->
+        <div id="wrapper">
         <date id="displayDate"></date>
+        <p id = "num"></p>
+        </div>
         
         <!--bower.js-->
         <!--endbower-->
@@ -39,50 +42,58 @@
         
         <script>
             
-          var d, h, m, s, colorTime;
+          var date, hour, minute, second, colorTime;
           
             function clock () {
-             d = new Date();
-             d.getSeconds(d.getSeconds()+1);
+             date = new Date();
+        
              
-             h = d.getHours();
-             m = d.getMinutes();
-             s = d.getSeconds();
+             hour = date.getHours();
+             minute = date.getMinutes();
+             second = date.getSeconds();
                 
-             hhex = (Math.floor(h * 255/23)).toString(16);
-             mhex = (Math.floor(m * 255/59)).toString(16);
-             shex = (Math.floor(s * 255/59)).toString(16);    
+             hhex = (Math.floor(hour * 255/24)).toString(16);
+             mhex = (Math.floor(minute * 255/60)).toString(16);
+             shex = (Math.floor(second * 255/60)).toString(16);    
               
-              if(h <= 9) h = '0' + h;
-              if(m <= 9) m = '0' + m;
-              if(s <= 9) s = '0' + s;
-                
-              if(hhex.length < 2) hhex = '0' + hhex;
-              if(mhex.length < 2) mhex = '0' + mhex;
-              if(shex.length < 2) shex = '0' + shex;    
+            var timeArray = [hour, ':' , minute, ':', second];
             
+            for (var i=0; i < timeArray.length; i++) {
+                if (timeArray[i] <= 9) {
+                    timeArray[i] = '0' + timeArray[i]                
+                }
+                
+            }
+            document.getElementById("displayDate").innerHTML =    timeArray.join("");    
+                
+            
+            if(hhex.length < 2) { 
+                hhex = '0' + hhex
+            }
+            if(mhex.length < 2) { 
+                mhex = '0' + mhex
+            }
+            if(shex.length < 2) { 
+                shex = '0' + shex   
+            }
             
             colorTime = "#" + hhex + mhex + shex;
             document.body.style.background = colorTime;
+            document.getElementById("num").innerHTML= colorTime;    
 
-            document.getElementById("displayDate").innerHTML = h + ":" + m + ":" + s;
-            
-//                
-//                function myFunction() {
-//                   var d = new Date();
-//                   var n = d.toTimeString().substring(0,9);
-//                   setInterval(myFunction,1000);
-//                  document.write(n);
-                    
-//                document.getElementById("displayDate").innerHtml = n;
-                
+         
+                                    
 }
         setInterval(clock, 1000);
               
-          
-        
-            clock();
-             
+        clock();
+            
+//For future reference...
+//function myFunction() {
+//        var d = new Date();
+//        var n = d.toTimeString().substring(0,9);
+//        document.write(n);      
+//        document.getElementById("displayDate").innerHtml = n;     
             
             
             
